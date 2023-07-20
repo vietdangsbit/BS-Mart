@@ -1,257 +1,535 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>BS Mart</title>
+    <meta charSet="utf-8" />
+    <link rel="stylesheet" href="/_next/static/css/08ff29c194ec129e.css" data-precedence="next" />
+    <link rel="preload" as="script" href="https://widget.cloudinary.com/v2.0/global/all.js" />
+    <title>Messenger Clone</title>
+    <meta name="description" content="NextJs Messenger Clone" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="any" />
+    <script src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js" noModule=""></script>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="body-full">
-         <div class="gird">
-            <div class="body-right">
-            </div>
-            <div class="body-mid">
-                <div class="body-full-mid">
-                    <div class="mid-text-1">
-                        <img class="banner-bsmart" src="./images/banner-bsmart.png">
-                    </div>
-                    <h1 class="mid-text-2">BSMART</h1>
-                    <h1 class="mid-text-3">Học cùng mentor</h1>
-                    <h5 class="mid-text-4">100% TRÚNG QUÀ</h5>
-                    <h5 class="mid-text-5">Vô vàn giải thưởng hấp dẫn cùng Bsmart</h5>
-                    <div class="main-list">
-                      <button class="button-list">Xem danh sách trúng thưởng</button>
-                    </div>
-                    <div class="popup5" id="popup5" onclick="closeSuccessPopup1()"style="display: none;">
-                      <div class="popup-content1" >
-                        <h4 class="text-content">Danh sách trúng thưởng</h4>
-                        <form class="form-ds">
-                          <label class="label-ds" for="fullname">Họ và tên</label>                    
-                          <label class="label-ds" for="phone">Số điện thoại</label>         
-                          <label class="label-ds" for="prize">Phần thưởng</label>          
-                          <label class="label-ds" for="time">Thời gian</label>
-                        </form>
-                        <form id="test" class="form-ds-1">
-                          <label class="label-ds-1" for="fullname">NVA</label>                    
-                          <label class="label-ds-1" for="phone">0393701452</label>         
-                          <label class="label-ds-1" for="prize">Voucher Coffee</label>          
-                          <label class="label-ds-1" for="time">29-05-2023</label>
-                          <label class="label-ds-1" for="fullname">NVA</label>                    
-                          <label class="label-ds-1" for="phone">0962961372</label>         
-                          <label class="label-ds-1" for="prize">Voucher Coffee</label>          
-                          <label class="label-ds-1" for="time">29-05-2023</label>
-                          <label class="label-ds-1" for="fullname">VVV</label>                    
-                          <label class="label-ds-1" for="phone">0967777777</label>         
-                          <label class="label-ds-1" for="prize">Voucher Coffee</label>          
-                          <label class="label-ds-1" for="time">29-05-2023</label>
-                          <label class="label-ds-1" for="fullname">XXX</label>                    
-                          <label class="label-ds-1" for="phone">0969999999</label>         
-                          <label class="label-ds-1" for="prize">Voucher Coffee</label>          
-                          <label class="label-ds-1" for="time">29-05-2023</label>
-                          
-                        </form>
-                      </div>              
-                  </div>          
-                    
-                    <div class="dau-qua-mid">
-                        <img class="dau-qua-mid" src="./images/dau-qua.png">
-                    </div>
+    <script>!function () { try { var d = document.documentElement, c = d.classList; c.remove('light', 'dark'); var e = localStorage.getItem('theme'); if ('system' === e || (!e && true)) { var t = '(prefers-color-scheme: dark)', m = window.matchMedia(t); if (m.media !== t || m.matches) { d.style.colorScheme = 'dark'; c.add('dark') } else { d.style.colorScheme = 'light'; c.add('light') } } else if (e) { c.add(e || '') } if (e === 'light' || e === 'dark') d.style.colorScheme = e } catch (e) { } }()</script>
+    <div style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"></div>
+    <div class="h-full">
+        <div
+            class=" hidden  lg:fixed  lg:inset-y-0  lg:left-0  lg:z-40  lg:w-20  xl:px-6 lg:overflow-y-auto  lg:bg-white  lg:border-r-[1px] lg:pb-4 lg:flex lg:flex-col justify-between dark:bg-dusk dark:border-lightgray ">
+            <nav class="mt-4 flex flex-col justify-between">
+                <ul role="list" class="flex flex-col items-center space-y-1">
+                    <li><a class="
+    group 
+    flex 
+    gap-x-3 
+    rounded-md 
+    p-3 
+    text-sm 
+    leading-6 
+    font-semibold 
+    text-gray-500 
+    hover:text-black 
+    hover:bg-gray-100
+    dark:hover:bg-lightgray
+    dark:hover:text-gray-100
+   bg-gray-100 text-black dark:bg-lightgray dark:text-gray-200" href=""><svg stroke="currentColor" fill="currentColor"
+                                stroke-width="0" viewBox="0 0 20 20" aria-hidden="true" class="h-6 w-6 shrink-0"
+                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z"
+                                    clip-rule="evenodd"></path>
+                            </svg><span class="sr-only">Chat</span></a></li>
+                    <li><a class="
+    group 
+    flex 
+    gap-x-3 
+    rounded-md 
+    p-3 
+    text-sm 
+    leading-6 
+    font-semibold 
+    text-gray-500 
+    hover:text-black 
+    hover:bg-gray-100
+    dark:hover:bg-lightgray
+    dark:hover:text-gray-100
+  " href=""><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true"
+                                class="h-6 w-6 shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M4.5 6.375a4.125 4.125 0 118.25 0 4.125 4.125 0 01-8.25 0zM14.25 8.625a3.375 3.375 0 116.75 0 3.375 3.375 0 01-6.75 0zM1.5 19.125a7.125 7.125 0 0114.25 0v.003l-.001.119a.75.75 0 01-.363.63 13.067 13.067 0 01-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 01-.364-.63l-.001-.122zM17.25 19.128l-.001.144a2.25 2.25 0 01-.233.96 10.088 10.088 0 005.06-1.01.75.75 0 00.42-.643 4.875 4.875 0 00-6.957-4.611 8.586 8.586 0 011.71 5.157v.003z">
+                                </path>
+                            </svg><span class="sr-only">Users</span></a></li>
+                    <li><a class="
+    group 
+    flex 
+    gap-x-3 
+    rounded-md 
+    p-3 
+    text-sm 
+    leading-6 
+    font-semibold 
+    text-gray-500 
+    hover:text-black 
+    hover:bg-gray-100
+    dark:hover:bg-lightgray
+    dark:hover:text-gray-100
+  " href=""><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true"
+                                class="h-6 w-6 shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M7.5 3.75A1.5 1.5 0 006 5.25v13.5a1.5 1.5 0 001.5 1.5h6a1.5 1.5 0 001.5-1.5V15a.75.75 0 011.5 0v3.75a3 3 0 01-3 3h-6a3 3 0 01-3-3V5.25a3 3 0 013-3h6a3 3 0 013 3V9A.75.75 0 0115 9V5.25a1.5 1.5 0 00-1.5-1.5h-6zm5.03 4.72a.75.75 0 010 1.06l-1.72 1.72h10.94a.75.75 0 010 1.5H10.81l1.72 1.72a.75.75 0 11-1.06 1.06l-3-3a.75.75 0 010-1.06l3-3a.75.75 0 011.06 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg><span class="sr-only">Logout</span></a></li>
+                </ul>
+            </nav>
 
-                    <div id="popup2" class="popup2">
-                      <div class="popup-content2">
-                      <span class="close2" onclick="closePopup2() ">&times;</span>
-                        <h3>Thông báo</h3>
-                        <h5>Bạn đã trúng một phần quà</h5>
-                      </div>
-                    </div>
-
-                    <div id="1" class="popup2">
-                      <div class="popup-content2">
-                        <h3>Chúc mừng bạn đã trúng thưởng</h3>
-                        <h5 class="voucherr">Voucher Laha Coffee</h5>
-                        <p>(Vui lòng chọn "Xác nhận" để nhận thông tin qua Email)</p>
-                        <p class="button-confirm-p"><button class="button-confirm">Xác nhận</button>
-                        </p>
-                      </div>
-                    </div>
-                    
-                    <div id="2" class="popup2">
-                      <div class="popup-content2">
-                        <h3>Chúc mừng bạn đã trúng thưởng</h3>
-                        <h5 class="voucherr">Voucher 200.000 vnđ</h5>
-                        <p>(Vui lòng chọn "Xác nhận" để nhận thông tin qua Email)</p>
-                        <p class="button-confirm-p"><button class="button-confirm">Xác nhận</button>
-                        </p>
-                      </div>
-                    </div>
-
-                    <div id="3" class="popup2">
-                      <div class="popup-content2">
-                        <h3>Chúc mừng bạn đã trúng thưởng</h3>
-                        <h5 class="voucherr">Voucher 300.000 vnđ</h5>
-                        <p>(Vui lòng chọn "Xác nhận" để nhận thông tin qua Email)</p>
-                        <p class="button-confirm-p"><button class="button-confirm">Xác nhận</button>
-                        </p>
-                      </div>
-                    </div>
-
-                    <div id="4" class="popup2">
-                      <div class="popup-content2">
-                        <h3>Chúc mừng bạn đã trúng thưởng</h3>
-                        <h5 class="voucherr">Voucher 500.000 vnđ</h5>
-                        <p>(Vui lòng chọn "Xác nhận" để nhận thông tin qua Email)</p>
-                        <p class="button-confirm-p"><button class="button-confirm">Xác nhận</button>
-                        </p>
-                      </div>
-                    </div>
-
-                    <div id="5" class="popup2">
-                      <div class="popup-content2">
-                        <h3>Chúc mừng bạn đã trúng thưởng</h3>
-                        <h5 class="voucherr">Voucher 800.000 vnđ</h5>
-                        <p>(Vui lòng chọn "Xác nhận" để nhận thông tin qua Email)</p>
-                        <p class="button-confirm-p"><button class="button-confirm">Xác nhận</button>
-                        </p>
-                      </div>
-                    </div>
-
-                    <div id="notification" class="notification">
-                      <div class="notification-content">
-                        <span class="close-notification">&times;</span>
-                        <h3>Chú ý</h3>
-                        <p>Bạn chỉ có thể mở 1 phần quà duy nhất</p>
-                      </div>
-                    </div>
-
-                    <div class="main-gift-choose">
-                      <div class="gift-choose">
-                        <div class="image-container">
-                          <img class="qua" src="./css/images/gift.png" alt="" >
-                          <img class="gift_open" id="gift_open_1" src="./css/images/laha.png" alt="" data-popup-id="1"s>
-                        </div>
-                      </div>
-                      <div class="gift-choose">
-                        <div class="image-container">
-                          <img class="qua" src="./images/gift.png" alt="" >
-                          <img class="gift_open" id="gift_open_2" src="./images/200.png" alt="" data-popup-id="2">
-                        </div>
-                      </div>
-                      <div class="gift-choose">
-                        <div class="image-container">
-                          <img class="qua" src="./images/gift.png" alt="">  
-                          <img class="gift_open" id="gift_open_3" src="./images/300.png" alt="" data-popup-id="3">
-                        </div>
-                      </div>
-                    </div>
-                    
-                    
-
-                    <div class="main-gift-choose">
-                      <div class="gift-choose">
-                        <div class="image-container">
-                          <img class="qua" src="./images/gift.png" alt="">
-                          <img class="gift_open" src="./images/laha.png" alt="" data-popup-id="1">
-                        </div>
-                      </div>
-                      <div class="gift-choose">
-                        <div class="image-container">
-                          <img class="qua" src="./images/gift.png" alt="">
-                          <img class="gift_open" src="./images/200.png" alt="" data-popup-id="2">
-                        </div>
-                      </div>
-                      <div class="gift-choose">
-                        <div class="image-container">
-                          <img class="qua" src="./images/gift.png" alt="">
-                          <img class="gift_open" src="./images/800.png" alt="" data-popup-id="5">
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <div class="main-gift-choose">
-                      <div class="gift-choose">
-                        <div class="image-container">
-                          <img class="qua" src="./images/gift.png" alt="">
-                          <img class="gift_open" src="./images/500.png" alt="" data-popup-id="4">
-                        </div>
-                      </div>
-                      <div class="gift-choose">
-                        <div class="image-container">
-                          <img class="qua" src="./images/gift.png" alt="">
-                          <img class="gift_open" src="./images/200.png" alt="" data-popup-id="2">
-                        </div>
-                      </div>
-                      <div class="gift-choose">
-                        <div class="image-container">
-                          <img class="qua" src="./images/gift.png" alt="">
-                          <img class="gift_open" src="./images/300.png" alt="" data-popup-id="3">
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <div class="main-list">
-                      <button class="button-list-2"><i><b>DANH SÁCH QUÀ TẶNG</b></i></button>
-                    </div>
-      
-                    <div class="danh-sach-qua">
-                        <img class="danh-sach" src="./images/list.png">
-                    </div>
-                    <h6 class="mid-text-7">
-                      <span class="follow">THEO DÕI ĐỂ NHẬN THÊM ƯU ĐÃI</span>
-                    </h6>
-                    <div class="bodymidcuoi">
-                        <div class="bieutuongxahoi">
-                            <div class="round">
-                                <a href="https://www.facebook.com/et.vi.142/" class="image-link">
-                                    <img src="./images/2021_Facebook_icon.svg.png" alt="Your Image">
-                                 </a>
-                            </div>
-                            <div class="round">
-                                <a href="https://www.youtube.com/watch?v=9QnlQBkGwAY&list=RDMM9QnlQBkGwAY&start_radio=1" class="image-link">
-                                    <img src="./images/3689112.png" alt="Your Image">
-                                 </a>
-                            </div>
-                            <div class="round">
-                                <a href="https://www.linkedin.com/checkpoint/challenge/AgFmo-tChvPeVAAAAYhcvL9KP9iWIDQnKGHmVCrFP0UeEUu_b44b_n0tBBLVnHvitLsm6DBWHUdj6J7Gg6Ya986wlCwCNw?ut=1GJY_HmFtMAaM1" class="image-link">
-                                    <img src="images/702300.png" alt="Your Image">
-                                 </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="body-left">
-            </div>
-            <!-- Popup đăng ký -->
-            <div id="registerPopup" class="popup">
-                <div class="popup-content">
-                <h2 class="register">Đăng ký thông tin tham gia</h2>
-                <!-- Thêm nội dung của popup đăng ký tại đây -->
-                <form onsubmit="return registerFormSubmit(event)">
-                    <!-- Các trường đăng ký -->
-                    <input class="username" type="text" name="name" placeholder="Tên">
-                    <input class="callphone" type="tel" name="phone" placeholder="Số điện thoại">
-                    <input class="useremail" type="email" name="email" placeholder="Email">
-                    <button class="button-text" type="submit">Tham gia ngay</button>
-                </form>
-                <p id="successMessage" class="success-message"></p>
-                </div>
-            </div>
-
-            <!-- Popup đăng ký thành công -->
-            <div id="successPopup" class="popup">
-                <div class="popup-content" onclick="closeSuccessPopup()">
-                <h2 class="text-content-3">Đã lưu thông tin người nhận</h2>
-                <p>Chọn 1 hộp quà bất kỳ</p>
-                </div>
-            </div>
         </div>
+        <main class="lg:pl-20 h-full">
+            <div class="h-full">
+                <aside class="
+  fixed 
+  inset-y-0 
+  pb-20
+  lg:pb-0
+  lg:left-20 
+  lg:w-80 
+  lg:block
+  overflow-y-auto 
+  border-r 
+  border-gray-200 
+  dark:border-lightgray
+ hidden">
+                    <div class="px-5">
+                        <div class="flex justify-between mb-4 pt-4">
+                            <div class="text-2xl font-bold text-neutral-800 dark:text-gray-200">Chat</div>
+                            <div class="x78zum5 x2lah0s">
+                                <div class="x16n37ib">
+                                    <div aria-label="Cài đặt, trợ giúp, v.v."
+                                        class="x1i10hfl x6umtig x1b1mbwd xaqea5y xav7gou x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x16tdsg8 x1hl2dhg xggy1nq x87ps6o x1lku1pv x1a2a7pz x6s0dn4 x14yjl9h xudhj91 x18nykt9 xww2gxu x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x78zum5 xl56j7k xexx8yu x4uap5 x18d9i69 xkhd6sd x1n2onr6 xc9qbxq x14qfxbe x1qhmfi1"
+                                        role="button" tabindex="0"><i data-visualcompletion="css-img"
+                                            class="x1b0d499 xep6ejk"
+                                            style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/n3C6Sb13iKq.png&quot;); color:#0084ff; background-position: 2px -110px; background-size: 190px 168px; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                        <div class="x1ey2m1c xds687c xg01cxk x47corl x10l6tqk x17qophe x13vifvy x1ebt8du x19991ni x1dhq9h x14yjl9h xudhj91 x18nykt9 xww2gxu"
+                                            data-visualcompletion="ignore"></div>
+                                    </div>
+                                </div>
+                                <div class="x16n37ib">
+                                    <div aria-label="Tạo phòng họp mặt mới"
+                                        class="x1i10hfl x6umtig x1b1mbwd xaqea5y xav7gou x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x16tdsg8 x1hl2dhg xggy1nq x87ps6o x1lku1pv x1a2a7pz x6s0dn4 x14yjl9h xudhj91 x18nykt9 xww2gxu x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x78zum5 xl56j7k xexx8yu x4uap5 x18d9i69 xkhd6sd x1n2onr6 xc9qbxq x14qfxbe x1qhmfi1"
+                                        role="button" tabindex="0"><i data-visualcompletion="css-img"
+                                            class="x1b0d499 xep6ejk"
+                                            style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yU/r/VTYxRPJzCWp.png&quot;); background-position: 0px -468px; background-size: 38px 796px; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                        <div class="x1ey2m1c xds687c xg01cxk x47corl x10l6tqk x17qophe x13vifvy x1ebt8du x19991ni x1dhq9h x14yjl9h xudhj91 x18nykt9 xww2gxu"
+                                            data-visualcompletion="ignore"></div>
+                                    </div>
+                                </div>
+                                <div class="x16n37ib"><a aria-label="Tin nhắn mới"
+                                        class="x1i10hfl x6umtig x1b1mbwd xaqea5y xav7gou x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x16tdsg8 x1hl2dhg xggy1nq x87ps6o x1lku1pv x1a2a7pz x6s0dn4 x14yjl9h xudhj91 x18nykt9 xww2gxu x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x78zum5 xl56j7k xexx8yu x4uap5 x18d9i69 xkhd6sd x1n2onr6 xc9qbxq x14qfxbe x1qhmfi1"
+                                        href="/messages/new/" role="link" tabindex="0"><i
+                                            data-visualcompletion="css-img" class="x1b0d499 xep6ejk"
+                                            style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/fLBs7gDEhCI.png&quot;); background-position: 0px -500px; background-size: 26px 1374px; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                        <div class="x1ey2m1c xds687c xg01cxk x47corl x10l6tqk x17qophe x13vifvy x1ebt8du x19991ni x1dhq9h x14yjl9h xudhj91 x18nykt9 xww2gxu"
+                                            data-visualcompletion="ignore"></div>
+                                    </a></div>
+                            </div>
+                        </div>
+                        <div class="
+w-full 
+relative 
+flex 
+items-center 
+space-x-3 
+p-3 
+hover:bg-neutral-100
+rounded-lg
+transition
+cursor-pointer
+dark:hover:bg-lightgray
+ bg-neutral-100 dark:bg-lightgray">
+                            <div class="relative h-9 md:h-11">
+                                <div
+                                    class=" relative  inline-block  rounded-full  overflow-hidden h-9  w-9  md:h-11  md:w-11 ">
+                                    <img alt="Avatar" loading="lazy" decoding="async" data-nimg="fill"
+                                        class="object-cover"
+                                        style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
+                                        sizes="100vw"
+                                        srcSet="/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F87923392%3Fv%3D4&amp;w=640&amp;q=75 640w, /_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F87923392%3Fv%3D4&amp;w=750&amp;q=75 750w, /_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F87923392%3Fv%3D4&amp;w=828&amp;q=75 828w, /_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F87923392%3Fv%3D4&amp;w=1080&amp;q=75 1080w, /_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F87923392%3Fv%3D4&amp;w=1200&amp;q=75 1200w, /_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F87923392%3Fv%3D4&amp;w=1920&amp;q=75 1920w, /_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F87923392%3Fv%3D4&amp;w=2048&amp;q=75 2048w, /_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F87923392%3Fv%3D4&amp;w=3840&amp;q=75 3840w"
+                                        src="/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F87923392%3Fv%3D4&amp;w=3840&amp;q=75" />
+                                </div>
+                            </div>
+                            <div class="min-w-0 flex-1">
+                                <div class="focus:outline-none"><span class="absolute inset-0"
+                                        aria-hidden="true"></span>
+                                    <div class="flex justify-between items-center mb-1">
+                                        <p class="text-md font-medium text-gray-900 dark:text-gray-200">Thùy Linh</p>
+                                    </div>
+                                    <p class="
+      truncate 
+      text-sm
+       text-black font-medium dark:text-gray-100">Cuộc trò chuyện mới</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside><!--$-->
+                <div class="lg:pl-80 h-full">
+                    <div class="h-full flex flex-col">
+                        <div
+                            class=" bg-white  w-full  flex  border-b-[1px]  sm:px-4  py-3  px-4  lg:px-6  justify-between  items-center  shadow-sm dark:bg-dusk dark:border-lightgray ">
+                            <div class="flex gap-3 items-center"><a
+                                    class=" lg:hidden  block  text-sky-500  hover:text-sky-600  transition  cursor-pointer "
+                                    href=""><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                        viewBox="0 0 20 20" aria-hidden="true" height="32" width="32"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                                            clip-rule="evenodd"></path>
+                                    </svg></a>
+                                <div class="relative h-9 md:h-11">
+                                    <div
+                                        class=" relative  inline-block  rounded-full  overflow-hidden h-9  w-9  md:h-11  md:w-11 ">
+                                        <img alt="Avatar" loading="lazy" decoding="async" data-nimg="fill"
+                                            class="object-cover"
+                                            style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
+                                            sizes="100vw"
+                                            srcSet="/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F87923392%3Fv%3D4&amp;w=640&amp;q=75 640w, /_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F87923392%3Fv%3D4&amp;w=750&amp;q=75 750w, /_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F87923392%3Fv%3D4&amp;w=828&amp;q=75 828w, /_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F87923392%3Fv%3D4&amp;w=1080&amp;q=75 1080w, /_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F87923392%3Fv%3D4&amp;w=1200&amp;q=75 1200w, /_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F87923392%3Fv%3D4&amp;w=1920&amp;q=75 1920w, /_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F87923392%3Fv%3D4&amp;w=2048&amp;q=75 2048w, /_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F87923392%3Fv%3D4&amp;w=3840&amp;q=75 3840w"
+                                            src="/_next/image?url=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F87923392%3Fv%3D4&amp;w=3840&amp;q=75" />
+                                    </div>
+                                </div>
+                                <div class="flex flex-col dark:text-gray-200">
+                                    <div>Thùy Linh</div>
+                                    <div class="text-sm font-light text-neutral-500 dark:text-gray-400">Online</div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="x9f619 x1n2onr6 x1ja2u2z x78zum5 x2lah0s x1qughib x6s0dn4 xozqiw3 x1q0g3np xykv574 xbmpl8g x4cne27 xifccgj">
+                                <div
+                                    class="x9f619 x1n2onr6 x1ja2u2z xdt5ytf x2lah0s x193iq5w xeuugli x6s0dn4 x78zum5 xn3w4p2 xl56j7k x1yrsyyn xsyo7zv x10b6aqq x16hj40l x187nhsf">
+                                    <span
+                                        class="x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2umb2 x1beo9mf xaigb6o x12ejxvf x3igimt xarpa2k xedcshv x1lytzrv x1t2pt76 x7ja8zs x1qrby5j">
+                                        <div aria-label="Bắt đầu gọi thoại"
+                                            class="x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xdl72j9 x2lah0s xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli xexx8yu x4uap5 x18d9i69 xkhd6sd x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m x3nfvp2 x1q0g3np x87ps6o x1lku1pv x1a2a7pz"
+                                            role="button" tabindex="0"><svg height="34px" role="presentation"
+                                                viewBox="-5 -5 30 30" width="34px">
+                                                <path
+                                                    d="M10.952 14.044c.074.044.147.086.22.125a.842.842 0 001.161-.367c.096-.195.167-.185.337-.42.204-.283.552-.689.91-.772.341-.078.686-.105.92-.11.435-.01 1.118.174 1.926.648a15.9 15.9 0 011.713 1.147c.224.175.37.43.393.711.042.494-.034 1.318-.754 2.137-1.135 1.291-2.859 1.772-4.942 1.088a17.47 17.47 0 01-6.855-4.212 17.485 17.485 0 01-4.213-6.855c-.683-2.083-.202-3.808 1.09-4.942.818-.72 1.642-.796 2.136-.754.282.023.536.17.711.392.25.32.663.89 1.146 1.714.475.808.681 1.491.65 1.926-.024.31-.026.647-.112.921-.11.35-.488.705-.77.91-.236.17-.226.24-.42.336a.841.841 0 00-.368 1.161c.04.072.081.146.125.22a14.012 14.012 0 004.996 4.996z"
+                                                    fill="#0084ff"></path>
+                                                <path
+                                                    d="M10.952 14.044c.074.044.147.086.22.125a.842.842 0 001.161-.367c.096-.195.167-.185.337-.42.204-.283.552-.689.91-.772.341-.078.686-.105.92-.11.435-.01 1.118.174 1.926.648.824.484 1.394.898 1.713 1.147.224.175.37.43.393.711.042.494-.034 1.318-.754 2.137-1.135 1.291-2.859 1.772-4.942 1.088a17.47 17.47 0 01-6.855-4.212 17.485 17.485 0 01-4.213-6.855c-.683-2.083-.202-3.808 1.09-4.942.818-.72 1.642-.796 2.136-.754.282.023.536.17.711.392.25.32.663.89 1.146 1.714.475.808.681 1.491.65 1.926-.024.31-.026.647-.112.921-.11.35-.488.705-.77.91-.236.17-.226.24-.42.336a.841.841 0 00-.368 1.161c.04.072.081.146.125.22a14.012 14.012 0 004.996 4.996z"
+                                                    fill="none" stroke="#0084ff"></path>
+                                            </svg>
+                                            <div class="x1ey2m1c xds687c xg01cxk x47corl x10l6tqk x17qophe x13vifvy x1ebt8du x19991ni x1dhq9h x14yjl9h xudhj91 x18nykt9 xww2gxu"
+                                                data-visualcompletion="ignore"></div>
+                                        </div>
+                                    </span>
+                                </div>
+                                <div
+                                    class="x9f619 x1n2onr6 x1ja2u2z xdt5ytf x2lah0s x193iq5w xeuugli x6s0dn4 x78zum5 xn3w4p2 xl56j7k x1yrsyyn xsyo7zv x10b6aqq x16hj40l x187nhsf">
+                                    <span
+                                        class="x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2umb2 x1beo9mf xaigb6o x12ejxvf x3igimt xarpa2k xedcshv x1lytzrv x1t2pt76 x7ja8zs x1qrby5j">
+                                        <div aria-label="Bắt đầu gọi video"
+                                            class="x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xdl72j9 x2lah0s xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli xexx8yu x4uap5 x18d9i69 xkhd6sd x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m x3nfvp2 x1q0g3np x87ps6o x1lku1pv x1a2a7pz"
+                                            role="button" tabindex="0"><svg height="34px" role="presentation"
+                                                viewBox="-5 -5 30 30" width="34px">
+                                                <path
+                                                    d="M19.492 4.112a.972.972 0 00-1.01.063l-3.052 2.12a.998.998 0 00-.43.822v5.766a1 1 0 00.43.823l3.051 2.12a.978.978 0 001.011.063.936.936 0 00.508-.829V4.94a.936.936 0 00-.508-.828zM10.996 18A3.008 3.008 0 0014 14.996V5.004A3.008 3.008 0 0010.996 2H3.004A3.008 3.008 0 000 5.004v9.992A3.008 3.008 0 003.004 18h7.992z"
+                                                    fill="#0084ff"></path>
+                                            </svg>
+                                            <div class="x1ey2m1c xds687c xg01cxk x47corl x10l6tqk x17qophe x13vifvy x1ebt8du x19991ni x1dhq9h x1wpzbip x14yjl9h xudhj91 x18nykt9 xww2gxu"
+                                                data-visualcompletion="ignore"></div>
+                                        </div>
+                                    </span>
+                                </div>
+                                <div
+                                    class="x9f619 x1n2onr6 x1ja2u2z xdt5ytf x2lah0s x193iq5w xeuugli x6s0dn4 x78zum5 xn3w4p2 xl56j7k x1yrsyyn xsyo7zv x10b6aqq x16hj40l x187nhsf">
+                                    <span
+                                        class="x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2umb2 x1beo9mf xaigb6o x12ejxvf x3igimt xarpa2k xedcshv x1lytzrv x1t2pt76 x7ja8zs x1qrby5j"><span
+                                            class="x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2umb2 x1beo9mf xaigb6o x12ejxvf x3igimt xarpa2k xedcshv x1lytzrv x1t2pt76 x7ja8zs x1qrby5j">
+                                            <div aria-expanded="false" aria-label="Thông tin về cuộc trò chuyện"
+                                                class="x1i10hfl xjbqb8w xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x1ypdohk xdl72j9 x2lah0s xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1q0g3np x87ps6o x1lku1pv x1a2a7pz x6s0dn4 x14yjl9h xudhj91 x18nykt9 xww2gxu x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x78zum5 xc9qbxq xl56j7k xexx8yu x4uap5 x18d9i69 xkhd6sd x1n2onr6 x14qfxbe"
+                                                role="button" tabindex="0">
+                                                <div class="x6s0dn4 x3nfvp2 x1fgtraw xl56j7k x1n2onr6 xgd8bvy">
+                                                    <div class="xxooi2h x1oyxjch x1uxqb5a x14nytwg x5yr21d xg01cxk x10l6tqk x17qophe x13vifvy xh8yej3"
+                                                        style="background-color: rgb(247, 215, 0);"></div><svg
+                                                        height="24px" name="icon" role="presentation"
+                                                        viewBox="0 0 36 36" width="24px">
+                                                        <g transform="translate(18,18)scale(1.2)translate(-18,-18)">
+                                                            <path
+                                                                d="M18,10 C16.6195,10 15.5,11.119 15.5,12.5 C15.5,13.881 16.6195,15 18,15 C19.381,15 20.5,13.881 20.5,12.5 C20.5,11.119 19.381,10 18,10 Z M16,25 C16,25.552 16.448,26 17,26 L19,26 C19.552,26 20,25.552 20,25 L20,18 C20,17.448 19.552,17 19,17 L17,17 C16.448,17 16,17.448 16,18 L16,25 Z M18,30 C11.3725,30 6,24.6275 6,18 C6,11.3725 11.3725,6 18,6 C24.6275,6 30,11.3725 30,18 C30,24.6275 24.6275,30 18,30 Z"
+                                                                fill="#0084ff" stroke="#0084ff"></path>
+                                                        </g>
+                                                    </svg>
+                                                </div>
+                                                <div class="x1ey2m1c xds687c xg01cxk x47corl x10l6tqk x17qophe x13vifvy x1ebt8du x19991ni x1dhq9h x14yjl9h xudhj91 x18nykt9 xww2gxu"
+                                                    data-visualcompletion="ignore"></div>
+                                            </div>
+                                        </span></span>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="flex-1 overflow-y-auto"  id="chat-log">
+                            <div class="pt-1"></div>
+                        </div>
+                        <div>
+                            <div class="xuk3077 x78zum5 x6prxxf xz9dl7a xsag5q8"><span
+                                    class="x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2umb2 x1beo9mf xaigb6o x12ejxvf x3igimt xarpa2k xedcshv x1lytzrv x1t2pt76 x7ja8zs x1qrby5j">
+                                    <div aria-label="Mở hành động khác"
+                                        class="x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xdl72j9 x2lah0s xe8uvvx x2lwn1j xeuugli x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m x3nfvp2 x1q0g3np x87ps6o x1lku1pv x1a2a7pz xsgj6o6 xw3qccf x1gslohp x12nagc x1iorvi4 x150jy0e xjkvuk6 x1e558r4"
+                                        role="button" tabindex="0"><svg
+                                            class="x1lliihq x1k90msu x13hzchw x1qfuztq xsrhx6k x7p49u4" height="20px"
+                                            viewBox="0 0 24 24" width="20px">
+                                            <g fill-rule="evenodd">
+                                                <polygon fill="none" points="-6,30 30,30 30,-6 -6,-6 "></polygon>
+                                                <path
+                                                    d="m18,11l-5,0l0,-5c0,-0.552 -0.448,-1 -1,-1c-0.5525,0 -1,0.448 -1,1l0,5l-5,0c-0.5525,0 -1,0.448 -1,1c0,0.552 0.4475,1 1,1l5,0l0,5c0,0.552 0.4475,1 1,1c0.552,0 1,-0.448 1,-1l0,-5l5,0c0.552,0 1,-0.448 1,-1c0,-0.552 -0.448,-1 -1,-1m-6,13c-6.6275,0 -12,-5.3725 -12,-12c0,-6.6275 5.3725,-12 12,-12c6.627,0 12,5.3725 12,12c0,6.6275 -5.373,12 -12,12"
+                                                    fill="#0084ff"></path>
+                                            </g>
+                                        </svg>
+                                        <div class="x1ey2m1c xds687c xg01cxk x47corl x10l6tqk x17qophe x13vifvy x1ebt8du x19991ni x1dhq9h x14yjl9h xudhj91 x18nykt9 xww2gxu"
+                                            data-visualcompletion="ignore"></div>
+                                    </div>
+                                </span>
+                                <div class="x1iyjqo2 xw2csxc x1n2onr6">
+                                    <div class="x6s0dn4 x1ey2m1c x78zum5 xl56j7k x10l6tqk x1vjfegm x12nagc xw3qccf x3oybdh x1g2r6go x11xpdln x1th4bbo"
+                                        style="left: 0px;"><span id="image-container" class="image-container" onclick="openFileSelector()"
+                                            class="x4k7w5x x1h91t0o x1h9r5lt xv2umb2 x1beo9mf xaigb6o x12ejxvf x3igimt xarpa2k xedcshv x1lytzrv x1t2pt76 x7ja8zs x1qrby5j x3nfvp2">
+                                            <div aria-label="Đính kèm file"
+                                                class="x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xdl72j9 x2lah0s xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m x3nfvp2 x1q0g3np x87ps6o x1lku1pv x1a2a7pz x1iorvi4 x150jy0e xjkvuk6 x1e558r4"
+                                                role="button" tabindex="0"><svg
+                                                    class="x1lliihq x1k90msu x13hzchw x1qfuztq" height="20px"
+                                                    viewBox="0 -1 17 17" width="20px">
+                                                    <g fill="none" fill-rule="evenodd">
+                                                        <path
+                                                            d="M2.882 13.13C3.476 4.743 3.773.48 3.773.348L2.195.516c-.7.1-1.478.647-1.478 1.647l1.092 11.419c0 .5.2.9.4 1.3.4.2.7.4.9.4h.4c-.6-.6-.727-.951-.627-2.151z"
+                                                            fill="#0084ff"></path>
+                                                        <circle cx="8.5" cy="4.5" fill="#0084ff" r="1.5"></circle>
+                                                        <path
+                                                            d="M14 6.2c-.2-.2-.6-.3-.8-.1l-2.8 2.4c-.2.1-.2.4 0 .6l.6.7c.2.2.2.6-.1.8-.1.1-.2.1-.4.1s-.3-.1-.4-.2L8.3 8.3c-.2-.2-.6-.3-.8-.1l-2.6 2-.4 3.1c0 .5.2 1.6.7 1.7l8.8.6c.2 0 .5 0 .7-.2.2-.2.5-.7.6-.9l.6-5.9L14 6.2z"
+                                                            fill="#0084ff"></path>
+                                                        <path
+                                                            d="M13.9 15.5l-8.2-.7c-.7-.1-1.3-.8-1.3-1.6l1-11.4C5.5 1 6.2.5 7 .5l8.2.7c.8.1 1.3.8 1.3 1.6l-1 11.4c-.1.8-.8 1.4-1.6 1.3z"
+                                                            stroke="#0084ff" stroke-linecap="round"
+                                                            stroke-linejoin="round"></path>
+                                                    </g>
+                                                </svg>
+                                                <div class="x1ey2m1c xds687c xg01cxk x47corl x10l6tqk x17qophe x13vifvy x1ebt8du x19991ni x1dhq9h x1wpzbip x14yjl9h xudhj91 x18nykt9 xww2gxu"
+                                                    data-visualcompletion="ignore"></div>
+                                            </div>
+                                        </span></div>
+                                    <div class="x6s0dn4 x1ey2m1c x78zum5 xl56j7k x10l6tqk x1vjfegm x12nagc xw3qccf x3oybdh x1g2r6go x11xpdln x5h36tt"
+                                        style="left: 32px;"><span
+                                            class="x4k7w5x x1h91t0o x1h9r5lt xv2umb2 x1beo9mf xaigb6o x12ejxvf x3igimt xarpa2k xedcshv x1lytzrv x1t2pt76 x7ja8zs x1qrby5j x3nfvp2">
+                                            <div aria-label="Chọn nhãn dán"
+                                                class="x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xdl72j9 x2lah0s xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m x3nfvp2 x1q0g3np x87ps6o x1lku1pv x1a2a7pz x1iorvi4 x150jy0e xjkvuk6 x1e558r4"
+                                                role="button" tabindex="0"><svg
+                                                    class="x1lliihq x1k90msu x13hzchw x1qfuztq xsrhx6k" height="20px"
+                                                    viewBox="0 0 17 16" width="20px" x="0px" y="0px">
+                                                    <g fill-rule="evenodd">
+                                                        <circle cx="5.5" cy="5.5" fill="none" r="1"></circle>
+                                                        <circle cx="11.5" cy="4.5" fill="none" r="1"></circle>
+                                                        <path
+                                                            d="M5.3 9c-.2.1-.4.4-.3.7.4 1.1 1.2 1.9 2.3 2.3h.2c.2 0 .4-.1.5-.3.1-.3 0-.5-.3-.6-.8-.4-1.4-1-1.7-1.8-.1-.2-.4-.4-.7-.3z"
+                                                            fill="none"></path>
+                                                        <path
+                                                            d="M10.4 13.1c0 .9-.4 1.6-.9 2.2 4.1-1.1 6.8-5.1 6.5-9.3-.4.6-1 1.1-1.8 1.5-2 1-3.7 3.6-3.8 5.6z"
+                                                            fill="#0084ff"></path>
+                                                        <path
+                                                            d="M2.5 13.4c.1.8.6 1.6 1.3 2 .5.4 1.2.6 1.8.6h.6l.4-.1c1.6-.4 2.6-1.5 2.7-2.9.1-2.4 2.1-5.4 4.5-6.6 1.3-.7 1.9-1.6 1.9-2.8l-.2-.9c-.1-.8-.6-1.6-1.3-2-.7-.5-1.5-.7-2.4-.5L3.6 1.5C1.9 1.8.7 3.4 1 5.2l1.5 8.2zm9-8.9c.6 0 1 .4 1 1s-.4 1-1 1-1-.4-1-1 .4-1 1-1zm-3.57 6.662c.3.1.4.4.3.6-.1.3-.3.4-.5.4h-.2c-1-.4-1.9-1.3-2.3-2.3-.1-.3.1-.6.3-.7.3-.1.5 0 .6.3.4.8 1 1.4 1.8 1.7zM5.5 5.5c.6 0 1 .4 1 1s-.4 1-1 1-1-.4-1-1 .4-1 1-1z"
+                                                            fill="#0084ff" fill-rule="nonzero"></path>
+                                                    </g>
+                                                </svg>
+                                                <div class="x1ey2m1c xds687c xg01cxk x47corl x10l6tqk x17qophe x13vifvy x1ebt8du x19991ni x1dhq9h x1wpzbip x14yjl9h xudhj91 x18nykt9 xww2gxu"
+                                                    data-visualcompletion="ignore"></div>
+                                            </div>
+                                        </span></div>
+                                    <div class="x6s0dn4 x1ey2m1c x78zum5 xl56j7k x10l6tqk x1vjfegm x12nagc xw3qccf x3oybdh x1g2r6go x11xpdln x5w5eug"
+                                        style="left: 64px;"><span
+                                            class="x4k7w5x x1h91t0o x1h9r5lt xv2umb2 x1beo9mf xaigb6o x12ejxvf x3igimt xarpa2k xedcshv x1lytzrv x1t2pt76 x7ja8zs x1qrby5j x3nfvp2">
+                                            <div aria-label="Chọn file gif"
+                                                class="x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xdl72j9 x2lah0s xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m x3nfvp2 x1q0g3np x87ps6o x1lku1pv x1a2a7pz x1iorvi4 x150jy0e xjkvuk6 x1e558r4"
+                                                role="button" tabindex="0"><svg
+                                                    class="x1lliihq x1k90msu x13hzchw x1qfuztq xsrhx6k" height="20px"
+                                                    viewBox="0 0 16 16" width="20px" x="0px" y="0px">
+                                                    <path
+                                                        d="M.783 12.705c.4.8 1.017 1.206 1.817 1.606 0 0 1.3.594 2.5.694 1 .1 1.9.1 2.9.1s1.9 0 2.9-.1 1.679-.294 2.479-.694c.8-.4 1.157-.906 1.557-1.706.018 0 .4-1.405.5-2.505.1-1.2.1-3 0-4.3-.1-1.1-.073-1.976-.473-2.676-.4-.8-.863-1.408-1.763-1.808-.6-.3-1.2-.3-2.4-.4-1.8-.1-3.8-.1-5.7 0-1 .1-1.7.1-2.5.5s-1.417 1.1-1.817 1.9c0 0-.4 1.484-.5 2.584-.1 1.2-.1 3 0 4.3.1 1 .2 1.705.5 2.505zm10.498-8.274h2.3c.4 0 .769.196.769.696 0 .5-.247.68-.747.68l-1.793.02.022 1.412 1.252-.02c.4 0 .835.204.835.704s-.442.696-.842.696H11.82l-.045 2.139c0 .4-.194.8-.694.8-.5 0-.7-.3-.7-.8l-.031-5.631c0-.4.43-.696.93-.696zm-3.285.771c0-.5.3-.8.8-.8s.8.3.8.8l-.037 5.579c0 .4-.3.8-.8.8s-.8-.4-.8-.8l.037-5.579zm-3.192-.825c.7 0 1.307.183 1.807.683.3.3.4.7.1 1-.2.4-.7.4-1 .1-.2-.1-.5-.3-.9-.3-1 0-2.011.84-2.011 2.14 0 1.3.795 2.227 1.695 2.227.4 0 .805.073 1.105-.127V8.6c0-.4.3-.8.8-.8s.8.3.8.8v1.8c0 .2.037.071-.063.271-.7.7-1.57.991-2.47.991C2.868 11.662 1.3 10.2 1.3 8s1.704-3.623 3.504-3.623z"
+                                                        fill="#0084ff" fill-rule="nonzero"></path>
+                                                </svg>
+                                                <div class="x1ey2m1c xds687c xg01cxk x47corl x10l6tqk x17qophe x13vifvy x1ebt8du x19991ni x1dhq9h x1wpzbip x14yjl9h xudhj91 x18nykt9 xww2gxu"
+                                                    data-visualcompletion="ignore"></div>
+                                            </div>
+                                        </span></div>
+                                    <div class="x78zum5 x1iyjqo2 x6q2ic0" style="margin-left: 0px;">
+
+                                        <input class="xmjcpbm x107yiy2 xv8uw2v x1tfwpuw x2g32xy x9f619 x1iyjqo2 xeuugli"  id="message-input" type="text" placeholder="Aa">
+                                            <div class="x78zum5 x1a02dak x13a6bvl">
+                                                <div
+                                                    class="x78zum5 x1iyjqo2 x1gja9t x16n37ib x1xmf6yo x1e56ztr xeuugli x1n2onr6">
+                                                    <div aria-describedby=":r47:" aria-label="Tin nhắn"
+                                                        class="xzsf02u x1a2a7pz x1n2onr6 x14wi4xw x1iyjqo2 x1gh3ibb xisnujt xeuugli x1odjw0f notranslate"
+                                                        contenteditable="true" role="textbox" spellcheck="true"
+                                                        tabindex="0"
+                                                        style="user-select: text; white-space: pre-wrap; word-break: break-word;"
+                                                        data-lexical-editor="true">
+                                                        <p class="xat24cr xdj266r"><br></p>
+                                                    </div>
+                                                   
+                                                </div>
+                                            </div>
+                                        </input>
+                                    </div>
+                                    <div
+                                        class="x6s0dn4 x1ey2m1c x78zum5 xl56j7k x10l6tqk x1vjfegm x12nagc xw3qccf xds687c">
+                                        <button id="send-btn"
+                                            class="x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2umb2 x1beo9mf xaigb6o x12ejxvf x3igimt xarpa2k xedcshv x1lytzrv x1t2pt76 x7ja8zs x1qrby5j">
+                                            <div aria-label="Chọn biểu tượng cảm xúc"
+                                                class="x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xdl72j9 x2lah0s xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m x3nfvp2 x1q0g3np x87ps6o x1lku1pv x1a2a7pz x1iorvi4 x150jy0e xjkvuk6 x1e558r4"
+                                                role="button" tabindex="0"><svg
+                                                    class="x1lliihq x1k90msu x13hzchw x1qfuztq" height="20px"
+                                                    viewBox="0 0 38 38" width="20px" style="margin-left: -35px;">
+                                                    <g fill="none" fill-rule="evenodd">
+                                                        <g transform="translate(-893.000000, -701.000000)">
+                                                            <g transform="translate(709.000000, 314.000000)">
+                                                                <g>
+                                                                    <path
+                                                                        d="M210.5,405 C209.121,405 208,403.879 208,402.5 C208,401.121 209.121,400 210.5,400 C211.879,400 213,401.121 213,402.5 C213,403.879 211.879,405 210.5,405 M212.572,411.549 C210.428,413.742 206.938,415 203,415 C199.062,415 195.572,413.742 193.428,411.549 C192.849,410.956 192.859,410.007 193.451,409.428 C194.045,408.85 194.993,408.859 195.572,409.451 C197.133,411.047 199.909,412 203,412 C206.091,412 208.867,411.047 210.428,409.451 C211.007,408.859 211.956,408.85 212.549,409.428 C213.141,410.007 213.151,410.956 212.572,411.549 M195.5,400 C196.879,400 198,401.121 198,402.5 C198,403.879 196.879,405 195.5,405 C194.121,405 193,403.879 193,402.5 C193,401.121 194.121,400 195.5,400 M203,387 C192.523,387 184,395.523 184,406 C184,416.477 192.523,425 203,425 C213.477,425 222,416.477 222,406 C222,395.523 213.477,387 203,387"
+                                                                        fill="#0084ff"></path>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                                <div class="x1ey2m1c xds687c xg01cxk x47corl x10l6tqk x17qophe x13vifvy x1ebt8du x19991ni x1dhq9h x1wpzbip x14yjl9h xudhj91 x18nykt9 xww2gxu"
+                                                    data-visualcompletion="ignore"></div>
+                                            </div>
+                                        </button>
+                                    </div>
+
+
+                                </div>
+                                <div>
+
+                                    <span
+                                        class="x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2umb2 x1beo9mf xaigb6o x12ejxvf x3igimt xarpa2k xedcshv x1lytzrv x1t2pt76 x7ja8zs x1qrby5j">
+                                        <div aria-label="Gửi lượt thích"
+                                            class="x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xdl72j9 x2lah0s xe8uvvx xdj266r xat24cr x2lwn1j xeuugli x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m x3nfvp2 x1q0g3np x87ps6o x1lku1pv x1a2a7pz xsgj6o6 xw3qccf x1y1aw1k x1sxyh0 xwib8y2 xurb0ha"
+                                            role="button" tabindex="0"><svg aria-hidden="true" class="xsrhx6k"
+                                                height="35" viewBox="0 0 16 16" width="20">
+                                                <path
+                                                    d="M16,9.1c0-0.8-0.3-1.1-0.6-1.3c0.2-0.3,0.3-0.7,0.3-1.2c0-1-0.8-1.7-2.1-1.7h-3.1c0.1-0.5,0.2-1.3,0.2-1.8 c0-1.1-0.3-2.4-1.2-3C9.3,0.1,9,0,8.7,0C8.1,0,7.7,0.2,7.6,0.4C7.5,0.5,7.5,0.6,7.5,0.7L7.6,3c0,0.2,0,0.4-0.1,0.5L5.7,6.6 c0,0-0.1,0.1-0.1,0.1l0,0l0,0L5.3,6.8C5.1,7,5,7.2,5,7.4v6.1c0,0.2,0.1,0.4,0.2,0.5c0.1,0.1,1,1,2,1h5.2c0.9,0,1.4-0.3,1.8-0.9 c0.3-0.5,0.2-1,0.1-1.4c0.5-0.2,0.9-0.5,1.1-1.2c0.1-0.4,0-0.8-0.2-1C15.6,10.3,16,9.9,16,9.1z"
+                                                    fill="#0084ff"></path>
+                                                <path
+                                                    d="M3.3,6H0.7C0.3,6,0,6.3,0,6.7v8.5C0,15.7,0.3,16,0.7,16h2.5C3.7,16,4,15.7,4,15.3V6.7C4,6.3,3.7,6,3.3,6z"
+                                                    fill="#0084ff"></path>
+                                            </svg>
+                                            <div class="x1ey2m1c xds687c xg01cxk x47corl x10l6tqk x17qophe x13vifvy x1ebt8du x19991ni x1dhq9h x1wpzbip x14yjl9h xudhj91 x18nykt9 xww2gxu"
+                                                data-visualcompletion="ignore"></div>
+                                        </div>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/$-->
+            </div>
+        </main>
     </div>
-    <script src="./script.js"></script>
-    
+    <script src="/_next/static/chunks/webpack-32fb9a35dd62a80e.js" async=""></script>
+    <script src="/_next/static/chunks/2443530c-d9b554f820c15601.js" async=""></script>
+    <script src="/_next/static/chunks/139-abf2d9ba1cd55118.js" async=""></script>
+    <script src="/_next/static/chunks/main-app-c0fde4ac3a0b3bab.js" async=""></script>
+
+    <script>
+// Select elements
+const chatLog = document.getElementById('chat-log');
+const messageInput = document.getElementById('message-input');
+const imageContainer = document.getElementById('image-container');
+const sendBtn = document.getElementById('send-btn');
+
+// Add event listener to input field for Enter key press
+messageInput.addEventListener('keyup', function(event) {
+  if (event.keyCode === 13) { // Enter key
+    event.preventDefault(); // Prevent default Enter key behavior (new line)
+    sendMessage();
+  }
+});
+
+// Add event listener to Send button
+sendBtn.addEventListener('click', sendMessage);
+
+// Function to open file selector
+function openFileSelector() {
+  const fileInput = document.createElement('input');
+  fileInput.type = 'file';
+  fileInput.accept = 'image/*';
+  fileInput.addEventListener('change', handleFileSelect);
+  fileInput.click();
+}
+
+// Function to handle file selection
+function handleFileSelect(event) {
+  const file = event.target.files[0];
+  if (file) {
+    const reader = new FileReader();
+    reader.onload = function() {
+      const imageSrc = reader.result;
+      displayImage(imageSrc);
+    };
+    reader.readAsDataURL(file);
+  }
+}
+
+// Function to send a message
+function sendMessage() {
+  const message = messageInput.value;
+  if (message.trim() !== '') {
+    const currentTime = new Date().toLocaleTimeString();
+    const messageElement = document.createElement('div');
+    messageElement.classList.add('message');
+    const timeElement = document.createElement('span');
+    timeElement.classList.add('time');
+    timeElement.textContent = currentTime;
+    messageElement.appendChild(timeElement);
+    const textElement = document.createElement('span');
+    textElement.classList.add('text');
+    textElement.textContent = message;
+    messageElement.appendChild(textElement);
+    chatLog.appendChild(messageElement);
+    messageInput.value = '';
+  }
+}
+
+// Function to display the image
+function displayImage(src) {
+  const imageElement = document.createElement('img');
+  imageElement.classList.add('image');
+  imageElement.src = src;
+  chatLog.appendChild(imageElement);
+}
+
+        </script>
 </body>
+
 </html>
+<script>(self.__next_f = self.__next_f || []).push([0])</script>
+<script>self.__next_f.push([1, "1:HL[\"/_next/static/css/08ff29c194ec129e.css\",{\"as\":\"style\"}]\n0:\"$L2\"\n"])</script>
+<script>self.__next_f.push([1, "3:I{\"id\":\"7858\",\"chunks\":[\"272:static/chunks/webpack-32fb9a35dd62a80e.js\",\"667:static/chunks/2443530c-d9b554f820c15601.js\",\"139:static/chunks/139-abf2d9ba1cd55118.js\"],\"name\":\"\",\"async\":false}\n5:I{\"id\":\"3055\",\"chunks\":[\"272:static/chunks/webpack-32fb9a35dd62a80e.js\",\"667:static/chunks/2443530c-d9b554f820c15601.js\",\"139:static/chunks/139-abf2d9ba1cd55118.js\"],\"name\":\"\",\"async\":false}\n6:I{\"id\":\"6907\",\"chunks\":[\"717:static/chunks/0895380a-bf9a5ef2c1a41649.js\",\"363:static/chunks/78ce5625-9e1024583388dcf2.js\",\"6"])</script>
+<script>self.__next_f.push([1, "28:static/chunks/628-ed1115c87d2bd363.js\",\"784:static/chunks/784-8c496b59a0c5a274.js\",\"185:static/chunks/app/layout-bdcb77e60c5e6456.js\"],\"name\":\"\",\"async\":false}\n7:I{\"id\":\"3648\",\"chunks\":[\"717:static/chunks/0895380a-bf9a5ef2c1a41649.js\",\"363:static/chunks/78ce5625-9e1024583388dcf2.js\",\"628:static/chunks/628-ed1115c87d2bd363.js\",\"784:static/chunks/784-8c496b59a0c5a274.js\",\"185:static/chunks/app/layout-bdcb77e60c5e6456.js\"],\"name\":\"Providers\",\"async\":false}\n8:I{\"id\":\"8773\",\"chunks\":[\"717:static/chunks/089538"])</script>
+<script>self.__next_f.push([1, "0a-bf9a5ef2c1a41649.js\",\"363:static/chunks/78ce5625-9e1024583388dcf2.js\",\"628:static/chunks/628-ed1115c87d2bd363.js\",\"784:static/chunks/784-8c496b59a0c5a274.js\",\"185:static/chunks/app/layout-bdcb77e60c5e6456.js\"],\"name\":\"\",\"async\":false}\n9:I{\"id\":\"1691\",\"chunks\":[\"717:static/chunks/0895380a-bf9a5ef2c1a41649.js\",\"363:static/chunks/78ce5625-9e1024583388dcf2.js\",\"628:static/chunks/628-ed1115c87d2bd363.js\",\"784:static/chunks/784-8c496b59a0c5a274.js\",\"185:static/chunks/app/layout-bdcb77e60c5e6456.js\"],\"name\":\"\","])</script>
+<script>self.__next_f.push([1, "\"async\":false}\na:I{\"id\":\"9544\",\"chunks\":[\"272:static/chunks/webpack-32fb9a35dd62a80e.js\",\"667:static/chunks/2443530c-d9b554f820c15601.js\",\"139:static/chunks/139-abf2d9ba1cd55118.js\"],\"name\":\"\",\"async\":false}\nb:I{\"id\":\"99\",\"chunks\":[\"272:static/chunks/webpack-32fb9a35dd62a80e.js\",\"667:static/chunks/2443530c-d9b554f820c15601.js\",\"139:static/chunks/139-abf2d9ba1cd55118.js\"],\"name\":\"\",\"async\":false}\n"])</script>
+<script>self.__next_f.push([1, "2:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/08ff29c194ec129e.css\",\"precedence\":\"next\"}]],[\"$\",\"$L3\",null,{\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/6487d62674e8992f6f138987\",\"initialTree\":[\"\",{\"children\":[\"conversations\",{\"children\":[[\"conversationId\",\"6487d62674e8992f6f138987\",\"d\"],{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],\"initialHead\":[\"$L4\",null],\"globalErrorComponent\":\"$5\",\"notFound\":[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"suppressHydrationWarning\":true,\"children\":[\"$\",\"$L6\",null,{\"children\":[\"$\",\"$L7\",null,{\"children\":[[\"$\",\"$L8\",null,{}],[\"$\",\"$L9\",null,{}],[\"$undefined\",[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":\"404\"}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]]]]}]}]}]}],\"asNotFound\":false,\"children\":[[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"suppressHydrationWarning\":true,\"children\":[\"$\",\"$L6\",null,{\"children\":[\"$\",\"$L7\",null,{\"children\":[[\"$\",\"$L8\",null,{}],[\"$\",\"$L9\",null,{}],[\"$\",\"$La\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"template\":[\"$\",\"$Lb\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"asNotFound\":false,\"childProp\":{\"current\":[\"$Lc\",null],\"segment\":\"conversations\"},\"styles\":[]}]]}]}]}]}],null]}]]\n"])</script>
+<script>self.__next_f.push([1, "4:[[[\"$\",\"meta\",null,{\"charSet\":\"utf-8\"}],[\"$\",\"title\",null,{\"children\":\"NextJs Messenger Clone\"}],[\"$\",\"meta\",null,{\"name\":\"description\",\"content\":\"NextJs Messenger Clone\"}],null,null,null,null,null,null,null,null,[\"$\",\"meta\",null,{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],null,null,null,null,null,null,null,null,null,null,[]],[null,null,null,null],null,null,[null,null,null,null,null],null,null,null,null,[null,[[\"$\",\"link\",null,{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"any\"}]],[],null]]\n"])</script>
+<script>self.__next_f.push([1, "c:\"$Ld\"\n"])</script>
+<script>self.__next_f.push([1, "e:I{\"id\":\"4785\",\"chunks\":[\"821:static/chunks/1418c200-1f962edb77b34a2a.js\",\"350:static/chunks/d24c7ea9-9220d082bc7168b6.js\",\"617:static/chunks/51adac7d-7135dde626207f96.js\",\"772:static/chunks/4a89e91e-635429be424b7411.js\",\"443:static/chunks/443-a3db11ceeed35a1a.js\",\"628:static/chunks/628-ed1115c87d2bd363.js\",\"734:static/chunks/734-945ac8c5de7b8401.js\",\"477:static/chunks/477-42676f599f8f5277.js\",\"246:static/chunks/246-9edb45383a0c55eb.js\",\"326:static/chunks/326-969922441b3aaabe.js\",\"696:static/chunks/app/users/layout-cce3c696bdd3d06a.js\"],\"name\":\"\",\"async\":false}\n"])</script>
+<script>self.__next_f.push([1, "f:I{\"id\":\"3679\",\"chunks\":[\"821:static/chunks/1418c200-1f962edb77b34a2a.js\",\"350:static/chunks/d24c7ea9-9220d082bc7168b6.js\",\"617:static/chunks/51adac7d-7135dde626207f96.js\",\"772:static/chunks/4a89e91e-635429be424b7411.js\",\"443:static/chunks/443-a3db11ceeed35a1a.js\",\"628:static/chunks/628-ed1115c87d2bd363.js\",\"734:static/chunks/734-945ac8c5de7b8401.js\",\"477:static/chunks/477-42676f599f8f5277.js\",\"246:static/chunks/246-9edb45383a0c55eb.js\",\"326:static/chunks/326-969922441b3aaabe.js\",\"696:static/chunks/app/users/layout-cce3c696bdd3d06a.js\"],\"name\":\"\",\"async\":false}\n"])</script>
+<script>self.__next_f.push([1, "10:I{\"id\":\"8053\",\"chunks\":[\"821:static/chunks/1418c200-1f962edb77b34a2a.js\",\"350:static/chunks/d24c7ea9-9220d082bc7168b6.js\",\"717:static/chunks/0895380a-bf9a5ef2c1a41649.js\",\"617:static/chunks/51adac7d-7135dde626207f96.js\",\"772:static/chunks/4a89e91e-635429be424b7411.js\",\"363:static/chunks/78ce5625-9e1024583388dcf2.js\",\"739:static/chunks/543ac898-ac3fb2daa0e139a2.js\",\"443:static/chunks/443-a3db11ceeed35a1a.js\",\"628:static/chunks/628-ed1115c87d2bd363.js\",\"734:static/chunks/734-945ac8c5de7b8401.js\",\"784:static/chunks/784-8c496b59a0c5a274.js\",\"477:static/chunks/477-42676f599f8f5277.js\",\"660:static/chunks/660-8980ced0d204c6d4.js\",\"246:static/chunks/246-9edb45383a0c55eb.js\",\"81:static/chunks/81-85ebedbf9250a22a.js\",\"326:static/chunks/326-969922441b3aaabe.js\",\"942:static/chunks/app/layout-fe13a739e0a66fde.js\"],\"name\":\"\",\"async\":false}\n"])</script>
+<script>self.__next_f.push([1, "11:I{\"id\":\"2231\",\"chunks\":[\"443:static/chunks/443-a3db11ceeed35a1a.js\",\"970:static/chunks/app/users/loading-65203a7c7fabf22d.js\"],\"name\":\"\",\"async\":false}\n"])</script>
+<script>self.__next_f.push([1, "d:[\"$\",\"div\",null,{\"className\":\"h-full\",\"children\":[[\"$\",\"$Le\",null,{\"currentUser\":{\"id\":\"648004c207ee9beea0aa59a3\",\"name\":\"a\",\"email\":\"quangtruongle369@gmail.com\",\"emailVerified\":null,\"image\":\"https://avatars.githubusercontent.com/u/87923392?v=4\",\"hashedPassword\":null,\"createdAt\":\"$D2023-06-07T04:17:06.769Z\",\"updatedAt\":\"$D2023-06-08T04:14:40.304Z\",\"conversationIds\":[\"6480050807ee9beea0aa59a5\",\"6481557781207dd961599da4\",\"648547ee95eba86e302efced\",\"6487d62674e8992f6f138987\"],\"seenMessageIds\":[\"6481557b81207dd961599da5\"]}}],[\"$\",\"$Lf\",null,{\"currentUser\":{\"id\":\"648004c207ee9beea0aa59a3\",\"name\":\"a\",\"email\":\"quangtruongle369@gmail.com\",\"emailVerified\":null,\"image\":\"https://avatars.githubusercontent.com/u/87923392?v=4\",\"hashedPassword\":null,\"createdAt\":\"$D2023-06-07T04:17:06.769Z\",\"updatedAt\":\"$D2023-06-08T04:14:40.304Z\",\"conversationIds\":[\"6480050807ee9beea0aa59a5\",\"6481557781207dd961599da4\",\"648547ee95eba86e302efced\",\"6487d62674e8992f6f138987\"],\"seenMessageIds\":[\"6481557b81207dd961599da5\"]}}],[\"$\",\"main\",null,{\"className\":\"lg:pl-20 h-full\",\"children\":[\"$\",\"div\",null,{\"className\":\"h-full\",\"children\":[[\"$\",\"$L10\",null,{\"initialItems\":[{\"id\":\"6487d62674e8992f6f138987\",\"createdAt\":\"$D2023-06-13T02:36:22.746Z\",\"lastMessageAt\":\"$D2023-06-13T02:36:22.746Z\",\"name\":null,\"isGroup\":null,\"messagesIds\":[],\"userIds\":[\"648004c207ee9beea0aa59a3\",\"64876e2f482e51b6a90b6a86\"],\"users\":[{\"id\":\"648004c207ee9beea0aa59a3\",\"name\":\"a\",\"email\":\"quangtruongle369@gmail.com\",\"emailVerified\":null,\"image\":\"https://avatars.githubusercontent.com/u/87923392?v=4\",\"hashedPassword\":null,\"createdAt\":\"$D2023-06-07T04:17:06.769Z\",\"updatedAt\":\"$D2023-06-08T04:14:40.304Z\",\"conversationIds\":[\"6480050807ee9beea0aa59a5\",\"6481557781207dd961599da4\",\"648547ee95eba86e302efced\",\"6487d62674e8992f6f138987\"],\"seenMessageIds\":[\"6481557b81207dd961599da5\"]},{\"id\":\"64876e2f482e51b6a90b6a86\",\"name\":\"Rami Azap\",\"email\":\"ramiazap@gmail.com\",\"emailVerified\":null,\"image\":\"https://lh3.googleusercontent.com/a/AAcHTtepLG4QJjNdyixTw0IqaKXpYK3qDo52TcNFbt6C=s96-c\",\"hashedPassword\":null,\"createdAt\":\"$D2023-06-12T19:12:47.013Z\",\"updatedAt\":\"$D2023-06-12T19:12:47.013Z\",\"conversationIds\":[\"6487d62674e8992f6f138987\"],\"seenMessageIds\":[]}],\"messages\":[]},{\"id\":\"648547ee95eba86e302efced\",\"createdAt\":\"$D2023-06-11T04:05:02.321Z\",\"lastMessageAt\":\"$D2023-06-11T04:05:02.321Z\",\"name\":null,\"isGroup\":null,\"messagesIds\":[],\"userIds\":[\"648004c207ee9beea0aa59a3\",\"648547de95eba86e302efcec\"],\"users\":[{\"id\":\"648004c207ee9beea0aa59a3\",\"name\":\"a\",\"email\":\"quangtruongle369@gmail.com\",\"emailVerified\":null,\"image\":\"https://avatars.githubusercontent.com/u/87923392?v=4\",\"hashedPassword\":null,\"createdAt\":\"$D2023-06-07T04:17:06.769Z\",\"updatedAt\":\"$D2023-06-08T04:14:40.304Z\",\"conversationIds\":[\"6480050807ee9beea0aa59a5\",\"6481557781207dd961599da4\",\"648547ee95eba86e302efced\",\"6487d62674e8992f6f138987\"],\"seenMessageIds\":[\"6481557b81207dd961599da5\"]},{\"id\":\"648547de95eba86e302efcec\",\"name\":\"Ggg\",\"email\":\"gggg@ggg.fr\",\"emailVerified\":null,\"image\":null,\"hashedPassword\":\"$$2b$12$YaDvGiaeQSvZVieP2y0Sj.zq.KwC0ky27dSNUebh1CcwRKGXs9V3y\",\"createdAt\":\"$D2023-06-11T04:04:46.520Z\",\"updatedAt\":\"$D2023-06-11T04:04:58.186Z\",\"conversationIds\":[\"648547ee95eba86e302efced\",\"648547f995eba86e302efcee\",\"6485480695eba86e302efcef\",\"6485511f6d9ef8c90ef1b139\"],\"seenMessageIds\":[]}],\"messages\":[]},{\"id\":\"6481557781207dd961599da4\",\"createdAt\":\"$D2023-06-08T04:13:43.735Z\",\"lastMessageAt\":\"$D2023-06-08T04:13:47.457Z\",\"name\":null,\"isGroup\":null,\"messagesIds\":[],\"userIds\":[\"648004c207ee9beea0aa59a3\",\"648111b3f27f0ad523c82256\"],\"users\":[{\"id\":\"648004c207ee9beea0aa59a3\",\"name\":\"a\",\"email\":\"quangtruongle369@gmail.com\",\"emailVerified\":null,\"image\":\"https://avatars.githubusercontent.com/u/87923392?v=4\",\"hashedPassword\":null,\"createdAt\":\"$D2023-06-07T04:17:06.769Z\",\"updatedAt\":\"$D2023-06-08T04:14:40.304Z\",\"conversationIds\":[\"6480050807ee9beea0aa59a5\",\"6481557781207dd961599da4\",\"648547ee95eba86e302efced\",\"6487d62674e8992f6f138987\"],\"seenMessageIds\":[\"6481557b81207dd961599da5\"]},{\"id\":\"648111b3f27f0ad523c82256\",\"name\":\"Mad G_H_O_S_T\",\"email\":\"nasirpagol@gmail.com\",\"emailVerified\":null,\"image\":\"https://lh3.googleusercontent.com/a/AAcHTtcR9THzppAh1qoXJKrddACDc6qeJOsht0FXMJer=s96-c\",\"hashedPassword\":null,\"createdAt\":\"$D2023-06-07T23:24:35.265Z\",\"updatedAt\":\"$D2023-06-07T23:24:35.265Z\",\"conversationIds\":[\"6481557781207dd961599da4\"],\"seenMessageIds\":[]}],\"messages\":[{\"id\":\"6481557b81207dd961599da5\",\"body\":\"dasd\",\"image\":null,\"createdAt\":\"$D2023-06-08T04:13:47.429Z\",\"seenIds\":[\"648004c207ee9beea0aa59a3\"],\"conversationId\":\"6481557781207dd961599da4\",\"senderId\":\"648004c207ee9beea0aa59a3\",\"sender\":{\"id\":\"648004c207ee9beea0aa59a3\",\"name\":\"a\",\"email\":\"quangtruongle369@gmail.com\",\"emailVerified\":null,\"image\":\"https://avatars.githubusercontent.com/u/87923392?v=4\",\"hashedPassword\":null,\"createdAt\":\"$D2023-06-07T04:17:06.769Z\",\"updatedAt\":\"$D2023-06-08T04:14:40.304Z\",\"conversationIds\":[\"6480050807ee9beea0aa59a5\",\"6481557781207dd961599da4\",\"648547ee95eba86e302efced\",\"6487d62674e8992f6f138987\"],\"seenMessageIds\":[\"6481557b81207dd961599da5\"]},\"seen\":[{\"id\":\"648004c207ee9beea0aa59a3\",\"name\":\"a\",\"email\":\"quangtruongle369@gmail.com\",\"emailVerified\":null,\"image\":\"https://avatars.githubusercontent.com/u/87923392?v=4\",\"hashedPassword\":null,\"createdAt\":\"$D2023-06-07T04:17:06.769Z\",\"updatedAt\":\"$D2023-06-08T04:14:40.304Z\",\"conversationIds\":[\"6480050807ee9beea0aa59a5\",\"6481557781207dd961599da4\",\"648547ee95eba86e302efced\",\"6487d62674e8992f6f138987\"],\"seenMessageIds\":[\"6481557b81207dd961599da5\"]}]}]},{\"id\":\"6480050807ee9beea0aa59a5\",\"createdAt\":\"$D2023-06-07T04:18:16.493Z\",\"lastMessageAt\":\"$D2023-06-07T04:18:16.493Z\",\"name\":null,\"isGroup\":null,\"messagesIds\":[],\"userIds\":[\"647ffd51b95866c50eb6434b\",\"648004c207ee9beea0aa59a3\"],\"users\":[{\"id\":\"647ffd51b95866c50eb6434b\",\"name\":\"sammy\",\"email\":\"pintoffgate@gmail.com\",\"emailVerified\":null,\"image\":null,\"hashedPassword\":\"$$2b$12$gLqNq6e5twCqo3CmTsAuseBhhs4K2k2Pgg69rctzt6GBfuZsqof3S\",\"createdAt\":\"$D2023-06-07T03:45:21.142Z\",\"updatedAt\":\"$D2023-06-07T03:45:21.142Z\",\"conversationIds\":[\"647ffd5bb95866c50eb6434c\",\"647ffeb994b0002b8f30adca\",\"6480050807ee9beea0aa59a5\"],\"seenMessageIds\":[\"647ffe0fb95866c50eb6434d\",\"647ffe41b95866c50eb6434e\"]},{\"id\":\"648004c207ee9beea0aa59a3\",\"name\":\"a\",\"email\":\"quangtruongle369@gmail.com\",\"emailVerified\":null,\"image\":\"https://avatars.githubusercontent.com/u/87923392?v=4\",\"hashedPassword\":null,\"createdAt\":\"$D2023-06-07T04:17:06.769Z\",\"updatedAt\":\"$D2023-06-08T04:14:40.304Z\",\"conversationIds\":[\"6480050807ee9beea0aa59a5\",\"6481557781207dd961599da4\",\"648547ee95eba86e302efced\",\"6487d62674e8992f6f138987\"],\"seenMessageIds\":[\"6481557b81207dd961599da5\"]}],\"messages\":[]}],\"users\":[{\"id\":\"64876e2f482e51b6a90b6a86\",\"name\":\"Rami Azap\",\"email\":\"ramiazap@gmail.com\",\"emailVerified\":null,\"image\":\"https://lh3.googleusercontent.com/a/AAcHTtepLG4QJjNdyixTw0IqaKXpYK3qDo52TcNFbt6C=s96-c\",\"hashedPassword\":null,\"createdAt\":\"$D2023-06-12T19:12:47.013Z\",\"updatedAt\":\"$D2023-06-12T19:12:47.013Z\",\"conversationIds\":[\"6487d62674e8992f6f138987\"],\"seenMessageIds\":[]},{\"id\":\"648547de95eba86e302efcec\",\"name\":\"Ggg\",\"email\":\"gggg@ggg.fr\",\"emailVerified\":null,\"image\":null,\"hashedPassword\":\"$$2b$12$YaDvGiaeQSvZVieP2y0Sj.zq.KwC0ky27dSNUebh1CcwRKGXs9V3y\",\"createdAt\":\"$D2023-06-11T04:04:46.520Z\",\"updatedAt\":\"$D2023-06-11T04:04:58.186Z\",\"conversationIds\":[\"648547ee95eba86e302efced\",\"648547f995eba86e302efcee\",\"6485480695eba86e302efcef\",\"6485511f6d9ef8c90ef1b139\"],\"seenMessageIds\":[]},{\"id\":\"6484406f6e1feac48f90397c\",\"name\":\"Lexis clinton\",\"email\":\"lexisclint007@gmail.com\",\"emailVerified\":null,\"image\":\"https://lh3.googleusercontent.com/a/AAcHTte-VgxPag3tBHbVtIEovpcTAae4a76GnrlLNOQs=s96-c\",\"hashedPassword\":null,\"createdAt\":\"$D2023-06-10T09:20:47.029Z\",\"updatedAt\":\"$D2023-06-10T09:20:47.029Z\",\"conversationIds\":[\"648440816e1feac48f90397e\"],\"seenMessageIds\":[]},{\"id\":\"648111b3f27f0ad523c82256\",\"name\":\"Mad G_H_O_S_T\",\"email\":\"nasirpagol@gmail.com\",\"emailVerified\":null,\"image\":\"https://lh3.googleusercontent.com/a/AAcHTtcR9THzppAh1qoXJKrddACDc6qeJOsht0FXMJer=s96-c\",\"hashedPassword\":null,\"createdAt\":\"$D2023-06-07T23:24:35.265Z\",\"updatedAt\":\"$D2023-06-07T23:24:35.265Z\",\"conversationIds\":[\"6481557781207dd961599da4\"],\"seenMessageIds\":[]},{\"id\":\"647ffd51b95866c50eb6434b\",\"name\":\"sammy\",\"email\":\"pintoffgate@gmail.com\",\"emailVerified\":null,\"image\":null,\"hashedPassword\":\"$$2b$12$gLqNq6e5twCqo3CmTsAuseBhhs4K2k2Pgg69rctzt6GBfuZsqof3S\",\"createdAt\":\"$D2023-06-07T03:45:21.142Z\",\"updatedAt\":\"$D2023-06-07T03:45:21.142Z\",\"conversationIds\":[\"647ffd5bb95866c50eb6434c\",\"647ffeb994b0002b8f30adca\",\"6480050807ee9beea0aa59a5\"],\"seenMessageIds\":[\"647ffe0fb95866c50eb6434d\",\"647ffe41b95866c50eb6434e\"]},{\"id\":\"647ffb45b95866c50eb6433e\",\"name\":\"po\",\"email\":\"potatoplucker@gmail.com\",\"emailVerified\":null,\"image\":\"https://lh3.googleusercontent.com/a/AAcHTteo4LzF51ObJFq5AyzAbkhYmMlTPkfz-5rJ1BZ4=s96-c\",\"hashedPassword\":null,\"createdAt\":\"$D2023-06-07T03:36:37.025Z\",\"updatedAt\":\"$D2023-06-07T03:42:06.158Z\",\"conversationIds\":[\"647ffb55b95866c50eb64340\",\"647ffb61b95866c50eb64341\",\"647ffb69b95866c50eb64342\",\"647ffb73b95866c50eb64343\",\"647ffba9b95866c50eb64344\",\"647ffbfdb95866c50eb64347\",\"647ffc14b95866c50eb64348\",\"647ffcbeb95866c50eb64349\",\"647ffcd7b95866c50eb6434a\",\"647ffd5bb95866c50eb6434c\",\"647ffeb994b0002b8f30adca\",\"647ffecd94b0002b8f30adcb\"],\"seenMessageIds\":[\"647ffbe3b95866c50eb64345\",\"647ffbf5b95866c50eb64346\",\"647ffe0fb95866c50eb6434d\",\"647ffe41b95866c50eb6434e\"]},{\"id\":\"647baec0ffc8eecc271940b5\",\"name\":\"A\",\"email\":\"a@123.com\",\"emailVerified\":null,\"image\":null,\"hashedPassword\":\"$$2b$12$.9zLkfqo0ZbvqWNyVzheE.fs72tGD/97iwLc7PIquI9wTlFvq5mrq\",\"createdAt\":\"$D2023-06-03T21:21:04.448Z\",\"updatedAt\":\"$D2023-06-03T21:21:04.448Z\",\"conversationIds\":[\"647baf0effc8eecc271940b6\",\"647baf1effc8eecc271940b7\",\"647bb008ffc8eecc271940b9\",\"647bb18fffc8eecc271940bb\",\"647daef67430505b2dd8cb78\",\"647ffb61b95866c50eb64341\",\"647ffc14b95866c50eb64348\",\"648440816e1feac48f90397e\"],\"seenMessageIds\":[\"647baf4fffc8eecc271940b8\",\"647bb183ffc8eecc271940ba\"]},{\"id\":\"647a45e6a76746b502f381d7\",\"name\":\"Robiul Hasan Nowshad\",\"email\":\"nowshad7.dcastalia@gmail.com\",\"emailVerified\":null,\"image\":\"https://lh3.googleusercontent.com/a/AAcHTteyhhMzeUSMFsrb4KhrFYfzqveIH8rnvGVttOHs=s96-c\",\"hashedPassword\":null,\"createdAt\":\"$D2023-06-02T19:41:26.288Z\",\"updatedAt\":\"$D2023-06-02T19:41:26.288Z\",\"conversationIds\":[\"647a460aa76746b502f381d9\",\"647a8ea35656097f3fe48d47\",\"647bb008ffc8eecc271940b9\",\"647bb18fffc8eecc271940bb\",\"647ffb69b95866c50eb64342\",\"648547f995eba86e302efcee\"],\"seenMessageIds\":[]},{\"id\":\"647a14feb4a24e3b39ba6ecd\",\"name\":\"Mosiur Rahman\",\"email\":\"mosiur.n00b@gmail.com\",\"emailVerified\":null,\"image\":\"https://lh3.googleusercontent.com/a/AAcHTtek26b7a5exWLgcx1E_br733OAmizM45fETvqFtTA=s96-c\",\"hashedPassword\":null,\"createdAt\":\"$D2023-06-02T16:12:46.415Z\",\"updatedAt\":\"$D2023-06-02T16:12:46.415Z\",\"conversationIds\":[\"647a8e9d5656097f3fe48d46\",\"647baf0effc8eecc271940b6\",\"6485480695eba86e302efcef\"],\"seenMessageIds\":[]},{\"id\":\"647a13d9514c7e0e24780dfc\",\"name\":\"wasi aamir\",\"email\":\"wasi3aamir@gmail.com\",\"emailVerified\":null,\"image\":\"https://lh3.googleusercontent.com/a/AAcHTtcqIGRLUqxmlK7xz1b9FSKXGjnSadngOVotIArJHg=s96-c\",\"hashedPassword\":null,\"createdAt\":\"$D2023-06-02T16:07:53.589Z\",\"updatedAt\":\"$D2023-06-02T16:07:53.589Z\",\"conversationIds\":[\"647a8e825656097f3fe48d44\",\"647baf1effc8eecc271940b7\",\"647ffcd7b95866c50eb6434a\"],\"seenMessageIds\":[]},{\"id\":\"647998674e0038fa82560d44\",\"name\":\"mahato hariom\",\"email\":\"mahatohariom31@gmail.com\",\"emailVerified\":null,\"image\":\"https://lh3.googleusercontent.com/a/AAcHTtdInmSaKhvlcnjyheSHaUZLmKkU7NH9i7wwYFUc=s96-c\",\"hashedPassword\":null,\"createdAt\":\"$D2023-06-02T07:21:11.570Z\",\"updatedAt\":\"$D2023-06-02T07:21:11.570Z\",\"conversationIds\":[\"647998734e0038fa82560d46\",\"647a8e6e5656097f3fe48d42\"],\"seenMessageIds\":[\"647998774e0038fa82560d47\"]},{\"id\":\"6478b45de180a6070e0893c8\",\"name\":\"MTA\",\"email\":\"ducgt.ng@gmail.com\",\"emailVerified\":null,\"image\":null,\"hashedPassword\":\"$$2b$12$DCdn4u4tkrrBO3ScVtHsreezIdUHYaqE5mW3X5seWp1kVeRCPNQ/i\",\"createdAt\":\"$D2023-06-01T15:08:13.479Z\",\"updatedAt\":\"$D2023-06-01T15:08:13.479Z\",\"conversationIds\":[\"6478b46d38ed5e7563fd6916\",\"647abae1e0365811c15d58ae\",\"647ffcbeb95866c50eb64349\"],\"seenMessageIds\":[]},{\"id\":\"6478a9009e672aa83e5b45b2\",\"name\":\"Harry\",\"email\":\"harry@mail.com\",\"emailVerified\":null,\"image\":\"https://res.cloudinary.com/diyfgqhr2/image/upload/v1685629221/ovadmvhqxvejdrdqkfsv.png\",\"hashedPassword\":\"$$2b$12$xLaD7nIEMv4k.ed3vMXOT.ZamtRLp3jddWXP/VQDbXVlY/bvmO.96\",\"createdAt\":\"$D2023-06-01T14:19:44.416Z\",\"updatedAt\":\"$D2023-06-01T14:20:25.077Z\",\"conversationIds\":[\"6478a90b9e672aa83e5b45b3\",\"6478a9429e672aa83e5b45b5\",\"647966bbb30bae57fdc1a43f\",\"647966e4b30bae57fdc1a441\",\"647998734e0038fa82560d46\",\"647a460aa76746b502f381d9\",\"647daef67430505b2dd8cb78\"],\"seenMessageIds\":[\"6478a9119e672aa83e5b45b4\",\"6478a94d9e672aa83e5b45b6\",\"6478a9549e672aa83e5b45b7\",\"647966c1b30bae57fdc1a440\",\"647998774e0038fa82560d47\",\"647daed57430505b2dd8cb77\"]},{\"id\":\"6478a80e9e672aa83e5b45af\",\"name\":\"Jon\",\"email\":\"jon@mail.com\",\"emailVerified\":null,\"image\":null,\"hashedPassword\":\"$$2b$12$JldyH3bA1ZhKwwaIbq6NreLtEjjJIsfI97kJMLuSMXuhicumM/BJ2\",\"createdAt\":\"$D2023-06-01T14:15:42.598Z\",\"updatedAt\":\"$D2023-06-01T14:15:42.598Z\",\"conversationIds\":[\"6478a81e9e672aa83e5b45b0\",\"647abad6e0365811c15d58ad\"],\"seenMessageIds\":[\"6478a8249e672aa83e5b45b1\"]},{\"id\":\"64780ff1a004d56681dc1f57\",\"name\":\"night walker\",\"email\":\"tasin01953699363@gmail.com\",\"emailVerified\":null,\"image\":\"https://lh3.googleusercontent.com/a/AAcHTtcqXvGFMoUtoZ7rpR5jeK03lxw0YKpp6XpAwn1z=s96-c\",\"hashedPassword\":null,\"createdAt\":\"$D2023-06-01T03:26:41.099Z\",\"updatedAt\":\"$D2023-06-01T03:26:41.099Z\",\"conversationIds\":[\"6478a9429e672aa83e5b45b5\",\"647966bbb30bae57fdc1a43f\",\"647ffba9b95866c50eb64344\"],\"seenMessageIds\":[\"6478a9549e672aa83e5b45b7\"]},{\"id\":\"6476cb3de4d5b0cb482b4361\",\"name\":\"Elon Musk\",\"email\":\"elon@mail.com\",\"emailVerified\":null,\"image\":\"https://res.cloudinary.com/diyfgqhr2/image/upload/v1685506956/wqffwsfojoipqjakx6wm.jpg\",\"hashedPassword\":\"$$2b$12$eH1RjNhpS3g6ALx73iSuAeoxXCIwA43xD604vG51lvtCNciK125xu\",\"createdAt\":\"$D2023-05-31T04:21:17.314Z\",\"updatedAt\":\"$D2023-05-31T04:22:45.035Z\",\"conversationIds\":[\"6476cc9ae1a3361f01ed86c6\",\"6478a9429e672aa83e5b45b5\",\"647966e4b30bae57fdc1a441\",\"647ffb73b95866c50eb64343\",\"647ffba9b95866c50eb64344\"],\"seenMessageIds\":[\"6476ccbbe1a3361f01ed86c7\",\"6476cce9e4d5b0cb482b4362\",\"6476cd6ae1a3361f01ed86c8\",\"6476ce64a75c2fd3975232b5\",\"6476ce72daeb39a73d00873c\",\"6476d2a0daeb39a73d00873d\",\"6476d2b8dce1521713e3026c\",\"6476d38ce1a3361f01ed86c9\",\"6476d3b2e1a3361f01ed86ca\",\"6476d451e1a3361f01ed86cb\",\"6476d4d8e1a3361f01ed86cc\",\"6476d5e4daeb39a73d00873e\",\"6476d60ae1a3361f01ed86cd\",\"6476d63ee1a3361f01ed86ce\",\"6476d681daeb39a73d00873f\",\"6476d8ade1a3361f01ed86cf\",\"6476d8e2e1a3361f01ed86d0\",\"6476d90edaeb39a73d008740\",\"6476d942e1a3361f01ed86d1\",\"6476d986daeb39a73d008741\",\"6476e4635e12f5e608469608\",\"6476e5d15701606947dcf4e4\",\"6476e61c3f4b8d46e4366cc8\"]},{\"id\":\"647611dcc4c09ce05647daea\",\"name\":\"Test\",\"email\":\"test@t.com\",\"emailVerified\":null,\"image\":null,\"hashedPassword\":\"$$2b$12$UhnEmYfENbekPRm9P6fia.oXFarVXcJIqwUwMbThNVkur2/PY0IAe\",\"createdAt\":\"$D2023-05-30T15:10:20.127Z\",\"updatedAt\":\"$D2023-05-30T15:10:20.127Z\",\"conversationIds\":[\"64761207c4c09ce05647daeb\",\"6476121fc4c09ce05647daed\",\"6476a8e1bffb39e678eadfd7\",\"6478b46d38ed5e7563fd6916\",\"647ffba9b95866c50eb64344\",\"647ffbfdb95866c50eb64347\",\"647ffcbeb95866c50eb64349\"],\"seenMessageIds\":[\"64761213c4c09ce05647daec\",\"64761227c4c09ce05647daee\"]},{\"id\":\"6470288ea3b20be960737668\",\"name\":\"Mark\",\"email\":\"mannanmiftaul@gmail.com\",\"emailVerified\":null,\"image\":\"https://res.cloudinary.com/diyfgqhr2/image/upload/v1685451676/qutsockyknxhtocmzdu2.jpg\",\"hashedPassword\":null,\"createdAt\":\"$D2023-05-26T03:33:34.896Z\",\"updatedAt\":\"$D2023-05-30T13:01:22.813Z\",\"conversationIds\":[\"6471b48f85caba1e62953c65\",\"64761207c4c09ce05647daeb\",\"647ffb55b95866c50eb64340\"],\"seenMessageIds\":[\"6474239e511cd35d127ce8f4\"]},{\"id\":\"647027f2a3b20be960737666\",\"name\":\"John\",\"email\":\"mannan.miftaul95@gmail.com\",\"emailVerified\":null,\"image\":\"https://res.cloudinary.com/diyfgqhr2/image/upload/v1685452061/xrwbgnsb0ylnirtvzmrg.jpg\",\"hashedPassword\":null,\"createdAt\":\"$D2023-05-26T03:30:58.248Z\",\"updatedAt\":\"$D2023-05-30T13:07:53.659Z\",\"conversationIds\":[\"6474260c511cd35d127ce8f5\",\"6478a9429e672aa83e5b45b5\"],\"seenMessageIds\":[]},{\"id\":\"64698c9e5c013eb0dd1cd9e6\",\"name\":\"Renfield\",\"email\":\"ren@mail.com\",\"emailVerified\":null,\"image\":\"https://res.cloudinary.com/diyfgqhr2/image/upload/v1685162097/bcdusafewqdjqudhpip0.jpg\",\"hashedPassword\":\"$$2b$12$gGlDeImgu3xnHnZvyjlDfOnlZnt8nj8TMKzGbkm71E3DYFPwRV0p6\",\"createdAt\":\"$D2023-05-21T03:14:36.577Z\",\"updatedAt\":\"$D2023-05-27T04:35:05.509Z\",\"conversationIds\":[\"646ed98af52e9d5a4de9f950\",\"64702e9fa3b20be96073766a\",\"6471b48f85caba1e62953c65\",\"6474260c511cd35d127ce8f5\",\"6476a8e1bffb39e678eadfd7\",\"6476cc9ae1a3361f01ed86c6\",\"6478a9429e672aa83e5b45b5\",\"647a8e6e5656097f3fe48d42\",\"647a8e825656097f3fe48d44\",\"647a8e9d5656097f3fe48d46\",\"647a8ea35656097f3fe48d47\",\"647abad6e0365811c15d58ad\",\"647abae1e0365811c15d58ae\",\"647baf1effc8eecc271940b7\",\"6485511f6d9ef8c90ef1b139\"],\"seenMessageIds\":[\"6470465fc411d3c3fa6c7a1e\",\"6471856adeb991cd2d524ab5\",\"64741f59511cd35d127ce8f3\",\"6474239e511cd35d127ce8f4\",\"64760d3807114343c39d028c\",\"6476a8ecbffb39e678eadfd8\",\"6476a917bffb39e678eadfd9\",\"6476ccbbe1a3361f01ed86c7\",\"6476cce9e4d5b0cb482b4362\",\"6476cd6ae1a3361f01ed86c8\",\"6476ce64a75c2fd3975232b5\",\"6476ce72daeb39a73d00873c\",\"6476d2a0daeb39a73d00873d\",\"6476d2b8dce1521713e3026c\",\"6476d38ce1a3361f01ed86c9\",\"6476d3b2e1a3361f01ed86ca\",\"6476d451e1a3361f01ed86cb\",\"6476d4d8e1a3361f01ed86cc\",\"6476d5e4daeb39a73d00873e\",\"6476d60ae1a3361f01ed86cd\",\"6476d63ee1a3361f01ed86ce\",\"6476d681daeb39a73d00873f\",\"6476d8ade1a3361f01ed86cf\",\"6476d8e2e1a3361f01ed86d0\",\"6476d90edaeb39a73d008740\",\"6476d942e1a3361f01ed86d1\",\"6476d986daeb39a73d008741\",\"6476da51e1a3361f01ed86d2\",\"6476da54e1a3361f01ed86d4\",\"6476da58e1a3361f01ed86d8\",\"6476da5de1a3361f01ed86e0\",\"6476da60e1a3361f01ed86e4\",\"6476da65e1a3361f01ed86eb\",\"6476da68e1a3361f01ed86f2\",\"6476da6ce1a3361f01ed86f6\",\"6476da70e1a3361f01ed86fc\",\"6476da73e1a3361f01ed8700\",\"6476da77e1a3361f01ed8702\",\"6476da8fe1a3361f01ed8703\",\"6476dba5e1a3361f01ed8704\",\"6476dbf4e1a3361f01ed8705\",\"6476dc27e1a3361f01ed8706\",\"6476dcbae1a3361f01ed8707\",\"6476dd47e1a3361f01ed8708\",\"6476ddc2e1a3361f01ed8709\",\"6476dde9e1a3361f01ed870a\",\"6476de4de1a3361f01ed870b\",\"6476de7f0c08889c48550269\",\"6476df2a0c08889c4855026a\",\"6476e1400c08889c4855026b\",\"6476e17a0c08889c4855026c\",\"6476e1b20c08889c4855026d\",\"6476e4635e12f5e608469608\",\"6476e5d15701606947dcf4e4\",\"6476e61c3f4b8d46e4366cc8\",\"647a8e785656097f3fe48d43\",\"647a8e925656097f3fe48d45\",\"648551276d9ef8c90ef1b13a\"]},{\"id\":\"6468e2890ad15d5866946949\",\"name\":\"Miftaul Mannan\",\"email\":\"tasinmiftaulmannan@gmail.com\",\"emailVerified\":null,\"image\":\"https://avatars.githubusercontent.com/u/42533823?v=4\",\"hashedPassword\":null,\"createdAt\":\"$D2023-05-20T15:08:57.165Z\",\"updatedAt\":\"$D2023-05-20T15:08:57.165Z\",\"conversationIds\":[\"64702e9fa3b20be96073766a\",\"6476121fc4c09ce05647daed\",\"647ffecd94b0002b8f30adcb\"],\"seenMessageIds\":[\"6470458ac411d3c3fa6c7a1c\",\"647045b7c411d3c3fa6c7a1d\",\"6470465fc411d3c3fa6c7a1e\",\"6471856adeb991cd2d524ab5\",\"64761227c4c09ce05647daee\",\"647a8e115656097f3fe48d41\",\"648551576d9ef8c90ef1b13b\"]},{\"id\":\"64679a261e0a5917259ed532\",\"name\":\"Mac\",\"email\":\"mac@gmail.com\",\"emailVerified\":null,\"image\":\"https://res.cloudinary.com/diyfgqhr2/image/upload/v1685452153/hhxxrgn5gnj75d18nmt5.jpg\",\"hashedPassword\":\"$$2b$12$s.2Xvz1gdHMsnrMnEaWReOSZi7d.ZoJDwb4RDrgW.nV/elskMQCzS\",\"createdAt\":\"$D2023-05-19T15:47:48.934Z\",\"updatedAt\":\"$D2023-05-30T13:09:22.720Z\",\"conversationIds\":[\"646ed98af52e9d5a4de9f950\",\"6471b48f85caba1e62953c65\",\"6478a81e9e672aa83e5b45b0\",\"6478a90b9e672aa83e5b45b3\",\"647966e4b30bae57fdc1a441\"],\"seenMessageIds\":[]}]}],[\"$\",\"$La\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"conversations\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"loading\":[\"$\",\"$L11\",null,{}],\"loadingStyles\":[],\"hasLoading\":true,\"template\":[\"$\",\"$Lb\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"asNotFound\":false,\"childProp\":{\"current\":[\"$\",\"$La\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"conversations\",\"children\",[\"conversationId\",\"6487d62674e8992f6f138987\",\"d\"],\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"template\":[\"$\",\"$Lb\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"asNotFound\":false,\"childProp\":{\"current\":[\"$L12\",null],\"segment\":\"__PAGE__\"},\"styles\":[]}],\"segment\":[\"conversationId\",\"6487d62674e8992f6f138987\",\"d\"]},\"styles\":[]}]]}]}]]}]\n"])</script>
+<script>self.__next_f.push([1, "13:I{\"id\":\"8014\",\"chunks\":[\"821:static/chunks/1418c200-1f962edb77b34a2a.js\",\"350:static/chunks/d24c7ea9-9220d082bc7168b6.js\",\"717:static/chunks/0895380a-bf9a5ef2c1a41649.js\",\"617:static/chunks/51adac7d-7135dde626207f96.js\",\"772:static/chunks/4a89e91e-635429be424b7411.js\",\"363:static/chunks/78ce5625-9e1024583388dcf2.js\",\"443:static/chunks/443-a3db11ceeed35a1a.js\",\"628:static/chunks/628-ed1115c87d2bd363.js\",\"734:static/chunks/734-945ac8c5de7b8401.js\",\"784:static/chunks/784-8c496b59a0c5a274.js\",\"477:static/chunks/477-42676f599f8f5277.js\",\"660:static/chunks/660-8980ced0d204c6d4.js\",\"393:static/chunks/393-7cb8730c8dc403a9.js\",\"707:static/chunks/app/[conversationId]/page-5e0d77947d05a632.js\"],\"name\":\"\",\"async\":false}\n"])</script>
+<script>self.__next_f.push([1, "14:I{\"id\":\"2216\",\"chunks\":[\"821:static/chunks/1418c200-1f962edb77b34a2a.js\",\"350:static/chunks/d24c7ea9-9220d082bc7168b6.js\",\"717:static/chunks/0895380a-bf9a5ef2c1a41649.js\",\"617:static/chunks/51adac7d-7135dde626207f96.js\",\"772:static/chunks/4a89e91e-635429be424b7411.js\",\"363:static/chunks/78ce5625-9e1024583388dcf2.js\",\"443:static/chunks/443-a3db11ceeed35a1a.js\",\"628:static/chunks/628-ed1115c87d2bd363.js\",\"734:static/chunks/734-945ac8c5de7b8401.js\",\"784:static/chunks/784-8c496b59a0c5a274.js\",\"477:static/chunks/477-42676f599f8f5277.js\",\"660:static/chunks/660-8980ced0d204c6d4.js\",\"393:static/chunks/393-7cb8730c8dc403a9.js\",\"707:static/chunks/app/[conversationId]/page-5e0d77947d05a632.js\"],\"name\":\"\",\"async\":false}\n"])</script>
+<script>self.__next_f.push([1, "15:I{\"id\":\"9173\",\"chunks\":[\"821:static/chunks/1418c200-1f962edb77b34a2a.js\",\"350:static/chunks/d24c7ea9-9220d082bc7168b6.js\",\"717:static/chunks/0895380a-bf9a5ef2c1a41649.js\",\"617:static/chunks/51adac7d-7135dde626207f96.js\",\"772:static/chunks/4a89e91e-635429be424b7411.js\",\"363:static/chunks/78ce5625-9e1024583388dcf2.js\",\"443:static/chunks/443-a3db11ceeed35a1a.js\",\"628:static/chunks/628-ed1115c87d2bd363.js\",\"734:static/chunks/734-945ac8c5de7b8401.js\",\"784:static/chunks/784-8c496b59a0c5a274.js\",\"477:static/chunks/477-42676f599f8f5277.js\",\"660:static/chunks/660-8980ced0d204c6d4.js\",\"393:static/chunks/393-7cb8730c8dc403a9.js\",\"707:static/chunks/app/[conversationId]/page-5e0d77947d05a632.js\"],\"name\":\"\",\"async\":false}\n"])</script>
+<script>self.__next_f.push([1, "12:[\"$\",\"div\",null,{\"className\":\"lg:pl-80 h-full\",\"children\":[\"$\",\"div\",null,{\"className\":\"h-full flex flex-col\",\"children\":[[\"$\",\"$L13\",null,{\"conversation\":{\"id\":\"6487d62674e8992f6f138987\",\"createdAt\":\"$D2023-06-13T02:36:22.746Z\",\"lastMessageAt\":\"$D2023-06-13T02:36:22.746Z\",\"name\":null,\"isGroup\":null,\"messagesIds\":[],\"userIds\":[\"648004c207ee9beea0aa59a3\",\"64876e2f482e51b6a90b6a86\"],\"users\":[{\"id\":\"648004c207ee9beea0aa59a3\",\"name\":\"a\",\"email\":\"quangtruongle369@gmail.com\",\"emailVerified\":null,\"image\":\"https://avatars.githubusercontent.com/u/87923392?v=4\",\"hashedPassword\":null,\"createdAt\":\"$D2023-06-07T04:17:06.769Z\",\"updatedAt\":\"$D2023-06-08T04:14:40.304Z\",\"conversationIds\":[\"6480050807ee9beea0aa59a5\",\"6481557781207dd961599da4\",\"648547ee95eba86e302efced\",\"6487d62674e8992f6f138987\"],\"seenMessageIds\":[\"6481557b81207dd961599da5\"]},{\"id\":\"64876e2f482e51b6a90b6a86\",\"name\":\"Rami Azap\",\"email\":\"ramiazap@gmail.com\",\"emailVerified\":null,\"image\":\"https://lh3.googleusercontent.com/a/AAcHTtepLG4QJjNdyixTw0IqaKXpYK3qDo52TcNFbt6C=s96-c\",\"hashedPassword\":null,\"createdAt\":\"$D2023-06-12T19:12:47.013Z\",\"updatedAt\":\"$D2023-06-12T19:12:47.013Z\",\"conversationIds\":[\"6487d62674e8992f6f138987\"],\"seenMessageIds\":[]}]}}],[\"$\",\"$L14\",null,{\"initialMessages\":[]}],[\"$\",\"$L15\",null,{}]]}]}]\n"])</script>
