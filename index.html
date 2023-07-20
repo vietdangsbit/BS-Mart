@@ -4,359 +4,1336 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">    <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <title>BSmart</title>
+    <script src="//cdn.ckeditor.com/4.21.0/standard/ckeditor.js"></script>
+    <script src="https://cdn.ckeditor.com/4.21.0/standard/ckeditor.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css" integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>BS Mart</title>
+
 </head>
 <body>
-    <div class="content">
-        <div class="grid">
-            <div class="body-full">
-                <div class="body-left">
-                    <div class="body-science">
-                        <div class="science-item">
-                            <div class="item-img" >
-                                <img class="banner" src="./images/overlay-bg.jpg" alt="">
-                                <img class="avatar" src="./images/avatar-mentor-2.jpg" alt="">
-                            </div>
-                            <div class="title">
-                                <h3 class="title-2">Mentor Cường</h3>
-                                <h5 class="title-3">Mentor</h5>
-                            </div>
-                            <div class="item-origin">
-                                <a class="header_icon header_facebook">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a class="header_icon header_linkedin">
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                </a>
-                                <a class="header_icon header_youtube">
-                                    <i class="fa-brands fa-youtube"></i>
-                                </a> 
-                            </div>
-                            <br/>
-                            <div class="item-origin_1">
-                                <a class="header_icon_1 ">
-                                    <i class="fa-solid fa-person header_icon"></i>
-                                </a> 
-                            </div>
-                            <div class="item-origin-2">
-                                <h5 class="title-4-1">27/01/2001</h5> <br/>
-                                <h5 class="title-4"><i class="fa-solid fa-location-arrow"></i> Thu Duc, Tp. Hồ Chí Minh</h5> <br/>
-                                <h5 class="title-4"><i class="fa-solid fa-envelope"></i> intern@gmail.com</h5> <br/>
-                                <h5 class="title-4"><i class="fa-solid fa-phone"></i> 1234562390</h5> 
-                                <div class="title-5">
-                                    <h5 class="title-6"> Số dư hiện tại: &nbsp;</h5>
-                                    <h5 class="title-7"> 300,000 BS</h5>
+    <div class="header">
+                <div class="banner">    
+                    <div class="text-banner" >
+                        <p class="text-1">KHỞI ĐẦU SỰ NGHIỆP CỦA BẠN</p>
+                        <h1 class="text-2"> Trở Thành Lập Trình Viên Chuyên Nghiệp Tại</br>
+                            BS Mart</h1>
+                        <h2 class="text-3">Với đội ngũ Mentor có nhiều năm kinh nghiệm giảng dạy cùng các khóa học chất lượng. BSMART sẽ giúp các bạn định </br>
+                            hướng về nghề nghiệp và phát triển bản thân trên con đường lập trình viên chuyên nghiệp</h2>
+                        <button hef="#" class="btn-1"> XEM KHÓA HỌC</button>
+                    </div>
+                </div>
+                <div class="banner-1">
+                    <div class="banner-text-1">
+                        <h4 class="content-banner-1">Về Chúng Tôi</h4>
+                        <div class="main">
+                            <div class="content-main">
+                                <h1 class="content-banner-2">BSMART được thành lập với mục tiêu trở thành nền tảng tin cậy về đào
+                                    tạo lập trình viên, kết nối Mentor và Mentee. Với đội ngũ Mentor giàu
+                                    kinh nghiệm và chuyên môn, BSMART cam kết mang đến các khóa học
+                                    lập trình chất lượng nhất. Hệ thống khóa học đa dạng và linh hoạt, từ
+                                    cơ bản đến nâng cao, giúp học viên có thể lựa chọn các khóa học phù
+                                    hợp với nhu cầu và khả năng của mình. BSMART cập nhật và áp dụng
+                                    những công nghệ mới, giúp học viên và Mentor được tiếp cận với
+                                    những kiến thức và kỹ năng mới nhất trong lập trình. Bên cạnh đó,
+                                    BSMART luôn đặt sự quan tâm, hỗ trợ học viên trong quá trình học tập
+                                    và phát triển sự nghiệp sau khi tốt nghiệp.</h1>        
+                                <div class="btn-banner0">
+                                    <button href="#" class="btn">XEM KHÓA HỌC</button>  
+                                    <button href="#" class="btn default">TƯ VẤN KHÓA HỌC</button>
                                 </div>
                             </div>
-                            <div class="search-1">
-                                <button type="button" class="button-search-1">CHỈNH SỬA THÔNG TIN</button>
+                            <div class="anh-main">
+                                <img class="anh" src="./images/banner-2.jpg" alt="">  
                             </div>
-                            <div class="search-1">
-                                <button type="button" class="button-search-1">QUẢN LÝ VÍ TIỀN</button>
-                            </div>
-                            <div class="search-1">
-                                <button type="button" class="button-search-1">RÚT TIỀN</button>
-                            </div>
-                            <div class="search-1">
-                                <button type="button" class="button-search-1">DANH SÁCH KHÓA HỌC</button>
-                            </div>
+                    </div>                                           
+                    </div>          
+                </div>
+                <div class="banner-2">
+                <div class="banner-text-2">
+                <h4 class="content-banner-3">Điểm ưu việt tai BSmart</h4>
+                <div class="main-2">
+                    <div class="content-main-2">
+                        <div class="main-mid">                         
+                            <div  class="main-mid-text"><i class="fa-sharp fa-regular fa-circle-check"></i> Học theo lộ trình, có định hướng</div>
+                            <p class="main-mid-text-1">BSmart sẽ định hướng và đưa ra các lộ trình
+                                học lập trình nhằm phát triển năng lực và niềm
+                                đam mê lập trình của bạn để có việc ngay sau
+                                hoc.</p>
+                        </div>
+                        <div class="main-mid">                         
+                            <div  class="main-mid-text"><i class="fa-sharp fa-solid fa-gear"></i>Học theo lộ trình, có định hướng</div>
+                            <p class="main-mid-text-1">BSmart sẽ định hướng và đưa ra các lộ trình
+                                học lập trình nhằm phát triển năng lực và niềm
+                                đam mê lập trình của bạn để có việc ngay sau
+                                hoc.</p>
+                        </div>
+                        <div class="main-mid">                         
+                            <div  class="main-mid-text"><i class="fa-sharp fa-solid fa-fire-flame-curved"></i> Học theo lộ trình, có định hướng</div>
+                            <p class="main-mid-text-1">BSmart sẽ định hướng và đưa ra các lộ trình
+                                học lập trình nhằm phát triển năng lực và niềm
+                                đam mê lập trình của bạn để có việc ngay sau
+                                hoc.</p>
                         </div>
                     </div>
-                    <div class="body-science">
-                        <div class="science-item">
-                            <div class="item-origin-3">
-                                <h5 class="title-8">Các hoạt động gần đây</h5>
-                                <h6 class="title-9">Đã đăng ký khóa học ReactJS Basic</h6>
-                                <h6 class="title-10">01/10/2023</h6>
-                                <hr width="50%">
-                                <h6 class="title-9">Đã nhận được 100 BS từ việc chia sẻ khóa học</h6>
-                                <h6 class="title-10">01/10/2023</h6>
-                                <hr width="50%"> 
+                    <div class="content-main-2">
+                        <div class="main-mid">                         
+                            <div  class="main-mid-text"><i class="fa-sharp fa-solid fa-users"></i> Học theo lộ trình, có định hướng</div>
+                            <p class="main-mid-text-1">BSmart sẽ định hướng và đưa ra các lộ trình
+                                học lập trình nhằm phát triển năng lực và niềm
+                                đam mê lập trình của bạn để có việc ngay sau
+                                hoc.</p>
+                        </div>
+                        <div class="main-mid">                         
+                            <div  class="main-mid-text"><i class="fa-sharp fa-solid fa-qrcode"></i> Học theo lộ trình, có định hướng</div>
+                            <p class="main-mid-text-1">BSmart sẽ định hướng và đưa ra các lộ trình
+                                học lập trình nhằm phát triển năng lực và niềm
+                                đam mê lập trình của bạn để có việc ngay sau
+                                hoc.</p>
+                        </div>
+                        <div class="main-mid">                         
+                            <div  class="main-mid-text"><i class="fa-sharp fa-solid fa-trophy"></i> Học theo lộ trình, có định hướng</div>
+                            <p class="main-mid-text-1">BSmart sẽ định hướng và đưa ra các lộ trình
+                                học lập trình nhằm phát triển năng lực và niềm
+                                đam mê lập trình của bạn để có việc ngay sau
+                                hoc.</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+                <div class="banner-3">
+                    <div class="banner-img-3">
+                        <div class="full-1">
+                            <div class="left">
+                                <div class="left-1">
+                                    <img class="banner-left" src="./images/banner-3.jpg" alt="">
+                                    <div class="centered-1">
+                                        <h3 class="title-banner-5">TRÁI NGÀNH</h3>
+                                        <h3 class="title-banner-6">From zero to hero</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="right-1">
+                                    <img class="banner-right" src="./images/banner-4.jpg" alt="">
+                                    <div class="centered-2">
+                                        <h3 class="title-banner-5">ĐÃ BIẾT LẬP TRÌNH</h3>
+                                        <h3 class="title-banner-6">From zero to hero</h3>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="body-right">
-                    <div class="accordion" id="accordionExample">
-                        <div id="heard" class="card">
-                            <div class="card-header" id="headingOne">
-                            <span class="arrange-label">Thông tin khóa học</span>
-                                <button  class="btn btn-link btn-block-1 text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
-                                    <i id="icons" class="fa-solid fa-chevron-down" ></i>
-                                </button>
-                            </div>                    
-                            <div id="collapseOne" class="collapse show">
-                            <div class="body-left-1">
-                                <div class="body-science-1">
-                                    <span class="arrange">Tên khóa học:</span>
-                                    <div class="input-group flex-nowrap">
-                                        <input type="text" class="form-control" placeholder="" id="first-name-input" aria-label="Username" aria-describedby="addon-wrapping">
-                                    </div>
-
-                                    <div class="trinh-do">
-                                        <div class="trinh-do-1">
-                                            <span class="arrange-1">Trình độ:</span>
+                <div class="girl">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <h3 class="hihi">Menter tiêu biểu</h3>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="body-hihi1">
+                                <div class="body-science">
+                                    <div class="science-item">
+                                        <div class="gia">
+                                            1.200.000 đ
+                                        </div>
+                                        <div class="item-img" >
+                                            <img class="banner-0" src="./images/reactjs-banner.png" alt="">
+                                            <img class="avatar" src="./images/avatar-mentor-2.jpg" alt="">
+                                            <img class="icon" src="./images/icon-title-course.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Mentor Cường</h4>
+                                            <h4 class="title-3">Khóa học lập trình ReactJS - JS Framework hướng dãn học viên làm thử ReactLS và sử dụng ReactJS để trở nên tiến bộ hơn.</h4>
                                         </div>
                                         
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                            <label class="form-check-label" for="inlineRadio1">Beginner</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                            <label class="form-check-label" for="inlineRadio2">Intermediate</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-                                            <label class="form-check-label" for="inlineRadio3">Advanced</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-                                            <label class="form-check-label" for="inlineRadio3">Expert</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="input-section">
-                                        <span class="arrange">Giá tiền:</span>
-                                        <input class="CurrencyInput"    
-                                          type="text"
-                                          name="currency-field" id="currency-field" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" value="" data-type="currency" 
-                                          required/>
-                                        <span id="phone-error" class="hide required-color error-message">Là chữ số và đơn vị tiền tệ VND</span>
-                                        <span id="empty-phone" class="hide required-color error-message">
-                                          Không được bỏ trống giá tiền !
-                                        </span>
-                                    </div>
-
-                                    <div class="hinh-anh">
-                                        <div class="hinh-anh-1">
-                                            <img id="chosen-image" class="hinh-anh-form" src="/images/upload-img.jpg">
-                                        </div>
-                                        <div class="form-group-1">
-                                            <div class="title-hinh-anh">
-                                                <label class="hinhanh">Hình ảnh:</label>
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
                                             </div>
-                                            <div>
-                                                <input type="file" accept="image/png, image/jpg" class="form-control-file" id="exampleFormControlFile1">
-                                            </div>
-                                            <button type="button" onclick="removeFun()" class="button-hinh-anh">Xóa ảnh</button>
                                         </div>
-                                    </div>
-
-                                    <div class="linh-vuc">
-                                        <span class="arrange">Lĩnh vực:</span>
-                                        <select class="form-control">
-                                            <option>Front End</option>
-                                            <option>Back End</option>
-                                            <option>Automation Tester</option>
-                                            <option>DATA</option>
-                                            <option>Business Analyst</option>
-                                        </select>
-                                    </div>
-
-                                    <div class="linh-vuc">
-                                        <span class="arrange">Hình thức khóa học:</span>
-                                        <select class="form-control">
-                                            <option>Online</option>
-                                            <option>Offline</option>
-                                        </select>
-                                    </div>
-
-                                    <div class="link-meet">
-                                        <span for="google-link" class="arrange">Link Google Meet:</span>
-                                        <div class="input-group flex-nowrap">
-                                            <input type="url" id="google-link" name="google-link" required class="form-control" placeholder="https://meet.google.com/.." aria-label="Username" aria-describedby="addon-wrapping">
+                                        <div class="item-origin">
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/check-mark.png" alt=""> 20hr</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/user.png" alt=""> học viên</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/clock-time.png" alt=""> Slot/cour</span>
                                         </div>
-                                        <div class="error">
-                                            <span id="google-link-error"></span>
-                                        </div>
-                                    </div>
-
-                                    <label for="exampleFormControlInput1">Tags:</label>
-                                        <div class="tag-container">                                  
-                                        <div class="tag-list">                                 
-                                        </div>
-                                        <input type="text" placeholder="Add tags" class="tag-input" list="data-tag">
-                                        <datalist id="data-tag">
-                                            <option value="Frontend">
-                                            <option value="Backend">
-                                            <option value="Fullstack">
-                                        </datalist>
-                                    </div>
-
-                                    <div class="min-max">
-                                        <form>
-                                            <span class="arrange">Số lượng học viên:</span>
-                                            
-                                            <div class="form-row">
-                                                <div class="col">
-                                                    <span class="arrange-1">Min:</span>
-                                                    <input type="number" class="form-control-1" placeholder=""  id="minInput" name="minInput" min="0" max="100" oninput="checkMinMax()" required/>
-                                                </div>
-                                                <div class="col col1">
-                                                    <span class="arrange-1">Max:</span>
-                                                    <input type="number" class="form-control-1" placeholder="" id="maxInput" name="maxInput" min="0" max="100" oninput="checkMinMax()" required/>
-                                                    <span id="error" ></span>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <div class="mo-ta">
-                                        <span class="arrange">Mô tả khóa học:</span>
-                                        <div class="vien">
-                                            <div class="input-group-1">
-                                                <textarea id="my-text" rows="5" class="form-control" aria-label="With textarea"  maxlength="200" placeholder=""></textarea>
-                                            </div>
-                                        </div> 
-                                        <p id="result"></p>
+                                        <div class="search">
+                                            <button type="button" class="button-search">XEM CHI TIẾT</button>
+                                        </div>                 
                                     </div>
                                 </div>
-                            </div>
-                            </div>
+                                <div class="body-science-node">
+                                    <div class="science-item">
+                                        <div class="gia">
+                                            1.200.000 đ
+                                        </div>
+                                        <div class="item-img" >
+                                            <img class="banner-0" src="./images/reactjs-banner.png" alt="">
+                                            <img class="avatar" src="./images/avatar-mentor-2.jpg" alt="">
+                                            <img class="icon" src="./images/icon-title-course.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Mentor Cường</h4>
+                                            <h4 class="title-3">Khóa học lập trình ReactJS - JS Framework hướng dãn học viên làm thử ReactLS và sử dụng ReactJS để trở nên tiến bộ hơn.</h4>
+                                        </div>
+                                        
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-origin">
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/check-mark.png" alt=""> 20hr</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/user.png" alt=""> học viên</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/clock-time.png" alt=""> Slot/cour</span>
+                                        </div>
+                                        <div class="search">
+                                            <button type="button" class="button-search">XEM CHI TIẾT</button>
+                                        </div>                 
+                                    </div>
+                                </div>
+                                <div class="body-science-node-node">
+                                    <div class="science-item">
+                                        <div class="gia">
+                                            1.200.000 đ
+                                        </div>
+                                        <div class="item-img" >
+                                            <img class="banner-0" src="./images/reactjs-banner.png" alt="">
+                                            <img class="avatar" src="./images/avatar-mentor-2.jpg" alt="">
+                                            <img class="icon" src="./images/icon-title-course.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Mentor Cường</h4>
+                                            <h4 class="title-3">Khóa học lập trình ReactJS - JS Framework hướng dãn học viên làm thử ReactLS và sử dụng ReactJS để trở nên tiến bộ hơn.</h4>
+                                        </div>
+                                        
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-origin">
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/check-mark.png" alt=""> 20hr</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/user.png" alt=""> học viên</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/clock-time.png" alt=""> Slot/cour</span>
+                                        </div>
+                                        <div class="search">
+                                            <button type="button" class="button-search">XEM CHI TIẾT</button>
+                                        </div>                   
+                                    </div>
+                                </div>
+                                <div class="body-science-node-node-node">
+                                    <div class="science-item">
+                                        <div class="gia">
+                                            1.200.000 đ
+                                        </div>
+                                        <div class="item-img" >
+                                            <img class="banner-0" src="./images/reactjs-banner.png" alt="">
+                                            <img class="avatar" src="./images/avatar-mentor-2.jpg" alt="">
+                                            <img class="icon" src="./images/icon-title-course.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Mentor Cường</h4>
+                                            <h4 class="title-3">Khóa học lập trình ReactJS - JS Framework hướng dãn học viên làm thử ReactLS và sử dụng ReactJS để trở nên tiến bộ hơn.</h4>
+                                        </div>
+                                        
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-origin">
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/check-mark.png" alt=""> 20hr</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/user.png" alt=""> học viên</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/clock-time.png" alt=""> Slot/cour</span>
+                                        </div>
+                                        <div class="search">
+                                            <button type="button" class="button-search">XEM CHI TIẾT</button>
+                                        </div>                  
+                                    </div>
+                                </div>
+                            </div>              
+                          </div>
+                          <div class="carousel-item">
+                            <div class="body-hihi1">
+                                <div class="body-science">
+                                    <div class="science-item">
+                                        <div class="gia">
+                                            1.200.000 đ
+                                        </div>
+                                        <div class="item-img" >
+                                            <img class="banner-0" src="./images/reactjs-banner.png" alt="">
+                                            <img class="avatar" src="./images/avatar-mentor-2.jpg" alt="">
+                                            <img class="icon" src="./images/icon-title-course.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Mentor Cường</h4>
+                                            <h4 class="title-3">Khóa học lập trình ReactJS - JS Framework hướng dãn học viên làm thử ReactLS và sử dụng ReactJS để trở nên tiến bộ hơn.</h4>
+                                        </div>
+                                        
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-origin">
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/check-mark.png" alt=""> 20hr</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/user.png" alt=""> học viên</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/clock-time.png" alt=""> Slot/cour</span>
+                                        </div>
+                                        <div class="search">
+                                            <button type="button" class="button-search">XEM CHI TIẾT</button>
+                                        </div>                  
+                                    </div>
+                                </div>
+                                <div class="body-science-node">
+                                    <div class="science-item">
+                                        <div class="gia">
+                                            1.200.000 đ
+                                        </div>
+                                        <div class="item-img" >
+                                            <img class="banner-0" src="./images/reactjs-banner.png" alt="">
+                                            <img class="avatar" src="./images/avatar-mentor-2.jpg" alt="">
+                                            <img class="icon" src="./images/icon-title-course.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Mentor Cường</h4>
+                                            <h4 class="title-3">Khóa học lập trình ReactJS - JS Framework hướng dãn học viên làm thử ReactLS và sử dụng ReactJS để trở nên tiến bộ hơn.</h4>
+                                        </div>
+                                        
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-origin">
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/check-mark.png" alt=""> 20hr</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/user.png" alt=""> học viên</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/clock-time.png" alt=""> Slot/cour</span>
+                                        </div>
+                                        <div class="search">
+                                            <button type="button" class="button-search">XEM CHI TIẾT</button>
+                                        </div>                  
+                                    </div>
+                                </div>
+                                <div class="body-science-node-node">
+                                    <div class="science-item">
+                                        <div class="gia">
+                                            1.200.000 đ
+                                        </div>
+                                        <div class="item-img" >
+                                            <img class="banner-0" src="./images/reactjs-banner.png" alt="">
+                                            <img class="avatar" src="./images/avatar-mentor-2.jpg" alt="">
+                                            <img class="icon" src="./images/icon-title-course.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Mentor Cường</h4>
+                                            <h4 class="title-3">Khóa học lập trình ReactJS - JS Framework hướng dãn học viên làm thử ReactLS và sử dụng ReactJS để trở nên tiến bộ hơn.</h4>
+                                        </div>
+                                        
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-origin">
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/check-mark.png" alt=""> 20hr</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/user.png" alt=""> học viên</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/clock-time.png" alt=""> Slot/cour</span>
+                                        </div>
+                                        <div class="search">
+                                            <button type="button" class="button-search">XEM CHI TIẾT</button>
+                                        </div>                   
+                                    </div>
+                                </div>
+                                <div class="body-science-node-node-node">
+                                    <div class="science-item">
+                                        <div class="gia">
+                                            1.200.000 đ
+                                        </div>
+                                        <div class="item-img" >
+                                            <img class="banner-0" src="./images/reactjs-banner.png" alt="">
+                                            <img class="avatar" src="./images/avatar-mentor-2.jpg" alt="">
+                                            <img class="icon" src="./images/icon-title-course.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Mentor Cường</h4>
+                                            <h4 class="title-3">Khóa học lập trình ReactJS - JS Framework hướng dãn học viên làm thử ReactLS và sử dụng ReactJS để trở nên tiến bộ hơn.</h4>
+                                        </div>
+                                        
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-origin">
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/check-mark.png" alt=""> 20hr</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/user.png" alt=""> học viên</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/clock-time.png" alt=""> Slot/cour</span>
+                                        </div>
+                                        <div class="search">
+                                            <button type="button" class="button-search">XEM CHI TIẾT</button>
+                                        </div>                   
+                                    </div>
+                                </div>
+                            </div> 
+                          </div>
+                          <div class="carousel-item">
+                            <div class="body-hihi1">
+                                <div class="body-science">
+                                    <div class="science-item">
+                                        <div class="gia">
+                                            1.200.000 đ
+                                        </div>
+                                        <div class="item-img" >
+                                            <img class="banner-0" src="./images/reactjs-banner.png" alt="">
+                                            <img class="avatar" src="./images/avatar-mentor-2.jpg" alt="">
+                                            <img class="icon" src="./images/icon-title-course.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Mentor Cường</h4>
+                                            <h4 class="title-3">Khóa học lập trình ReactJS - JS Framework hướng dãn học viên làm thử ReactLS và sử dụng ReactJS để trở nên tiến bộ hơn.</h4>
+                                        </div>
+                                        
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-origin">
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/check-mark.png" alt=""> 20hr</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/user.png" alt=""> học viên</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/clock-time.png" alt=""> Slot/cour</span>
+                                        </div>
+                                        <div class="search">
+                                            <button type="button" class="button-search">XEM CHI TIẾT</button>
+                                        </div>                   
+                                    </div>
+                                </div>
+                                <div class="body-science-node">
+                                    <div class="science-item">
+                                        <div class="gia">
+                                            1.200.000 đ
+                                        </div>
+                                        <div class="item-img" >
+                                            <img class="banner-0" src="./images/reactjs-banner.png" alt="">
+                                            <img class="avatar" src="./images/avatar-mentor-2.jpg" alt="">
+                                            <img class="icon" src="./images/icon-title-course.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Mentor Cường</h4>
+                                            <h4 class="title-3">Khóa học lập trình ReactJS - JS Framework hướng dãn học viên làm thử ReactLS và sử dụng ReactJS để trở nên tiến bộ hơn.</h4>
+                                        </div>
+                                        
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-origin">
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/check-mark.png" alt=""> 20hr</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/user.png" alt=""> học viên</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/clock-time.png" alt=""> Slot/cour</span>
+                                        </div>
+                                        <div class="search">
+                                            <button type="button" class="button-search">XEM CHI TIẾT</button>
+                                        </div>                   
+                                    </div>
+                                </div>
+                                <div class="body-science-node-node">
+                                    <div class="science-item">
+                                        <div class="gia">
+                                            1.200.000 đ
+                                        </div>
+                                        <div class="item-img" >
+                                            <img class="banner-0" src="./images/reactjs-banner.png" alt="">
+                                            <img class="avatar" src="./images/avatar-mentor-2.jpg" alt="">
+                                            <img class="icon" src="./images/icon-title-course.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Mentor Cường</h4>
+                                            <h4 class="title-3">Khóa học lập trình ReactJS - JS Framework hướng dãn học viên làm thử ReactLS và sử dụng ReactJS để trở nên tiến bộ hơn.</h4>
+                                        </div>
+                                        
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-origin">
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/check-mark.png" alt=""> 20hr</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/user.png" alt=""> học viên</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/clock-time.png" alt=""> Slot/cour</span>
+                                        </div>
+                                        <div class="search">
+                                            <button type="button" class="button-search">XEM CHI TIẾT</button>
+                                        </div>                   
+                                    </div>
+                                </div>
+                                <div class="body-science-node-node-node">
+                                    <div class="science-item">
+                                        <div class="gia">
+                                            1.200.000 đ
+                                        </div>
+                                        <div class="item-img" >
+                                            <img class="banner-0" src="./images/reactjs-banner.png" alt="">
+                                            <img class="avatar" src="./images/avatar-mentor-2.jpg" alt="">
+                                            <img class="icon" src="./images/icon-title-course.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Mentor Cường</h4>
+                                            <h4 class="title-3">Khóa học lập trình ReactJS - JS Framework hướng dãn học viên làm thử ReactLS và sử dụng ReactJS để trở nên tiến bộ hơn.</h4>
+                                        </div>
+                                        
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-origin">
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/check-mark.png" alt=""> 20hr</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/user.png" alt=""> học viên</span>
+                                            <span class="item-origin-1"><img class="origin-1" src="./images/clock-time.png" alt=""> Slot/cour</span>
+                                        </div>
+                                        <div class="search">
+                                            <button type="button" class="button-search">XEM CHI TIẾT</button>
+                                        </div>
+                                </div>
+                            </div> 
+                          </div>
                         </div>
-                    </div>
-                    <div class="accordion" id="accordionExample">
-                        <div id="heard" class="card">
-                            <div class="card-header" id="headingThree">
-                            <span class="arrange-label">Lộ trình khóa học</span>
-                                <button  class="btn btn-link btn-block-1 text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" >
-                                    <i id="iconss" class="fa-solid fa-chevron-down" ></i>
-                                </button>
-                            </div>                    
-                            <div id="collapseTwo" class="collapse show">
-                            <div class="body-left-1">
-                                <div class="text-khoa-hoc">
-                                    <h4>Khóa học:&nbsp; <span id="h3-tag"></span></h4>
-                                </div>
-                                <div class="body-science-1">
-                                    <div class="ckeditor">
-                                        <textarea name="content"></textarea>
-                                    </div>
-                                </div>
-                                <div class="form-luu">
-                                    <button type="submit" class="button-class">Lưu</button>
-                                </div>
-                            </div>
-                            </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                        <div class="huhu-3">
+                            <br>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                              </div>
                         </div>
+                      </div>
                     </div>
-                    <div class="accordion" id="accordionExample" >
-                        <div id="heard" class="card">
-                            <div class="card-header" id="headingThree">
-                            <span class="arrange-label">Thời gian lớp học</span>
-                                <button  class="btn btn-link btn-block-1 text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree" >
-                                    <i id="iconsss" class="fa-solid fa-chevron-down" ></i>
-                                </button>
-                            </div>
-                                <div id="collapseThree" class="collapse show">
-                                <form id="my-form">
-                                    <div class="form-thongtin">
-                                        <div class="form-body-left">
-                                            <div class="time">
-                                                <div class="form-time-1">
-                                                    <div class="form-time">
-                                                        <label for="start-time">Giờ bắt đầu:</label>
-                                                        <input type="time" id="start-time" name="start-time">
-                                                    </div>
-                                                    <div class="form-time">
-                                                        <label for="end-time">Giờ kết thúc:</label>
-                                                        <input type="time" id="end-time" name="end-time">
-                                                    </div>
-                                                </div>
-                                                <div class="mess">
-                                                    <p class="mes" id="error-messages"></p>
-                                                </div>
-                                                <div class="form-time-2">
-                                                    <div class="form-group col-md-4">
-                                                        <label for="inputState">Slot:</label>
-                                                        <select id="inputState" class="form-control">
-                                                          <option>1</option>
-                                                          <option>2</option>
-                                                          <option>3</option>
-                                                          <option>4</option>
-                                                          <option>5</option>
-                                                          <option>6</option>
-                                                          <option>7</option>
-                                                          <option>8</option>
-                                                          <option>9</option>
-                                                          <option>10</option>
-                                                          <option>11</option>
-                                                          <option>12</option>
-                                                          <option>13</option>
-                                                          <option>14</option>
-                                                          <option>15</option>
-                                                        </select>
-                                                      </div>
-                                                    <div class="form-slot-1">
-                                                        <div class="form-time">
-                                                            <label for="date">Ngày dự kiến mở lớp:</label>
-                                                            <input type="date" id="date" name="date">
-                                                        </div>
-                                                        
-                                                    </div>
-                                                </div>
+                    <div class="girl1">
+                        <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel">
+                            <h3 class="hihi">Menter tiêu biểu</h3>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <div class="body-hihi">
+                                    <div class="body-science-1">
+                                        <div class="science-item-1">
+                                            <div class="item-img" >
+                                                <img class="banner-form-1" src="./images/instructor-2.jpg" alt="">
                                             </div>
-                                        </div>
-                                        <div class="form-body-right">
-                                                    <div class="weeks">
-                                                    <div id="weekdays">
-                                                        <label>T2<input type="checkbox" name="weekday" value="T2"></label>
-                                                        <label>T3<input type="checkbox" name="weekday" value="T3"></label>
-                                                        <label>T4<input type="checkbox" name="weekday" value="T4"></label>
-                                                        <label>T5<input type="checkbox" name="weekday" value="T5"></label>
-                                                        <label>T6<input type="checkbox" name="weekday" value="T6"></label>
-                                                        <label>T7<input type="checkbox" name="weekday" value="T7"></label>
-                                                        <label>CN<input type="checkbox" name="weekday" value="CN"></label>
-                                                    </div>
-                                                    </div>
-                                                <div class="button-add">
-                                                <button type="submit" class="button-class">Tạo lớp học</button>
+                                            <div class="title">
+                                                <h3 class="title-3">Shane Warne</h3>
+                                                <h4 class="title-4">Instructor</h4>
                                             </div>
+                                                            
                                         </div>
-                                    </div>                                                          
-                                </form>
-                                <div class="table">
-                                    <table id="my-table">
-                                      <thead>
-                                        <tr>
-                                          <th>Ngày dự kiến mở lớp</th>
-                                          <th>Giờ bắt đầu</th>
-                                          <th>Giờ kết thúc</th>
-                                          <th>Slot</th> 
-                                          <th>Thứ</th>                                                                        
-                                          <th>Hành động</th>
-                                        </tr>
-                                      </thead>
-                                      <tbody>
-                                        <td>
-                                            
-                                        </td>
-                                      </tbody>
-                                    </table>
+                                    </div>
+                                    <div class="body-science-1-node">
+                                        <div class="science-item-1">
+                                            <div class="item-img" >
+                                                <img class="banner-form-1" src="./images/instructor-2.jpg" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <h3 class="title-3">Shane Warne</h3>
+                                                <h4 class="title-4">Instructor</h4>
+                                            </div>
+                                                            
+                                        </div>
+                                    </div>
+                                    <div class="body-science-1-node-node">
+                                        <div class="science-item-1">
+                                            <div class="item-img" >
+                                                <img class="banner-form-1" src="./images/instructor-2.jpg" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <h3 class="title-3">Shane Warne</h3>
+                                                <h4 class="title-4">Instructor</h4>
+                                            </div>
+                                                            
+                                        </div>
+                                    </div>
+                                    <div class="body-science-1-node-node-node">
+                                        <div class="science-item-1">
+                                            <div class="item-img" >
+                                                <img class="banner-form-1" src="./images/instructor-2.jpg" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <h3 class="title-3">Shane Warne</h3>
+                                                <h4 class="title-4">Instructor</h4>
+                                            </div>
+                                                            
+                                        </div>
+                                    </div>
+                                </div>              
+                              </div>
+                              <div class="carousel-item">
+                                <div class="body-hihi">
+                                    <div class="body-science-1">
+                                        <div class="science-item-1">
+                                            <div class="item-img" >
+                                                <img class="banner-form-1" src="./images/instructor-2.jpg" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <h3 class="title-3">Shane Warne</h3>
+                                                <h4 class="title-4">Instructor</h4>
+                                            </div>
+                                                            
+                                        </div>
+                                    </div>
+                                    <div class="body-science-1-node">
+                                        <div class="science-item-1">
+                                            <div class="item-img" >
+                                                <img class="banner-form-1" src="./images/instructor-2.jpg" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <h3 class="title-3">Shane Warne</h3>
+                                                <h4 class="title-4">Instructor</h4>
+                                            </div>
+                                                            
+                                        </div>
+                                    </div>
+                                    <div class="body-science-1-node-node">
+                                        <div class="science-item-1">
+                                            <div class="item-img" >
+                                                <img class="banner-form-1" src="./images/instructor-2.jpg" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <h3 class="title-3">Shane Warne</h3>
+                                                <h4 class="title-4">Instructor</h4>
+                                            </div>
+                                                            
+                                        </div>
+                                    </div>
+                                    <div class="body-science-1-node-node-node">
+                                        <div class="science-item-1">
+                                            <div class="item-img" >
+                                                <img class="banner-form-1" src="./images/instructor-2.jpg" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <h3 class="title-3">Shane Warne</h3>
+                                                <h4 class="title-4">Instructor</h4>
+                                            </div>
+                                                            
+                                        </div>
+                                    </div>
+                                </div> 
+                              </div>
+                              
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                            <div class="huhu-1">
+                                <br>
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                   </div>
-                            </div>                    
                             </div>
+                          </div>
+                        </div>  
                     </div>
-                    <button type="submit" class="button-class-3">TẠO KHÓA HỌC</button>
+                    <div id="carouselExampleIndicators5" class="carousel slide" data-bs-ride="carousel">
+                        <h3 class="hihi">Câu chuyện của học viên</h3>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="body-hihi2">
+                                <div class="body-science">
+                                    <div class="science-item">
+                                        <div class="item-img" >
+                                            <img class="banner-00" src="./images/instructor-2.jpg" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Front end</h4>
+                                            <h4 class="title-3">Có thể tạo dự án riêng và học cách quản lý, phát triển dự án</h4>
+                                        </div>
+                                        
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="body-science-node">
+                                    <div class="science-item">
+                                        <div class="item-img" >
+                                            <img class="banner-00" src="./images/instructor-2.jpg" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Mentor Cường</h4>
+                                            <h4 class="title-3">Khóa học lập trình ReactJS - JS Framework hướng dãn học viên làm thử ReactLS và sử dụng ReactJS để trở nên tiến bộ hơn.</h4>
+                                        </div>
+                                        
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="body-science-node-node">
+                                    <div class="science-item">
+                                        <div class="item-img" >
+                                            <img class="banner-00" src="./images/instructor-2.jpg" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Mentor Cường</h4>
+                                            <h4 class="title-3">Khóa học lập trình ReactJS - JS Framework hướng dãn học viên làm thử ReactLS và sử dụng ReactJS để trở nên tiến bộ hơn.</h4>
+                                        </div>
+                                        
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="body-science-node-node-node">
+                                    <div class="science-item">
+                                        <div class="item-img" >
+                                            <img class="banner-00" src="./images/instructor-2.jpg" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Mentor Cường</h4>
+                                            <h4 class="title-3">Khóa học lập trình ReactJS - JS Framework hướng dãn học viên làm thử ReactLS và sử dụng ReactJS để trở nên tiến bộ hơn.</h4>
+                                        </div>
+                                        
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>              
+                          </div>
+                          <div class="carousel-item">
+                            <div class="body-hihi2">
+                                <div class="body-science">
+                                    <div class="science-item">
+                                        <div class="item-img" >
+                                            <img class="banner-00" src="./images/instructor-2.jpg" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Mentor Cường</h4>
+                                            <h4 class="title-3">Khóa học lập trình ReactJS - JS Framework hướng dãn học viên làm thử ReactLS và sử dụng ReactJS để trở nên tiến bộ hơn.</h4>
+                                        </div>
+                                        
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="body-science-node">
+                                    <div class="science-item">
+                                        <div class="item-img" >
+                                            <img class="banner-00" src="./images/instructor-2.jpg" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Mentor Cường</h4>
+                                            <h4 class="title-3">Khóa học lập trình ReactJS - JS Framework hướng dãn học viên làm thử ReactLS và sử dụng ReactJS để trở nên tiến bộ hơn.</h4>
+                                        </div>
+                                        
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="body-science-node-node">
+                                    <div class="science-item">
+                                        <div class="item-img" >
+                                            <img class="banner-00" src="./images/instructor-2.jpg" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Mentor Cường</h4>
+                                            <h4 class="title-3">Khóa học lập trình ReactJS - JS Framework hướng dãn học viên làm thử ReactLS và sử dụng ReactJS để trở nên tiến bộ hơn.</h4>
+                                        </div>
+                                        
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="body-science-node-node-node">
+                                    <div class="science-item">
+                                        <div class="item-img" >
+                                            <img class="banner-00" src="./images/instructor-2.jpg" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Mentor Cường</h4>
+                                            <h4 class="title-3">Khóa học lập trình ReactJS - JS Framework hướng dãn học viên làm thử ReactLS và sử dụng ReactJS để trở nên tiến bộ hơn.</h4>
+                                        </div>
+                                        
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                          </div>
+                          <div class="carousel-item">
+                            <div class="body-hihi2">
+                                <div class="body-science">
+                                    <div class="science-item">
+                                        <div class="item-img" >
+                                            <img class="banner-00" src="./images/instructor-2.jpg" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Mentor Cường</h4>
+                                            <h4 class="title-3">Khóa học lập trình ReactJS - JS Framework hướng dãn học viên làm thử ReactLS và sử dụng ReactJS để trở nên tiến bộ hơn.</h4>
+                                        </div>
+                                        
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="body-science-node">
+                                    <div class="science-item">
+                                        <div class="item-img" >
+                                            <img class="banner-00" src="./images/instructor-2.jpg" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Mentor Cường</h4>
+                                            <h4 class="title-3">Khóa học lập trình ReactJS - JS Framework hướng dãn học viên làm thử ReactLS và sử dụng ReactJS để trở nên tiến bộ hơn.</h4>
+                                        </div>
+                                        
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="body-science-node-node">
+                                    <div class="science-item">
+                                        <div class="item-img" >
+                                            <img class="banner-00" src="./images/instructor-2.jpg" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Mentor Cường</h4>
+                                            <h4 class="title-3">Khóa học lập trình ReactJS - JS Framework hướng dãn học viên làm thử ReactLS và sử dụng ReactJS để trở nên tiến bộ hơn.</h4>
+                                        </div>
+                                        
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="body-science-node-node-node">
+                                    <div class="science-item">
+                                        <div class="item-img" >
+                                            <img class="banner-00" src="./images/instructor-2.jpg" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h3 class="title-1">Software Requiremen</h3>
+                                            <h4 class="title-2">Mentor Cường</h4>
+                                            <h4 class="title-3">Khóa học lập trình ReactJS - JS Framework hướng dãn học viên làm thử ReactLS và sử dụng ReactJS để trở nên tiến bộ hơn.</h4>
+                                        </div>
+                                        
+                                        <div class="item-icon">
+                                            <div class="item-star">
+                                                <div class="stars">
+                                                    <form action="">
+                                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                                      <label class="star star-1" for="star-1"></label>
+                                                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                                      <label class="star star-2" for="star-2"></label>
+                                                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                                      <label class="star star-3" for="star-3"></label>
+                                                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                                      <label class="star star-4" for="star-4"></label>
+                                                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                                      <label class="star star-5" for="star-5"></label>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                        <div class="huhu-4">
+                            <br>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                              </div>
+                        </div>
+                      </div>
+                    </div>
                 </div>
-            </div>
+                <div class="banner-4">
+                    <div class="banner-text-4">
+                        <div class="main-4">
+                            <div class="content-main-4">
+                                <h6 class="content-banner-44">Định hướng và Chuẩn hóa lộ trình học tập</h6>
+                                <h1 class="content-banner-4">Học Thật, Dự Án Thật, Giảng Viên Tận Tâm</h1>        
+                                <button href="#" class="btn-4">DANH SÁCH KHÓA HỌC</button>  
+                                <button href="#" class="btn-5">TƯ VẤN LÔ TRÌNH</button>  
+                            </div>
+                    </div>                                           
+                    </div>          
+                </div>
+                <div class="banner-5">
+                    <div class="banner-img-5">
+                        <div class="centered">
+                            <div class="grid1">
+                                <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel">
+                                    <h3 class="hihi10">Nhận được sự tin tưởng của các đối tác</h3>
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <div class="body-hihi-10">
+                                            <div class="body-science">
+                                                <div class="science-item-3">
+                                                    <div class="item-img" >
+                                                        <img class="banner-31" src="./images/logo ĐẠI HỌC-01.jpg" alt="">
+                                                    </div>             
+                                                </div>
+                                            </div>
+                                            <div class="body-science-node">
+                                                <div class="science-item-3">
+                                                    <div class="item-img" >
+                                                        <img class="banner-31" src="./images/logo ĐẠI HỌC-02.jpg" alt="">
+                                                    </div>             
+                                                </div>
+                                            </div>
+                                            <div class="body-science-node-node">
+                                                <div class="science-item-3">
+                                                    <div class="item-img" >
+                                                        <img class="banner-31" src="./images/logo ĐẠI HỌC-03.jpg" alt="">
+                                                    </div>             
+                                                </div>
+                                            </div>
+                                            <div class="body-science-node-node-node">
+                                                <div class="science-item-3">
+                                                    <div class="item-img" >
+                                                        <img class="banner-31" src="./images/logo ĐẠI HỌC-04.jpg" alt="">
+                                                    </div>             
+                                                </div>
+                                            </div>
+                                        </div>              
+                                      </div>
+                                      <div class="carousel-item">
+                                        <div class="body-hihi-10">
+                                            <div class="body-science">
+                                                <div class="science-item-3">
+                                                    <div class="item-img" >
+                                                        <img class="banner-31" src="./images/logo ĐẠI HỌC-05.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="body-science-node">
+                                                <div class="science-item-3">
+                                                    <div class="item-img" >
+                                                        <img class="banner-31" src="./images/logo ĐẠI HỌC-06.jpg" alt="">
+                                                    </div>             
+                                                </div>
+                                            </div>
+                                            <div class="body-science-node-node">
+                                                <div class="science-item-3">
+                                                    <div class="item-img" >
+                                                        <img class="banner-31" src="./images/logo ĐẠI HỌC-07.jpg" alt="">
+                                                    </div>             
+                                                </div>
+                                            </div>
+                                            <div class="body-science-node-node-node">
+                                                <div class="science-item-3">
+                                                    <div class="item-img" >
+                                                        <img class="banner-31" src="./images/logo ĐẠI HỌC-04.jpg" alt="">
+                                                    </div>             
+                                                </div>
+                                            </div>
+                                        </div>               
+                                      </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon5" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                        
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon5" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                    
+                                    <div class="huhu3">
+                                        <br>
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                          </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>          
         </div>
     </div>
-    <script src="ckeditor/ckeditor.js"></script>
-    <script>
-        CKEDITOR.replace("content");
-    </script>
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" 
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
-    crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" 
-    crossorigin="anonymous"></script>
 </body>
 </html>
