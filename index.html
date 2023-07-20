@@ -5,375 +5,253 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/png" href="/images/icon-logo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>  
     <title>BS Mart</title>
 </head>
 <body>
-    <div class="girl">
-        <div class="banner">
-            <div class="banner-text">
-                <h4 class="content">ĐĂNG KÝ KHÓA HỌC</h4>
-            </div>
-        </div>
-        <div class="body-all">
+    <div class="body-full">
+         <div class="gird">
             <div class="body-right">
-                <div class="body-science">
-                    <div class="science-item">
-                        <div class="item-origin">
-                            <h6 class="title-1">KHÓA HỌC ĐÃ ĐĂNG KÝ</h6>
-                            <hr class="title-n" width="80%">
-                        </div>
-                        <div id="khoa-hoc-1" class="item-origin-0">
-                            <div class="body-left-infor-boder">
-                                <label for="tieude-1" class="title-title">Tên khóa học:<span id="tieude-1"></span></label>
-                                <label for="tieude-2" class="title-title">Thông tin khóa học:<span id="tieude-2"></span></label>
-                            </div>
-                        </div>
-                        <div class="item-origin-0" id="khoa-hoc-2">
-                            <div class="body-left-infor-boder">
-                                <label for="tieude-3" class="title-title">Tên khóa học:
-                                    <span id="tieude-3"></span>
-                                </label>
-                                <label for="tieude-4" class="title-title">Thông tin khóa học:
-                                    <span id="tieude-4"></span>
-                                </label>
-                            </div>
-                        </div>
-                        
-                        
-                    </div>
-                </div>
             </div>
-            <div class="boby-mid">
-                <div class="body-science-1">
-                    <div class="science-item">
-                        <div class="item-origin-1">
-                            <h6 class="title-1"><i class="fa-sharp fa-solid fa-chevron-left" style="color: #000000;"></i>&nbsp;&nbsp;Tham khảo thêm khóa học</h6>
-                            <hr class="title-nn" width="80%">
-                        </div>
-                        <h6 class="title-science-1">ĐĂNG KÝ KHÓA HỌC</h6>
-                        <p class="title-science-2">Bạn có <span id="number"></span> khóa học trong giỏ hàng</p>
+            <div class="body-mid">
+                <div class="body-full-mid">
+                    <div class="mid-text-1">
+                        <img class="banner-bsmart" src="./images/banner-bsmart.png">
                     </div>
-                </div>
-                <div class="body-full-mid">
-                    <div class="body-mid-infor-boder-main">
-                        <div class="body-full-mid-right">
-                            <img class="img-body-mid" src="./images/avatar-mentor-1.jpg">
+                    <h1 class="mid-text-2">BSMART</h1>
+                    <h1 class="mid-text-3">Học cùng mentor</h1>
+                    <h5 class="mid-text-4">100% TRÚNG QUÀ</h5>
+                    <h5 class="mid-text-5">Vô vàn giải thưởng hấp dẫn cùng Bsmart</h5>
+                    <div class="main-list">
+                      <button class="button-list">Xem danh sách trúng thưởng</button>
+                    </div>
+                    <div class="popup5" id="popup5" onclick="closeSuccessPopup1()"style="display: none;">
+                      <div class="popup-content1" >
+                        <h4 class="text-content">Danh sách trúng thưởng</h4>
+                        <form class="form-ds">
+                          <label class="label-ds" for="fullname">Họ và tên</label>                    
+                          <label class="label-ds" for="phone">Số điện thoại</label>         
+                          <label class="label-ds" for="prize">Phần thưởng</label>          
+                          <label class="label-ds" for="time">Thời gian</label>
+                        </form>
+                        <form id="test" class="form-ds-1">
+                          <label class="label-ds-1" for="fullname">NVA</label>                    
+                          <label class="label-ds-1" for="phone">0393701452</label>         
+                          <label class="label-ds-1" for="prize">Voucher Coffee</label>          
+                          <label class="label-ds-1" for="time">29-05-2023</label>
+                          <label class="label-ds-1" for="fullname">NVA</label>                    
+                          <label class="label-ds-1" for="phone">0962961372</label>         
+                          <label class="label-ds-1" for="prize">Voucher Coffee</label>          
+                          <label class="label-ds-1" for="time">29-05-2023</label>
+                          <label class="label-ds-1" for="fullname">VVV</label>                    
+                          <label class="label-ds-1" for="phone">0967777777</label>         
+                          <label class="label-ds-1" for="prize">Voucher Coffee</label>          
+                          <label class="label-ds-1" for="time">29-05-2023</label>
+                          <label class="label-ds-1" for="fullname">XXX</label>                    
+                          <label class="label-ds-1" for="phone">0969999999</label>         
+                          <label class="label-ds-1" for="prize">Voucher Coffee</label>          
+                          <label class="label-ds-1" for="time">29-05-2023</label>
+                          
+                        </form>
+                      </div>              
+                  </div>          
+                    
+                    <div class="dau-qua-mid">
+                        <img class="dau-qua-mid" src="./images/dau-qua.png">
+                    </div>
+
+                    <div id="popup2" class="popup2">
+                      <div class="popup-content2">
+                      <span class="close2" onclick="closePopup2() ">&times;</span>
+                        <h3>Thông báo</h3>
+                        <h5>Bạn đã trúng một phần quà</h5>
+                      </div>
+                    </div>
+
+                    <div id="1" class="popup2">
+                      <div class="popup-content2">
+                        <h3>Chúc mừng bạn đã trúng thưởng</h3>
+                        <h5 class="voucherr">Voucher Laha Coffee</h5>
+                        <p>(Vui lòng chọn "Xác nhận" để nhận thông tin qua Email)</p>
+                        <p class="button-confirm-p"><button class="button-confirm">Xác nhận</button>
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div id="2" class="popup2">
+                      <div class="popup-content2">
+                        <h3>Chúc mừng bạn đã trúng thưởng</h3>
+                        <h5 class="voucherr">Voucher 200.000 vnđ</h5>
+                        <p>(Vui lòng chọn "Xác nhận" để nhận thông tin qua Email)</p>
+                        <p class="button-confirm-p"><button class="button-confirm">Xác nhận</button>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div id="3" class="popup2">
+                      <div class="popup-content2">
+                        <h3>Chúc mừng bạn đã trúng thưởng</h3>
+                        <h5 class="voucherr">Voucher 300.000 vnđ</h5>
+                        <p>(Vui lòng chọn "Xác nhận" để nhận thông tin qua Email)</p>
+                        <p class="button-confirm-p"><button class="button-confirm">Xác nhận</button>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div id="4" class="popup2">
+                      <div class="popup-content2">
+                        <h3>Chúc mừng bạn đã trúng thưởng</h3>
+                        <h5 class="voucherr">Voucher 500.000 vnđ</h5>
+                        <p>(Vui lòng chọn "Xác nhận" để nhận thông tin qua Email)</p>
+                        <p class="button-confirm-p"><button class="button-confirm">Xác nhận</button>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div id="5" class="popup2">
+                      <div class="popup-content2">
+                        <h3>Chúc mừng bạn đã trúng thưởng</h3>
+                        <h5 class="voucherr">Voucher 800.000 vnđ</h5>
+                        <p>(Vui lòng chọn "Xác nhận" để nhận thông tin qua Email)</p>
+                        <p class="button-confirm-p"><button class="button-confirm">Xác nhận</button>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div id="notification" class="notification">
+                      <div class="notification-content">
+                        <span class="close-notification">&times;</span>
+                        <h3>Chú ý</h3>
+                        <p>Bạn chỉ có thể mở 1 phần quà duy nhất</p>
+                      </div>
+                    </div>
+
+                    <div class="main-gift-choose">
+                      <div class="gift-choose">
+                        <div class="image-container">
+                          <img class="qua" src="./css/images/gift.png" alt="" >
+                          <img class="gift_open" id="gift_open_1" src="./css/images/laha.png" alt="" data-popup-id="1"s>
                         </div>
-                        <div class="body-full-mid-mid">
-                            <div class="text-mid">
-                                <h6 class="text-1">Tên khóa học:&nbsp;</h6>
-                                <h6 class="text-2" id="noidung-1">Front end Basic</h6> 
+                      </div>
+                      <div class="gift-choose">
+                        <div class="image-container">
+                          <img class="qua" src="./images/gift.png" alt="" >
+                          <img class="gift_open" id="gift_open_2" src="./images/200.png" alt="" data-popup-id="2">
+                        </div>
+                      </div>
+                      <div class="gift-choose">
+                        <div class="image-container">
+                          <img class="qua" src="./images/gift.png" alt="">  
+                          <img class="gift_open" id="gift_open_3" src="./images/300.png" alt="" data-popup-id="3">
+                        </div>
+                      </div>
+                    </div>
+                    
+                    
+
+                    <div class="main-gift-choose">
+                      <div class="gift-choose">
+                        <div class="image-container">
+                          <img class="qua" src="./images/gift.png" alt="">
+                          <img class="gift_open" src="./images/laha.png" alt="" data-popup-id="1">
+                        </div>
+                      </div>
+                      <div class="gift-choose">
+                        <div class="image-container">
+                          <img class="qua" src="./images/gift.png" alt="">
+                          <img class="gift_open" src="./images/200.png" alt="" data-popup-id="2">
+                        </div>
+                      </div>
+                      <div class="gift-choose">
+                        <div class="image-container">
+                          <img class="qua" src="./images/gift.png" alt="">
+                          <img class="gift_open" src="./images/800.png" alt="" data-popup-id="5">
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="main-gift-choose">
+                      <div class="gift-choose">
+                        <div class="image-container">
+                          <img class="qua" src="./images/gift.png" alt="">
+                          <img class="gift_open" src="./images/500.png" alt="" data-popup-id="4">
+                        </div>
+                      </div>
+                      <div class="gift-choose">
+                        <div class="image-container">
+                          <img class="qua" src="./images/gift.png" alt="">
+                          <img class="gift_open" src="./images/200.png" alt="" data-popup-id="2">
+                        </div>
+                      </div>
+                      <div class="gift-choose">
+                        <div class="image-container">
+                          <img class="qua" src="./images/gift.png" alt="">
+                          <img class="gift_open" src="./images/300.png" alt="" data-popup-id="3">
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="main-list">
+                      <button class="button-list-2"><i><b>DANH SÁCH QUÀ TẶNG</b></i></button>
+                    </div>
+      
+                    <div class="danh-sach-qua">
+                        <img class="danh-sach" src="./images/list.png">
+                    </div>
+                    <h6 class="mid-text-7">
+                      <span class="follow">THEO DÕI ĐỂ NHẬN THÊM ƯU ĐÃI</span>
+                    </h6>
+                    <div class="bodymidcuoi">
+                        <div class="bieutuongxahoi">
+                            <div class="round">
+                                <a href="https://www.facebook.com/et.vi.142/" class="image-link">
+                                    <img src="./images/2021_Facebook_icon.svg.png" alt="Your Image">
+                                 </a>
                             </div>
-                            <div class="text-mid">
-                                <h6 class="text-1">Thông tin khóa học:&nbsp;</h6>
-                                <h6 class="text-2" id="noidung-2">T3-T4 (10:)</h6> 
+                            <div class="round">
+                                <a href="https://www.youtube.com/watch?v=9QnlQBkGwAY&list=RDMM9QnlQBkGwAY&start_radio=1" class="image-link">
+                                    <img src="./images/3689112.png" alt="Your Image">
+                                 </a>
                             </div>
-                            <div class="text-mid">
-                                <h6 class="text-1">Mentor:&nbsp;</h6>
-                                <h6 class="text-2">Mentor Cường</h6> 
-                            </div>
-                            <div class="text-mid">
-                                <h6 class="text-1">Thời gian dự kiến mở lớp:&nbsp;</h6>
-                                <h6 class="text-2">22/12/2022 (10:10)</h6> 
-                            </div>
-                            <div class="text-mid">
-                                <h6 class="text-1">Giá tiền:&nbsp;</h6>
-                                <h6 class="text-2">1.200.000 đ</h6> 
-                            </div>
-                            <div class="text-mid">
-                                <h6 class="text-1">Số lượng:&nbsp;</h6>
-                                <h6 class="text-2">1</h6> 
+                            <div class="round">
+                                <a href="https://www.linkedin.com/checkpoint/challenge/AgFmo-tChvPeVAAAAYhcvL9KP9iWIDQnKGHmVCrFP0UeEUu_b44b_n0tBBLVnHvitLsm6DBWHUdj6J7Gg6Ya986wlCwCNw?ut=1GJY_HmFtMAaM1" class="image-link">
+                                    <img src="images/702300.png" alt="Your Image">
+                                 </a>
                             </div>
                         </div>
-                        <h6 class="body-full-mid-left">
-                            <button class="button-delete" data-target="khoa-hoc-1">
-                                <h6 class="body-left-infor-text-color-right">Xóa</h6>
-                            </button>
-                        </h6>
-                    </div>                   
-                </div>
-                <div class="body-full-mid">
-                    <div class="body-mid-infor-boder-main">
-                        <div class="body-full-mid-right">
-                            <img class="img-body-mid" src="./images/avatar-mentor-1.jpg">
-                        </div>
-                        <div class="body-full-mid-mid">
-                            <div class="text-mid">
-                                <h6 class="text-1">Tên khóa học:&nbsp;</h6>
-                                <h6 id="noidung-3" class="text-2">Front end Basic</h6> 
-                            </div>
-                            <div class="text-mid">
-                                <h6 class="text-1">Thông tin khóa học:&nbsp;</h6>
-                                <h6 id="noidung-4" class="text-2">T3-T4 (10:)</h6> 
-                            </div>
-                            <div class="text-mid">
-                                <h6 class="text-1">Mentor:&nbsp;</h6>
-                                <h6 class="text-2">Mentor Cường</h6> 
-                            </div>
-                            <div class="text-mid">
-                                <h6 class="text-1">Thời gian dự kiến mở lớp:&nbsp;</h6>
-                                <h6 class="text-2">22/12/2022 (10:10)</h6> 
-                            </div>
-                            <div class="text-mid">
-                                <h6 class="text-1">Giá tiền:&nbsp;</h6>
-                                <h6 class="text-2">1.200.000 đ</h6> 
-                            </div>
-                            <div class="text-mid">
-                                <h6 class="text-1">Số lượng:&nbsp;</h6>
-                                <h6 class="text-2">1</h6> 
-                            </div>
-                        </div>
-                        <h6 class="body-full-mid-left">
-                            <button class="button-delete" data-target="khoa-hoc-2">
-                                <h6 class="body-left-infor-text-color-right">Xóa</h6>
-                            </button>
-                        </h6>
-                    </div>                    
+                    </div>
                 </div>
             </div>
             <div class="body-left">
-                <div class="body-science-2">
-                    <div class="science-item">
-                        <div class="item-origin-3">
-                            <h6 class="title-1">THÔNG TIN NGƯỜI MUA</h6>
-                            <hr class="title-nn" width="80%">
-                        </div>
-                    </div>
-                    <div class="science-item-1">
-                        <div class="text-science-left">
-                            <h6 class="text-1">Tên:&nbsp;&nbsp;</h6>
-                            <h6 class="text-1">Số điện thoại:&nbsp;&nbsp;</h6>
-                            <h6 class="text-1">Email:&nbsp;&nbsp;</h6>
-                        </div>
-                        <div class="text-science-right">
-                            <h6 class="text-2">Đình Việt</h6> 
-                            <h6 class="text-2">0393701452</h6> 
-                            <h6 class="text-2">vietdangsb@gmail.com</h6> 
-                        </div>
-                    </div>
-                    <div class="science-item-2">
-                        <div class="science-item-2-form">
-                            <h6 class="title-science-2-form">TỔNG KHÓA HỌC</h6>
-                        </div>
-                    </div>
-                   
-                    <div class="promo-code">
-                        <label for="promo-code__input" class="ma-gioi-thieu"> Nhập mã giới thiệu:&nbsp;</label>
-                        <input class="my-input" type="text" id="promo-code__input" name="promo-code__input">
-                        <button class="promo-code__submit promo-code__submit--intro">
-                          <i class="fas fa-check-circle"></i>
-                        </button>
-                        <div class="question">
-                            <button class="question__button">
-                              <i class="fas fa-question-circle"></i>
-                            </button>
-                            <div class="question__content">
-                              <p class="question__content-1">Hướng dẫn sử dụng mã giới thiệu</p><br>
-                              <p class="question__content-2">Đây cũng là ưu đãi mà BSmart dành cho khách hàng. Khi giới
-                                thiệu cho bạn bè, người thân cùng sử dụng BSmart và họ nhập
-                                mã giảm giá BSmart này thành công trong bước đăng ký nhé.
-                                Sau khi người bạn được bạn giới thiệu mua sắm thành công 1
-                                đơn hàng trên hệ thống BSmart thì bạn và người nhập mã sẽ
-                                nhận ngay 50.000 BS Coin để mua hàng.</p>
-                            </div>
-                          </div>
-                          
-                          <div class="popup" id="myPopup">
-                            <div class="popup__content">
-                              <span class="popup__close">&times;</span>
-                              <div class="popup__question"></div>
-                              <button class="popup__exit">Exit</button>
-                            </div>
-                          </div>
-                          
-                    </div>
-                    <div class="promo-code-1">
-                        <label for="promo-code__input"class="ma-gioi-thieu"> Mã giảm giá:&nbsp;</label>
-                        <input class="my-input-1" type="text">
-                        <button class="promo-code__submit promo-code__submit--intro">
-                          <i class="fas fa-check-circle"></i>
-                        </button>
-                        <div class="question1">
-                            <button class="question__button1">
-                              <i class="fas fa-question-circle"></i>
-                            </button>
-                            <div class="question__content1">
-                              <p class="question__content-11">Giới thiệu và hướng dẫn nhập mã giảm giá</p><br>
-                              <p class="question__content-21">Đây cũng là ưu đãi mà BSmart dành cho khách hàng. Khi giới
-                                thiệu cho bạn bè, người thân cùng sử dụng BSmart và họ nhập
-                                mã giảm giá BSmart này thành công trong bước đăng ký nhé.
-                                Sau khi người bạn được bạn giới thiệu mua sắm thành công 1
-                                đơn hàng trên hệ thống BSmart thì bạn và người nhập mã sẽ
-                                nhận ngay 50.000 BS Coin để mua hàng.</p>
-                            </div>
-                          </div>
-                          <button class="button-delete-1">
-                            <h6 class="body-right-infor-text-color-right">Nhập</h6>    
-                        </button>
-                          
-                          <div class="popup1" id="myPopup1">
-                            <div class="popup__content1">
-                              <span class="popup__close1">&times;</span>
-                              <div class="popup__question1"></div>
-                              <button class="popup__exit1">Exit</button>
-                            </div>
-                          </div>                      
-                    </div>
-                    </div>
-                    <div class="body-full-science">
-                        <div class="body-full-science-science">
-                            <div class="text-body-full-science-science">
-                                <h6 class="text-science-text-1">Tạm tính:&nbsp;</h6>
-                                <h6 class="body-right-infor-text-item-1" id="subtotal">1.200.000 đ</h6>
-                            </div>
-                            <div class="text-body-full-science-science">
-                                <h6 class="text-science-text-1">Giảm giá:&nbsp;</h6>
-                                <h6 class="body-right-infor-text-item-1" id="discount">0 đ</h6>
-                            </div>
-                            <div class="text-body-full-science-science">
-                                <h6 class="text-science-text-1">Tổng tiền:&nbsp;</h6>
-                                <h6 class="body-right-infor-text-item" id="total">1.200.000 đ</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="science-item-4n">
-                            <div class="prince">
-                            <label class="prince-l" for="country">Sử dụng BSMart:&nbsp;</label>
-                            <label class="prince-p" for="country" id="bsmart-discount">200.000 đ&nbsp;</label>
-                            <select id="country" name="country" onchange="calculatePrice()">
-                                <option value="default">--Lựa chọn--</option>
-                                <option value="vietnam">Sử dụng</option>
-                                <option value="usa">Không sử dụng</option>
-                            </select>
-                            </div>
-                    </div>
-                    <h6 class="title-science-5n">Thanh toán bằng:</h6>
-                    <div class="payment-container">
-                        <button class="momo-button">
-                          <img class="momo" id="momo-payment" src="./images/momo.jpg" alt="Momo">
-                        </button>
-                        <button class="viettel-button">
-                          <img class="viettel" id="viettel-payment" src="./images/viettelpay.png" alt="ViettelPay">
-                        </button>
-                        <div class="payment-popup">
-                            <form class="payment-form">
-                                <div class="payment-left">
-                                    <label class="payment-left-text">Đơn hàng hết hạn sau: <span id="countdown">100</span>s</label>
-                                    <label class="payment-left-text">Cổng thanh toán:</label>
-                                    <label class="payment-left-text-l">MoMo</label>
-                                    <hr class="body-payment-hr">
-                                    <label class="payment-left-text">Số tiền:</label>
-                                    <p id="h3-tag" class="payment-left-text-ll">1.200.000 đ</p>
-                                    <hr class="body-payment-hr">
-                                    <label class="payment-left-text">Thông tin:</label>
-                                    <p class="payment-left-text-ll">thanh-toan-khoa-hoc-don-hang-10013</p>
-                                    <hr class="body-payment-hr">
-                                    <label class="payment-left-text">Đơn hàng:</label>
-                                    <p class="payment-left-text-ll">100123123123123</p>
-                                    <hr class="body-payment-hr">
-                                    <span class="close-button" onclick="closeForm()"><i class="fa-sharp fa-solid fa-arrow-left"></i> Quay lại</span>
-                                </div>                             
-                                <div class="payment-right">
-                                    <div class="payment-right-img">
-                                        <img class="payment-right-img-1" src="./images/momo.jpg" alt="">
-                                        <img class="payment-right-img-2" src="./images/momo.jpg" alt="">
-                                    </div>
-                                    <hr class="body-payment-hr">
-                                    <p class="payment-right-quet">Quét mã để thanh toán</p>
-                                    <img class="payment-right-img-3" src="./images/qrcode.jpg" alt="">
-                                    <p class="payment-right-use"><i class="fa-sharp fa-solid fa-qrcode"></i> Sử dụng app <b>Momo</b> hoặc<br> ứng dụng Camera hỗ trợ QR code để quét mã</p>
-                                    <p class="payment-right-use"><i class="fa-solid fa-spinner fa-spin"></i> Đang chờ bạn quét mã...</p>
-                                        <div class="or">
-                                            <hr class="body-or-hr">                                             
-                                            <p class="orr">Hoặc</p>                            
-                                            <hr class="body-or-hr">
-                                        </div>
-                                    <p class="payment-right-use">Đăng ký tài khoản momo và thanh toán lần đầu hoặc <u class="login">đăng nhập</u></p>
-                                    <button class="dang-ky">ĐĂNG KÝ NGAY</button>
-                                </div>                                           
-                            </form>
-                        </div>
-                        <div class="payment-popup-1">
-                            <form class="payment-form">
-                                <div class="payment-left">
-                                    <label class="payment-left-text">Đơn hàng hết hạn sau: <span id="countdown1">100</span>s</label>
-                                    <label class="payment-left-text">Cổng thanh toán:</label>
-                                    <label class="payment-left-text-l">Viettel Pay</label>
-                                    <hr class="body-payment-hr">
-                                    <label class="payment-left-text">Số tiền:</label>
-                                    <h3 id="h4-tag" class="payment-left-text-ll">1.200.000 đ</h3>
-                                    <hr class="body-payment-hr">
-                                    <label class="payment-left-text">Thông tin:</label>
-                                    <p class="payment-left-text-ll">thanh-toan-khoa-hoc-don-hang-10013</p>
-                                    <hr class="body-payment-hr">
-                                    <label class="payment-left-text">Đơn hàng:</label>
-                                    <p class="payment-left-text-ll">100123123123123</p>
-                                    <hr class="body-payment-hr">
-                                    <span class="close-button" onclick="closeForm1()"><i class="fa-sharp fa-solid fa-arrow-left"></i> Quay lại</span>
-                                </div>                             
-                                <div class="payment-right">
-                                    <div class="payment-right-img">
-                                        <img class="payment-right-img-1" src="./images/viettel.jpg" alt="">
-                                        <img class="payment-right-img-2" src="./images/viettel.jpg" alt="">
-                                    </div>
-                                    <hr class="body-payment-hr">
-                                    <p class="payment-right-quet-1">Quét mã để thanh toán</p>
-                                    <img class="payment-right-img-3" src="./images/qrcode.jpg" alt="">
-                                    <p class="payment-right-use"><i class="fa-sharp fa-solid fa-qrcode"></i> Sử dụng app <b>Viettel Pay</b> hoặc<br> ứng dụng Camera hỗ trợ QR code để quét mã</p>
-                                    <p class="payment-right-use"><i class="fa-solid fa-spinner fa-spin"></i> Đang chờ bạn quét mã...</p>
-                                        <div class="or">
-                                            <hr class="body-or-hr">                                             
-                                            <p class="orr">Hoặc</p>                            
-                                            <hr class="body-or-hr">
-                                        </div>
-                                    <p class="payment-right-use">Đăng ký tài khoản momo và thanh toán lần đầu hoặc <u class="login-1">đăng nhập</u></p>
-                                    <button class="dang-ky-1">ĐĂNG KÝ NGAY</button>
-                                </div>                                           
-                            </form>
-                        </div>
-                    </div>
-
-                    <button type="button" class="btn btn-success">Thanh Toán</button>
-                    <div class="body-right-infor-boder-3">
-                        <div class="body-right-infor-boder-main">
-                            <div class="body-right-infor-boder-text">
-                                <div class="body-mid-infor-boder-text-2">
-                                    <label class="body-right-infor-text-2">TỔNG ĐÀI HỖ TRỢ &nbsp;</label>                                      
-                                </div>
-                                <hr class="body-right-hr">
-                                <div class="body-mid-infor-boder-text-2">
-                                    <h6 class="body-right-infor-text-2"><i class="fa-sharp fa-solid fa-phone"></i> 028 9999 7939 &nbsp;</h6>                                       
-                                </div>                              
-                        </div>                           
-                    </div>
-                </div>
-                
             </div>
-        </div>   
+            <!-- Popup đăng ký -->
+            <div id="registerPopup" class="popup">
+                <div class="popup-content">
+                <h2 class="register">Đăng ký thông tin tham gia</h2>
+                <!-- Thêm nội dung của popup đăng ký tại đây -->
+                <form onsubmit="return registerFormSubmit(event)">
+                    <!-- Các trường đăng ký -->
+                    <input class="username" type="text" name="name" placeholder="Tên">
+                    <input class="callphone" type="tel" name="phone" placeholder="Số điện thoại">
+                    <input class="useremail" type="email" name="email" placeholder="Email">
+                    <button class="button-text" type="submit">Tham gia ngay</button>
+                </form>
+                <p id="successMessage" class="success-message"></p>
+                </div>
+            </div>
+
+            <!-- Popup đăng ký thành công -->
+            <div id="successPopup" class="popup">
+                <div class="popup-content" onclick="closeSuccessPopup()">
+                <h2 class="text-content-3">Đã lưu thông tin người nhận</h2>
+                <p>Chọn 1 hộp quà bất kỳ</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <script src="./scrip.js"></script>
-
-    <script>
-        var tieude1 = document.getElementById("tieude-1"); // Lấy thẻ span có id="tieude-1"
-        var noidung1 = document.getElementById("noidung-1"); // Lấy thẻ h6 có id="noidung-1"
-        var tieude2 = document.getElementById("tieude-2"); 
-        var noidung2 = document.getElementById("noidung-2"); 
-        tieude1.innerHTML = noidung1.innerHTML;
-        tieude2.innerHTML = noidung2.innerHTML;
-
-        var tieude3 = document.getElementById("tieude-3"); // Lấy thẻ span có id="tieude-1"
-        var noidung3 = document.getElementById("noidung-3"); // Lấy thẻ h6 có id="noidung-1"
-        var tieude4 = document.getElementById("tieude-4"); 
-        var noidung4 = document.getElementById("noidung-4"); 
-        tieude3.innerHTML = noidung3.innerHTML;
-        tieude4.innerHTML = noidung4.innerHTML;
-    </script>
+    <script src="./script.js"></script>
     
 </body>
 </html>
