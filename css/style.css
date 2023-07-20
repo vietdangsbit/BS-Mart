@@ -1,726 +1,1073 @@
-@media screen and (max-width:1376px){
-    .huhu{
-        margin-top: 35%;
-      }
-      .huhuhu{
-        margin-top: 45%;
-      }
-      .huhuhi{
-        margin-top: 28%;
-      }
-}
-@media screen and (max-width:1302px){
-    .huhu{
-        margin-top: 35%;
-      }
-      .huhuhu{
-        margin-top: 45%;
-      }
-      .huhuhi{
-        margin-top: 28%;
-      }
-}
-
-@media screen and (max-width:1286px){
-    .huhu{
-        margin-top: 35%;
-      }
-      .huhuhu{
-        margin-top: 45%;
-      }
-      .huhuhi{
-        margin-top: 28%;
-      }
-}
-@media screen and (max-width:1199px){
-    .title-22 {
-        text-align: center;
-        margin-block: 10px 30px;
-        font-weight: 550;
+@media screen and (max-width:1396px){
+    .title-science-2 {
+        margin-left: 60%;
         font-size: 14px;
-        margin-left: 10px;
-        color: #908f8f;
     }
-    .banner-00 {
-        height: 190px;
-        width: 100%;
-        border-radius: 5px;
-    }
-    .hihi {
-        /* margin-top: 50px; */
-        font-weight: 600;
-        text-align: center;
-        font-size: 40px;
-    }
-    label.star {
-        float: right;
-        padding: 6px;
-        font-size: 15px;
-        color: #444;
-        transition: all .2s;
-    }
-    .icon {
-        margin-left: 82%;
-        width: 17%;
-        height: 12%;
-        margin-bottom: -6%;
-    }
-    .science-item {
-        margin-top: 7%;
-        box-shadow: 0px 0px 1px 0px;
-        border-radius: 5px;
-        width: 100%;
-    }
-    .huhu{
-        margin-top: 30%;
-      }
-      .huhuhu{
-        margin-top: 48%;
-      }
-      .banner-img-3 {
-        height: 416px;
-        position: relative;
-        
-        width: 100%;
-        background-size: cover;
-    }
-    .huhuhi{
-        margin-top: 43%;
-      }
-      
-      .body-science {
-        padding-left: 10px;
-        padding-right: 10px;
-        /* padding-top: 15px; */
-        width: 18%;
-        align-items: center;
-        display: flex;
-    }
-    .banner-000 {
-        height: 64px;
-        width: 100%;
-        border-radius: 5px;
-    }
-    
-} 
-
-@media screen and (max-width:1116px){
-    .huhu{
-        margin-top: 35%;
-      }
-      .huhuhu{
-        margin-top: 45%;
-      }
-      .huhuhi{
-        margin-top: 28%;
-      }
-}
-@media screen and (max-width:1096px){
-    
-}
-
-@media screen and (max-width:992px){
-    .body-science-hide{
-        display: none;
-      }
-      .body-science {
-        padding-left: 10px;
-        padding-right: 10px;
-        /* padding-top: 15px; */
-        width: 24%;
-        align-items: center;
-        display: flex;
-    }
-    .body-science-hide-hide {
-        padding-left: 10px;
-        padding-right: 10px;
-        /* padding-top: 15px; */
-        width: 24%;
-        align-items: center;
-        display: flex;
-    }
-    .body-science-hide-hide-hide {
-        padding-left: 10px;
-        padding-right: 10px;
-        /* padding-top: 15px; */
-        width: 24%;
-        align-items: center;
-        display: flex;
-    }
-    .huhu{
-        margin-top: 35%;
-      }
-      .body-sciencee {
-        padding-left: 10px;
-        padding-right: 10px;
-        /* padding-top: 15px; */
-        width: 24%;
-        align-items: center;
-        display: flex;
-    }
-    .huhuhu{
-        margin-top: 55%;
-      }
-}
-@media screen and (max-width:956px){
-  .btn-1 {
-    background-color: #ff630e;
-    color: #fefefe;
-    margin-top: 20px;
-    font-weight: 600;
-    display: block;
-    padding: 7px 8px;
-    border-radius: 5px;
-    border: none;
-    text-decoration: none;
-    margin-left: 39%;
-    width: 24%;
-}
-  .body-science-hide{
-      display: none;
-    }
-    .body-science {
-      padding-left: 10px;
-      padding-right: 10px;
-      /* padding-top: 15px; */
-      width: 24%;
-      align-items: center;
-      display: flex;
-  }
-  .body-science-hide-hide {
-      padding-left: 10px;
-      padding-right: 10px;
-      /* padding-top: 15px; */
-      width: 24%;
-      align-items: center;
-      display: flex;
-  }
-  .body-science-hide-hide-hide {
-      padding-left: 10px;
-      padding-right: 10px;
-      /* padding-top: 15px; */
-      width: 24%;
-      align-items: center;
-      display: flex;
-  }
-  .huhu{
-      margin-top: 35%;
-    }
-    .body-sciencee {
-      padding-left: 10px;
-      padding-right: 10px;
-      /* padding-top: 15px; */
-      width: 24%;
-      align-items: center;
-      display: flex;
-  }
-  .huhuhu{
-      margin-top: 55%;
-    }
-}
-@media screen and (max-width:810px){
-  .btn-1 {
-    background-color: #ff630e;
-    color: #fefefe;
-    margin-top: 20px;
-    font-weight: 600;
-    display: block;
-    padding: 7px 8px;
-    border-radius: 5px;
-    border: none;
-    text-decoration: none;
-    margin-left: 34%;
-    width: 33%;
-}
-  .body-science-hide{
-      display: none;
-    }
-    .body-science {
-      padding-left: 10px;
-      padding-right: 10px;
-      /* padding-top: 15px; */
-      width: 24%;
-      align-items: center;
-      display: flex;
-  }
-  .body-science-hide-hide {
-      padding-left: 10px;
-      padding-right: 10px;
-      /* padding-top: 15px; */
-      width: 24%;
-      align-items: center;
-      display: flex;
-  }
-  .body-science-hide-hide-hide {
-      padding-left: 10px;
-      padding-right: 10px;
-      /* padding-top: 15px; */
-      width: 24%;
-      align-items: center;
-      display: flex;
-  }
-  
-    .body-sciencee {
-      padding-left: 10px;
-      padding-right: 10px;
-      /* padding-top: 15px; */
-      width: 24%;
-      align-items: center;
-      display: flex;
-  }
-  .huhu{
-    margin-top: 43%;
-  }
-  .huhuhu{
-    margin-top: 65%;
-  }
-  .huhuhi{
-    margin-top: 55%;
-  }
-}
-/* @media screen and (max-width:875px){
-    .huhu{
-        margin-top: 40%;
-      }
-      .huhuhu{
-        margin-top: 60%;
-      }
-      .huhuhi{
-        margin-top: 48%;
-      }
-} */
-@media screen and (max-width:768px){ 
-  .btn-1 {
-    background-color: #ff630e;
-    color: #fefefe;
-    margin-top: 20px;
-    font-weight: 600;
-    display: block;
-    padding: 7px 8px;
-    border-radius: 5px;
-    border: none;
-    text-decoration: none;
-    margin-left: 35%;
-    width: 31%;
-}  
-    .btn {
-        margin-top: 20px;
-        font-weight: 600;
-        display: inline-block;
-        
-        
-        padding: 5px 4px;
-        border-radius: 5px;
-        text-decoration: none;
-        margin-left: -2px;
-    }
-    .banner-img-3 {
-        height: 311px;
-        position: relative;
-        width: 100%;
-        background-size: cover;
-    }
-    .body-science-hide-hide{
-        display: none;
-    }
-    .body-science-hide{
-        display: none;
-      }
-      .body-sciencee {
-        padding-left: 10px;
-        padding-right: 10px;
-        /* padding-top: 15px; */
+    .my-input {
+        height: 25px;
+        border-radius: 3px;
+        border-color: #ff630e;
         width: 30%;
-        align-items: center;
+        border: 2px solid #ff5e00;
+    }
+    .payment-container {
+        margin-top: 10%;
+        margin-left: 3%;
         display: flex;
-    }
-    .body-science {
-        padding-left: 10px;
-        padding-right: 10px;
-        /* padding-top: 15px; */
-        width: 31%;
-        align-items: center;
-        display: flex;
-    }
-    .body-science-hide-hide-hide {
-        padding-left: 10px;
-        padding-right: 10px;
-        /* padding-top: 15px; */
-        width: 31%;
-        align-items: center;
-        display: flex;
-    }
-    .body-hihi {
-        width: 100%;
-        /* background-color: #908f8f; */
-        display: flex;
-        margin-left: 20%;
-    }
-    .huhu{
-        margin-top: 45%;
-      }
-      .huhuhu{
-        margin-top: 75%;
-      }
-      .huhuhi{
-        margin-top: 58%;
-      }
-      .mainn {
-        width: 100%;
-        display: block;
-    }
-    .content-main {
-      text-align: center;
-      width: 100%;
-  }
-  .anh-main {
-    width: 85%;
-    height: 300px;
-}
-.banner-1 {
-  position: relative;
-  background-image: url(./background.jpg);
-  background-size: cover;
-  height: 700px;
-}
-.banner-text-1 {
-  background-color: rgb(131 131 136 / 74%);
-  width: 100%;
-  height: 700px;
-  position: absolute;
-  text-align: center;
-  color: #060606;
-}
-.button-main {
-  margin-top: 29%;
-  margin-left: 0%;
-}
-}
-
-@media screen and (max-width:698px){
-    .content-1 {
-        padding-left: 13%;
-        padding-right: 13%;
-        padding-top: 20px;
-        font-size: 59px;
-        font-weight: 600;
-        color: #fefefe;
+        width: 118%;
     }
 }
-
-@media screen and (max-width:430px){ 
-  .btn-1 {
-    background-color: #ff630e;
-    color: #fefefe;
-    margin-top: 20px;
-    font-weight: 600;
-    display: block;
-    padding: 7px 8px;
-    border-radius: 5px;
-    border: none;
-    text-decoration: none;
-    margin-left: 24%;
-    width: 52%;
+@media screen and (max-width:1254px){
+    .title-title {
+        margin-top: 5%;
+        font-size: 14px;
+    }
+    .my-input {
+        height: 25px;
+        border-radius: 3px;
+        border-color: #ff630e;
+        width: 30%;
+        border: 2px solid #ff5e00;
+    }
+    /* .payment-container {
+        margin-top: 10%;
+        margin-left: 1%;
+        display: flex;
+        width: 127%;
+    } */
 }
-    .content-main-mid {
-        /* width: 100%; */
-        display: block;
+@media screen and (max-width:1216px){
+    .title-title {
+        margin-top: 5%;
+        font-size: 14px;
     }
-    .main-mid {
-        padding: 10px 10px 10px;
-        width: 100%;
-        text-align: justify;
+    .my-input {
+        height: 25px;
+        border-radius: 3px;
+        border-color: #ff630e;
+        width: 30%;
+        border: 2px solid #ff5e00;
     }
-    .content-main-mid-1 {
-        display: block;
+    .my-input-1 {
+        margin-left: 47px;
+        height: 25px;
+        border-radius: 3px;
+        border-color: #ff630e;
+        width: 20%;
+        border: 2px solid #ff5e00;
     }
-    .banner-img-3 {
-        height: 147px;
-        position: relative;
-        width: 100%;
-        background-size: cover;
+    .title-science-2 {
+        margin-left: 53%;
+        font-size: 14px;
     }
-    .title-banner-5 {
-        color: white;
-        font-size: 16px;
-        font-weight: bold;
-    }
-    .title-banner-6 {
-        color: white;
-        font-size: 11px;
-        font-weight: bold;
-    }
-    .body-science-hide-hide-hide{
-        display: none;
-    }
-    .body-sciencee {
-        padding-left: 10px;
-        padding-right: 10px;
-        /* padding-top: 15px; */
-        width: 50%;
-        align-items: center;
+    /* .payment-container {
+        margin-top: 10%;
+        margin-left: 1%;
         display: flex;
+        width: 127%;
+    } */
+}
+@media screen and (max-width:1084px){
+    .title-title {
+        margin-top: 8%;
+        font-size: 12px;
     }
-    .body-science {
-        padding-left: 10px;
-        padding-right: 10px;
-        /* padding-top: 15px; */
-        width: 70%;
-        align-items: center;
+    .my-input {
+        height: 25px;
+        border-radius: 3px;
+        border-color: #ff630e;
+        width: 30%;
+        border: 2px solid #ff5e00;
+    }
+    .my-input-1 {
+        margin-left: 47px;
+        height: 25px;
+        border-radius: 3px;
+        border-color: #ff630e;
+        width: 20%;
+        border: 2px solid #ff5e00;
+    }
+    .title-science-2 {
+        margin-left: 53%;
+        font-size: 14px;
+    }
+    .payment-container {
+        margin-top: 10%;
+        margin-left: 3%;
         display: flex;
+        width: 138%;
     }
-    .body-hihi {
-        width: 100%;
-        /* background-color: #908f8f; */
+    .btn-success {
+        margin-left: 33%;
+        width: 45%;
+        margin-top: 5%;
+    }
+    /* .payment-container {
+        margin-top: 10%;
+        margin-left: 1%;
         display: flex;
-        margin-left: 15%;
+        width: 127%;
+    } */
+}
+@media screen and (max-width:1080px){
+    .title-title {
+        margin-top: 8%;
+        font-size: 12px;
     }
-    .huhu{
-        margin-top: 83%;
-      }
-      .huhuhu{
-        margin-top: 120%;
-      }
-      .huhuhi{
-        margin-top: 105%;
-      }
-      .hihi {
-        /* margin-top: 50px; */
-        font-weight: 600;
-        text-align: center;
-        font-size: 28px;
+    .my-input {
+        height: 25px;
+        border-radius: 3px;
+        border-color: #ff630e;
+        width: 30%;
+        border: 2px solid #ff5e00;
     }
-    .content-1 {
-        padding-left: 13%;
-        padding-right: 13%;
-        padding-top: 20px;
-        font-size: 39px;
-        font-weight: 600;
-        color: #fefefe;
+    .my-input-1 {
+        margin-left: 47px;
+        height: 25px;
+        border-radius: 3px;
+        border-color: #ff630e;
+        width: 16%;
+        border: 2px solid #ff5e00;
+    }
+    .title-science-2 {
+        margin-left: 53%;
+        font-size: 14px;
+    }
+    .payment-container {
+        margin-top: 10%;
+        margin-left: 3%;
+        display: flex;
+        width: 138%;
+    }
+    .btn-success {
+        margin-left: 33%;
+        width: 45%;
+        margin-top: 5%;
     }
     .content {
-        padding-top: 46px;
+        color: #ff6a00;
+        margin-top: 12%;
+        font-weight: 600;
+    }
+    /* .payment-container {
+        margin-top: 10%;
+        margin-left: 1%;
+        display: flex;
+        width: 127%;
+    } */
+}
+@media screen and (max-width:1056px){
+    .title-title {
+        margin-top: 8%;
+        font-size: 12px;
+    }
+    .my-input {
+        height: 25px;
+        border-radius: 3px;
+        border-color: #ff630e;
+        width: 30%;
+        border: 2px solid #ff5e00;
+    }
+    .my-input-1 {
+        margin-left: 1px;
+        height: 25px;
+        border-radius: 3px;
+        border-color: #ff630e;
+        width: 24%;
+        border: 2px solid #ff5e00;
+    }
+    .title-science-2 {
+        margin-left: 48%;
+        font-size: 14px;
+    }
+    .payment-container {
+        margin-top: 10%;
+        margin-left: 3%;
+        display: flex;
+        width: 138%;
+    }
+    .btn-success {
+        margin-left: 33%;
+        width: 45%;
+        margin-top: 5%;
+    }
+    .content {
+        color: #ff6a00;
+        margin-top: 12%;
+        font-weight: 600;
+    }
+    .img-body-mid {
+        width: 76%;
+        margin: -3%;
+        margin-top: 54%;
+    }
+    .body-full-mid-mid {
+        width: 92%;
+        margin-top: 1%;
+    }
+    .button-delete {
+        background-color: #fefefe;
+        border: none;
+        color: #ff630e;
+        margin-top: 120px;
+        margin-left: -26%;
+    }
+    select {
+        height: 27px;
+        padding: 5px;
+        font-size: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 28%;
+    }
+    .payment-container {
+        margin-top: 10%;
+        margin-left: -3%;
+        display: flex;
+        width: 150%;
+    }
+    .btn-success {
+        margin-left: 25%;
+        width: 53%;
+        margin-top: 6%;
+    }
+    .body-right-infor-text-2 {
+        margin-left: 31%;
+        font-size: 13px;
+        margin-top: 5px;
+        color: #4b4b4bd6;
+        font-weight: 600;
+    }
+    /* .payment-container {
+        margin-top: 10%;
+        margin-left: 1%;
+        display: flex;
+        width: 127%;
+    } */
+}
+@media screen and (max-width:1030px){
+    .title-title {
+        margin-top: 8%;
+        font-size: 12px;
+    }
+    .my-input {
+        height: 25px;
+        border-radius: 3px;
+        border-color: #ff630e;
+        width: 30%;
+        border: 2px solid #ff5e00;
+    }
+    .my-input-1 {
+        margin-left: 1px;
+        height: 25px;
+        border-radius: 3px;
+        border-color: #ff630e;
+        width: 24%;
+        border: 2px solid #ff5e00;
+    }
+    .title-science-2 {
+        margin-left: 48%;
+        font-size: 14px;
+    }
+    .payment-container {
+        margin-top: 10%;
+        margin-left: 3%;
+        display: flex;
+        width: 138%;
+    }
+    .btn-success {
+        margin-left: 33%;
+        width: 45%;
+        margin-top: 5%;
+    }
+    .content {
+        color: #ff6a00;
+        margin-top: 12%;
+        font-weight: 600;
+    }
+    .img-body-mid {
+        width: 76%;
+        margin: -3%;
+        margin-top: 54%;
+    }
+    .body-full-mid-mid {
+        width: 92%;
+        margin-top: 1%;
+    }
+    .button-delete {
+        background-color: #fefefe;
+        border: none;
+        color: #ff630e;
+        margin-top: 120px;
+        margin-left: -26%;
+    }
+    select {
+        height: 27px;
+        padding: 5px;
+        font-size: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 28%;
+    }
+    .payment-container {
+        margin-top: 10%;
+        margin-left: -3%;
+        display: flex;
+        width: 150%;
+    }
+    .btn-success {
+        margin-left: 25%;
+        width: 53%;
+        margin-top: 6%;
+    }
+    .body-right-infor-text-2 {
+        margin-left: 31%;
+        font-size: 13px;
+        margin-top: 5px;
+        color: #4b4b4bd6;
+        font-weight: 600;
+    }
+    .item-origin-0 {
+        width: 94%;
+        padding-left: 2%;
+        margin-left: 8px;
+        border: 3.5px solid rgba(148, 146, 146, 0.68);
+        border-radius: 13px;
+        margin-right: 14%;
+        margin-top: 4%;
+        height: 89px;
+    }
+    .title-science-2 {
+        margin-left: 43%;
+        font-size: 14px;
+    }
+    .text-1 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .ma-gioi-thieu {
+        font-size: 13px;
+    }
+    
+}
+@media screen and (max-width:955px){
+    .title-title {
+        margin-top: 8%;
+        font-size: 12px;
+    }
+    .my-input {
+        height: 25px;
+        border-radius: 3px;
+        border-color: #ff630e;
+        width: 30%;
+        border: 2px solid #ff5e00;
+    }
+    .my-input-1 {
+        margin-left: 1px;
+        height: 25px;
+        border-radius: 3px;
+        border-color: #ff630e;
+        width: 24%;
+        border: 2px solid #ff5e00;
+    }
+    .title-science-2 {
+        margin-left: 48%;
+        font-size: 14px;
+    }
+    .payment-container {
+        margin-top: 10%;
+        margin-left: 3%;
+        display: flex;
+        width: 138%;
+    }
+    .btn-success {
+        margin-left: 33%;
+        width: 45%;
+        margin-top: 5%;
+    }
+    .content {
+        color: #ff6a00;
+        margin-top: 12%;
+        font-weight: 600;
+    }
+    .img-body-mid {
+        width: 76%;
+        margin: -3%;
+        margin-top: 54%;
+    }
+    .body-full-mid-mid {
+        width: 92%;
+        margin-top: 1%;
+    }
+    .item-origin-0 {
+        width: 94%;
+        padding-left: 2%;
+        margin-left: 8px;
+        border: 3.5px solid rgba(148, 146, 146, 0.68);
+        border-radius: 13px;
+        margin-right: 14%;
+        margin-top: 4%;
+        height: 89px;
+    }
+    .text-1 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .ma-gioi-thieu {
+        font-size: 13px;
+    }
+    /* .payment-container {
+        margin-top: 10%;
+        margin-left: 1%;
+        display: flex;
+        width: 127%;
+    } */
+}
+@media screen and (max-width:848px){
+    .title-title {
+        margin-top: 10%;
+        font-size: 10px;
+    }
+    .my-input {
+        height: 23px;
+        border-radius: 3px;
+        border-color: #ff630e;
+        width: 24%;
+        border: 2px solid #ff5e00;
+    }
+    .my-input-1 {
+        margin-left: 1px;
+        height: 25px;
+        border-radius: 3px;
+        border-color: #ff630e;
+        width: 24%;
+        border: 2px solid #ff5e00;
+    }
+    .title-science-2 {
+        margin-left: 45%;
+        font-size: 12px;
+    }
+    .payment-container {
+        margin-top: 10%;
+        margin-left: 0%;
+        display: flex;
+        width: 138%;
+    }
+    .btn-success {
+        margin-left: 29%;
+        width: 49%;
+        margin-top: 5%;
+    }
+    .content {
+        color: #ff6a00;
+        margin-top: 12%;
+        font-weight: 600;
+    }
+    .img-body-mid {
+        width: 76%;
+        margin: 3%;
+        margin-top: 97%;
+    }
+    .body-full-mid-mid {
+        width: 92%;
+        margin-top: 4%;
+    }
+    .item-origin-0 {
+        width: 94%;
+        padding-left: 2%;
+        margin-left: 8px;
+        border: 3.5px solid rgba(148, 146, 146, 0.68);
+        border-radius: 13px;
+        margin-right: 14%;
+        margin-top: 4%;
+        height: 89px;
+    }
+    .text-1 {
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .text-2 {
+        font-size: 12px;
+    }
+    .ma-gioi-thieu {
+        font-size: 12px;
+    }
+    .body-left-infor-text-color-right {
+        font-size: 10px;
+    }
+    .title-1 {
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .body-full-science.body-full-science {
+        width: 89%;
+        padding-left: 3%;
+        margin-left: 12px;
+        border: 2px dashed #3f3f3fad;
+        border-radius: 8px;
+        display: flex;
+        margin-top: 2%;
+    }
+    .prince-p {
+        margin-right: 2px;
+        font-size: 11px;
         font-weight: 600;
         color: #ff630e;
     }
-    .hidede{
-        display: block;
-      }
-      .mainn {
-        width: 100%;
-        /* display: flex; */
-        display: block;
+    .prince-l {
+        color: #4b4b4b;
+        font-size: 10px;
+        font-weight: 600;
     }
-    .content-main {
-      height: 234px;
-      text-align: center;
-      width: 100%;
-  }
-    .anh {
-        margin-top: 2px;
-        width: 171%;
-    margin-left: 14%;
+    .prince {
+        margin-top: 1px;
+        width: 100%;
+        padding-left: 10%;
+        margin-left: -11px;
         border-radius: 5px;
-        box-shadow: 0px 0px 20px 0px #292828;
+        margin-right: 8%;
+        display: flex;
     }
-    .anh-main {
-      flex-direction: column-reverse; 
-      }
-      .button-main {
-        margin-top: 19%;
-        margin-left: -3%;
+    select {
+        height: 22px;
+        padding: 5px;
+        font-size: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 36%;
     }
-    .banner-1 {
-      position: relative;
-      background-image: url(./background.jpg);
-      background-size: cover;
-      height: 600px;
+    .title-science-5n {
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 5%;
+        margin-left: 5%;
     }
-    .banner-text-1 {
-      background-color: rgb(131 131 136 / 74%);
-      width: 100%;
-      height: 600px;
-      position: absolute;
-      text-align: center;
-      color: #060606;
+    .momo {
+        height: 25px;
+        width: 84%;
     }
-    .anh {
-      margin-top: 2px;
-      width: 96%;
-      margin-left: 10%;
-      border-radius: 5px;
-      box-shadow: 0px 0px 20px 0px #292828;
-  }
-  .carousel-control-prev-icon{
-    display: none;
-  }
-  .carousel-control-next-icon{
-    display: none;
-  }
-  .full-1 {
-    width: 100%;
-    max-width: 100%;
-    display: block;
-}
-.left {
-  width: 100%;
-  text-align: center;
-}
-.banner-left {
-margin-bottom: 10px;
-clip-path: none;
-width: 90%;
-height: 200px;
-border-radius: 2%;
-filter: brightness(45%);
-transition: filter 0.3s ease-in-out;
-}
-.right {
-width: 100%;
-text-align: center;
-
-}
-.banner-right {
-width: 90%;
-height: 200px;
-border-radius: 2%;
-clip-path: none;
-filter: brightness(45%);
-transition: filter 0.3s ease-in-out;
-}
-.banner-3 {
-height: 450px;
-align-items: center;
-}
-.centered-1 {
-position: absolute;
-top: 75%;
-left: 75%;
-transform: translate(-50%, -50%);
-text-align: center;
-/* width: 75%; */
-margin-left: -25%;
-}
-.centered-2 {
-position: absolute;
-top: 210%;
-left: 25%;
-transform: translate(-50%, -50%);
-text-align: center;
-/* width: 75%; */
-margin-left: 25%;
-}
-.banner-000 {
-  height: 80px;
-  width: 100%;
-  border-radius: 5px;
-}
-}
-@media screen and  (max-width:391px){
-    .huhu{
-        margin-top: 95%;
-      }
-      .huhuhu{
-        margin-top: 122%;
-      }
-      .huhuhi{
-        margin-top: 120%;
-      }
-      .hidede{
-        display: block;
-      }
-      .carousel-control-prev-icon{
-        display: none;
-      }
-      .carousel-control-next-icon{
-        display: none;
-      }
-      .full-1 {
-        width: 100%;
-        max-width: 100%;
-        display: block;
+    .viettel {
+        height: 25px;
+        width: 84%;
     }
-    .left {
-      width: 100%;
-      text-align: center;
-  }
-  .banner-left {
-    margin-bottom: 10px;
-    clip-path: none;
-    width: 90%;
-    height: 200px;
-    border-radius: 2%;
-    filter: brightness(45%);
-    transition: filter 0.3s ease-in-out;
-}
-.right {
-  width: 100%;
-  text-align: center;
-  
-}
-.banner-right {
-  width: 90%;
-  height: 200px;
-  border-radius: 2%;
-  clip-path: none;
-  filter: brightness(45%);
-  transition: filter 0.3s ease-in-out;
-}
-.banner-3 {
-  height: 450px;
-  align-items: center;
-}
-.centered-1 {
-  position: absolute;
-  top: 75%;
-  left: 75%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  /* width: 75%; */
-  margin-left: -25%;
-}
-.centered-2 {
-  position: absolute;
-  top: 210%;
-  left: 25%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  /* width: 75%; */
-  margin-left: 25%;
-}
-.hehe{
-  display: grid;
-}
-.btn-1 {
-  background-color: #ff630e;
-  color: #fefefe;
-  margin-top: 20px;
-  font-weight: 600;
-  display: inline-block;
-  padding: 7px 8px;
-  border-radius: 5px;
-  border: none;
-  text-decoration: none;
-  margin-left: 52px;
-  width: 71%;
-}
-.content-banner-22 {
-  text-align: center;
-  padding-top: 20px;
-  font-size: 25px;
-  font-weight: 600;
-  color: #1d1d1d;
- margin-right: 0;
-  line-height: 1.6;
-}
-.banner-00 {
-  height: 218px;
-  width: 100%;
-  border-radius: 5px;
-}
-}
-
-@media screen and  (max-width:300px){
+    .momo-button {
+        border-color: #ffffff51;
+        margin-right: 20px;
+        border-radius: 5px;
+        width: 15%;
+        height: 42px;
+        box-shadow: 0px 0px 6px 3px #AAA;
+    }
+    .viettel-button {
+        border-color: #ffffff51;
+        margin-right: 20px;
+        border-radius: 5px;
+        width: 15%;
+        height: 42px;
+        box-shadow: 0px 0px 6px 3px #AAA;
+    }
+    .body-right-infor-boder-3 {
+        margin-bottom: 20px;
+        margin-top: 16px;
+        width: 93%;
+        padding-left: 0%;
+        margin-left: 0px;
+        border: 2px solid #3f3f3fad;
+        border-radius: 5px;
+        margin-right: 0%;
+    }
     
 }
+@media screen and (max-width:800px){
+    .body-all {
+        display: block;
+    }
+    .body-right {
+        width: 100%;
+        margin-left: 5%;
+    }
+    
+    .body-left {
+        width: 100%;
+    }
+    .girl{
+        width: 113%;
+    }
+    .item-origin {
+        text-align: center;
+        margin-right: 12%;
+    }
+    
+    .body-full-mid.body-full-mid {
+        width: 70%;
+        padding-left: 2%;
+        margin-left: 86px;
+        border: 3.5px solid #949292ad;
+        border-radius: 13px;
+        display: flex;
+    }
+    .boby-mid {
+        width: 100%;
+    }
+    .body-science-1 {
+        padding: 15px;
+        margin-top: 3%;
+        margin-left: 8%;
+    }
+    .title-nn {
+        width: 29%;
+        margin-left: 0%;
+    }
+    .science-item-1 {
+        display: flex;
+        margin-left: 8%;
+    }
+    .body-science-2 {
+        padding: 15px;
+        margin-top: 5%;
+        margin-left: 8%;
+    }
+    .payment-container {
+        margin-top: 6%;
+        margin-left: -3%;
+        display: flex;
+        width: 91%;
+    }
+    .body-mid-infor-boder-text-2 {
+        margin-bottom: 10px;
+        display: flex;
+        margin-left: 15%;
+    }
+    .item-origin-0 {
+        width: 72%;
+        padding-left: 3%;
+        margin-left: 27px;
+        border: 3.5px solid #949292ad;
+        border-radius: 13px;
+        margin-right: 14%;
+        margin-top: 4%;
+        height: 89px;
+    }
+    .title-science-2 {
+        margin-left: 51%;
+        font-size: 14px;
+    }
+    .body-full-science.body-full-science {
+        width: 78%;
+        padding-left: 2%;
+        margin-left: 1px;
+        border: 2px dashed #3f3f3fad;
+        border-radius: 8px;
+        display: flex;
+        margin-top: 2%;
+    }
+    .body-right-infor-boder-3 {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 78%;
+        padding-left: 2%;
+        margin-left: 0px;
+        border: 2px solid #3f3f3fad;
+        border-radius: 5px;
+        margin-right: 14%;
+    }
+    .btn-success {
+        margin-left: 28%;
+        width: 24%;
+        margin-top: 5%;
+    }
+    .body-right-infor-text-2 {
+        margin-left: 27%;
+        font-size: 15px;
+        margin-top: 5px;
+        color: #4b4b4bd6;
+        font-weight: 600;
+    }
+    .body-left-infor-boder{
+        display: grid;
+    }
+}
+@media screen and (max-width:700px){
+    .body-all {
+        display: block;
+    }
+    .body-right {
+        width: 100%;
+        margin-left: 5%;
+    }
+    
+    .body-left {
+        width: 100%;
+    }
+    .girl{
+        width: 113%;
+    }
+    .item-origin {
+        text-align: center;
+        margin-right: 12%;
+    }
+    
+    .body-full-mid.body-full-mid {
+        width: 70%;
+        padding-left: 2%;
+        margin-left: 86px;
+        border: 3.5px solid #949292ad;
+        border-radius: 13px;
+        display: flex;
+    }
+    .boby-mid {
+        width: 100%;
+    }
+    .body-science-1 {
+        padding: 15px;
+        margin-top: 3%;
+        margin-left: 8%;
+    }
+    .title-nn {
+        width: 29%;
+        margin-left: 0%;
+    }
+    .science-item-1 {
+        display: flex;
+        margin-left: 8%;
+    }
+    .body-science-2 {
+        padding: 15px;
+        margin-top: 5%;
+        margin-left: 8%;
+    }
+    .payment-container {
+        margin-top: 6%;
+        margin-left: -3%;
+        display: flex;
+        width: 91%;
+    }
+    .body-mid-infor-boder-text-2 {
+        margin-bottom: 10px;
+        display: flex;
+        margin-left: 15%;
+    }
+    .item-origin-0 {
+        width: 72%;
+        padding-left: 3%;
+        margin-left: 27px;
+        border: 3.5px solid #949292ad;
+        border-radius: 13px;
+        margin-right: 14%;
+        margin-top: 4%;
+        height: 89px;
+    }
+    .title-science-2 {
+        margin-left: 51%;
+        font-size: 14px;
+    }
+    .body-full-science.body-full-science {
+        width: 78%;
+        padding-left: 2%;
+        margin-left: 1px;
+        border: 2px dashed #3f3f3fad;
+        border-radius: 8px;
+        display: flex;
+        margin-top: 2%;
+    }
+    .body-right-infor-boder-3 {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 78%;
+        padding-left: 2%;
+        margin-left: 0px;
+        border: 2px solid #3f3f3fad;
+        border-radius: 5px;
+        margin-right: 14%;
+    }
+    .btn-success {
+        margin-left: 28%;
+        width: 24%;
+        margin-top: 5%;
+    }
+    .body-right-infor-text-2 {
+        margin-left: 27%;
+        font-size: 15px;
+        margin-top: 5px;
+        color: #4b4b4bd6;
+        font-weight: 600;
+    }
+    .body-left-infor-boder{
+        display: grid;
+    }
+}
+@media screen and (max-width:600px){
+    .body-all {
+        display: block;
+    }
+    .body-right {
+        width: 100%;
+        margin-left: 5%;
+    }
+    
+    .body-left {
+        width: 100%;
+    }
+    .girl{
+        width: 113%;
+    }
+    .item-origin {
+        text-align: center;
+        margin-right: 12%;
+    }
+    
+    .body-full-mid.body-full-mid {
+        width: 69%;
+        padding-left: 2%;
+        margin-left: 66px;
+        border: 3.5px solid #949292ad;
+        border-radius: 13px;
+        display: flex;
 
+    }
+    .boby-mid {
+        width: 100%;
+    }
+    .body-science-1 {
+        padding: 15px;
+        margin-top: 3%;
+        margin-left: 8%;
+    }
+    .title-nn {
+        width: 29%;
+        margin-left: 0%;
+    }
+    .science-item-1 {
+        display: flex;
+        margin-left: 8%;
+    }
+    .body-science-2 {
+        padding: 15px;
+        margin-top: 5%;
+        margin-left: 8%;
+    }
+    .payment-container {
+        margin-top: 6%;
+        margin-left: -4%;
+        display: flex;
+        width: 94%;
+    }
+    .body-mid-infor-boder-text-2 {
+        margin-bottom: 10px;
+        display: flex;
+        margin-left: 15%;
+    }
+    .btn-success {
+        margin-left: 25%;
+        width: 30%;
+        margin-top: 5%;
+    }
+    .body-left-infor-boder{
+        display: grid;
+    }
+}
+@media screen and (max-width:500px){
+    .body-all {
+        display: block;
+    }
+    .body-right {
+        width: 100%;
+        margin-left: 5%;
+    }
+    
+    .body-left {
+        width: 100%;
+    }
+    .girl{
+        width: 113%;
+    }
+    .item-origin {
+        text-align: center;
+        margin-right: 12%;
+    }
+    
+    .body-full-mid.body-full-mid {
+        width: 69%;
+        padding-left: 2%;
+        margin-left: 66px;
+        border: 3.5px solid #949292ad;
+        border-radius: 13px;
+        display: flex;
+
+    }
+    .boby-mid {
+        width: 100%;
+    }
+    .body-science-1 {
+        padding: 15px;
+        margin-top: 3%;
+        margin-left: 8%;
+    }
+    .title-nn {
+        width: 29%;
+        margin-left: 0%;
+    }
+    .science-item-1 {
+        display: flex;
+        margin-left: 8%;
+    }
+    .body-science-2 {
+        padding: 15px;
+        margin-top: 5%;
+        margin-left: 8%;
+    }
+    .payment-container {
+        margin-top: 6%;
+        margin-left: -4%;
+        display: flex;
+        width: 94%;
+    }
+    .body-mid-infor-boder-text-2 {
+        margin-bottom: 10px;
+        display: flex;
+        margin-left: 15%;
+    }
+    .btn-success {
+        margin-left: 25%;
+        width: 30%;
+        margin-top: 5%;
+    }
+    .body-left-infor-boder{
+        display: grid;
+    }
+}
+@media screen and (max-width:400px){
+    .body-all {
+        display: block;
+    }
+    .body-right {
+        width: 100%;
+        margin-left: -4%;
+    }
+    
+    .body-left {
+        width: 100%;
+    }
+    .girl{
+        width: 113%;
+    }
+    .item-origin {
+        text-align: center;
+        margin-right: 1%;
+    }
+    .item-origin-0 {
+        width: 82%;
+        padding-left: 4%;
+        margin-left: 32px;
+        border: 3.5px solid #949292ad;
+        border-radius: 13px;
+        margin-right: 14%;
+        margin-top: 4%;
+        height: 89px;
+    }
+    .body-science-1 {
+        padding: 15px;
+        margin-top: 0%;
+        margin-left: 5%;
+    }
+    .title-science-2 {
+        margin-left: 29%;
+        font-size: 14px;
+    }
+    .body-full-mid.body-full-mid {
+        width: 76%;
+        padding-left: 2%;
+        margin-left: 29px;
+        border: 3.5px solid #949292ad;
+        border-radius: 13px;
+        display: flex;
+        margin-bottom: 5%;
+    }
+    .body-mid-infor-boder-main {
+        display: block;
+        width: 100%;
+    }
+    .body-full-mid-mid {
+        width: 100%;
+        margin-top: 0%;
+    }
+    .img-body-mid {
+        width: 204%;
+        /* margin: 3%; */
+        margin-top: 24%;
+        margin-left: 137%;
+        /* text-align: center; */
+    }
+    .body-full-mid-mid {
+        width: 100%;
+        margin-top: 5%;
+        margin-left: 3%;
+        height: 3px;
+    }
+    
+    .body-left-infor-boder{
+        display: grid;
+    }
+    .button-delete {
+        background-color: #fefefe;
+        border: none;
+        color: #ff630e;
+        /* margin-top: 47px; */
+        margin-left: 274px;
+    }
+    .my-input {
+        height: 25px;
+        border-radius: 3px;
+        border-color: #ff630e;
+        width: 44%;
+        border: 2px solid #ff5e00;
+    }
+    .body-full-science.body-full-science {
+        width: 92%;
+        padding-left: 2%;
+        margin-left: 1px;
+        border: 2px dashed #3f3f3fad;
+        border-radius: 8px;
+        display: flex;
+        margin-top: 2%;
+    }
+    select {
+        height: 27px;
+        padding: 5px;
+        font-size: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 48%;
+    }
+    .payment-container {
+        margin-top: 6%;
+        margin-left: -4%;
+        display: flex;
+        width: 128%;
+    }
+    .btn-success {
+        margin-left: 22%;
+        width: 47%;
+        margin-top: 5%;
+    }
+    .body-right-infor-boder-3 {
+        margin-bottom: 23px;
+        margin-top: 20px;
+        width: 91%;
+        padding-left: 2%;
+        margin-left: 0px;
+        border: 2px solid #3f3f3fad;
+        border-radius: 5px;
+        margin-right: 14%;
+    }
+    .body-mid-infor-boder-text-2 {
+        margin-bottom: 10px;
+        display: flex;
+        margin-left: 2%;
+    }
+    .content {
+        color: #ff6a00;
+        margin-top: 29%;
+        font-weight: 600;
+    }
+}
